@@ -2,6 +2,7 @@
 LeWiz Communications, Inc. Ethernet MAC Core1 - Ethernet 1G/100M/10M
 
 -------- Nov 21, 2018
+
 This is the open source Ethernet Core 1 
 Release as GNU open source - make sure you read the full license file
 It's released as-is. We assume absolutely no liability 
