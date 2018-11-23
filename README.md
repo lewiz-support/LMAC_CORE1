@@ -1,4 +1,7 @@
 # LMAC_CORE1
+
+Copyright (C) 2018 LeWiz Communications, Inc.
+
 LeWiz Communications, Inc. Ethernet MAC Core1 - Ethernet 1G/100M/10M
 
 -------- Nov 21, 2018
