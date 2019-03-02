@@ -34,7 +34,7 @@ LMAC Core1 and LMAC Core2 have the same architecture. The software device driver
 
 The Co-Simulation process for LMAC_CORE1 is the same as LMAC_CORE2. Please refer to the following link:
 
-	https://github.com/lewiz-support/LMAC_CORE2/Software_Driver
+	https://github.com/lewiz-support/LMAC_CORE2/tree/master/Software_Driver
 
 This link will redirect you to the LMAC_CORE2 repository. Here you can find the device driver source code for LMAC Core1 & 2, README file, Specification and instructions for performing Co-simulation.
 
