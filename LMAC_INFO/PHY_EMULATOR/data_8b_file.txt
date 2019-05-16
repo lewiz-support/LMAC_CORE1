@@ -1,0 +1,96 @@
+// Copyright (C) 2018 LeWiz Communications, Inc.
+//
+// This library is free software; you can redistribute it and/or
+// modify it under the terms of the GNU Lesser General Public
+// License as published by the Free Software Foundation; either
+// version 2.1 of the License, or (at your option) any later version.
+//
+// This library is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+// Lesser General Public License for more details.
+//
+// You should have received a copy of the GNU Lesser General Public
+// License along with this library release; if not, write to the Free Software
+// Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+//
+// LeWiz can be contacted at:  support@lewiz.com
+// or address:
+// PO Box 9276
+// San Jose, CA 95157-9276
+// www.lewiz.com
+//
+//    Author: LeWiz Communications, Inc.
+//    Language: Verilog
+//
+//
+
+//This file stores the 8 bit data (GMII_RXD) which needs to be compared with received data (AXIS Master input).
+
+
+//pkt - 1
+
+fb		//Index:   0	Pkt No.: 1
+55		//Index:   1	Pkt No.: 1
+55		//Index:   2	Pkt No.: 1
+55		//Index:   3	Pkt No.: 1
+55		//Index:   4	Pkt No.: 1
+55		//Index:   5	Pkt No.: 1
+55		//Index:   6	Pkt No.: 1
+d5		//Index:   7	Pkt No.: 1
+00		//Index:   8	Pkt No.: 1
+12		//Index:   9	Pkt No.: 1
+32		//Index:  10	Pkt No.: 1
+00		//Index:  11	Pkt No.: 1
+4e		//Index:  12	Pkt No.: 1
+af		//Index:  13	Pkt No.: 1
+00		//Index:  14	Pkt No.: 1
+00		//Index:  15	Pkt No.: 1
+00		//Index:  16	Pkt No.: 1
+00		//Index:  17	Pkt No.: 1
+00		//Index:  18	Pkt No.: 1
+00		//Index:  19	Pkt No.: 1
+81		//Index:  20	Pkt No.: 1
+00		//Index:  21	Pkt No.: 1
+00		//Index:  22	Pkt No.: 1
+00		//Index:  23	Pkt No.: 1
+ff		//Index:  24	Pkt No.: 1
+e3		//Index:  25	Pkt No.: 1
+04		//Index:  26	Pkt No.: 1
+01		//Index:  27	Pkt No.: 1
+03		//Index:  28	Pkt No.: 1
+02		//Index:  29	Pkt No.: 1
+01		//Index:  30	Pkt No.: 1
+03		//Index:  31	Pkt No.: 1
+04		//Index:  32	Pkt No.: 1
+37		//Index:  33	Pkt No.: 1
+30		//Index:  34	Pkt No.: 1
+35		//Index:  35	Pkt No.: 1
+04		//Index:  36	Pkt No.: 1
+0d		//Index:  37	Pkt No.: 1
+80		//Index:  38	Pkt No.: 1
+00		//Index:  39	Pkt No.: 1
+1f		//Index:  40	Pkt No.: 1
+88		//Index:  41	Pkt No.: 1
+80		//Index:  42	Pkt No.: 1
+e1		//Index:  43	Pkt No.: 1
+99		//Index:  44	Pkt No.: 1
+f9		//Index:  45	Pkt No.: 1
+30		//Index:  46	Pkt No.: 1
+21		//Index:  47	Pkt No.: 1
+ae		//Index:  48	Pkt No.: 1
+27		//Index:  49	Pkt No.: 1
+5b		//Index:  50	Pkt No.: 1
+02		//Index:  51	Pkt No.: 1
+01		//Index:  52	Pkt No.: 1
+27		//Index:  53	Pkt No.: 1
+02		//Index:  54	Pkt No.: 1
+02		//Index:  55	Pkt No.: 1
+02		//Index:  56	Pkt No.: 1
+46		//Index:  57	Pkt No.: 1
+04		//Index:  58	Pkt No.: 1
+c7		//Index:  59	Pkt No.: 1
+57		//Index:  60	Pkt No.: 1
+1c		//Index:  61	Pkt No.: 1
+7a		//Index:  62	Pkt No.: 1
+fd		//Index:  63	Pkt No.: 1
