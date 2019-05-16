@@ -5,6 +5,7 @@ Copyright (C) 2018-2019 LeWiz Communications, Inc.
 LeWiz Communications, Inc. Ethernet MAC Core1 - Ethernet 1G/100M/10M
 
 -------- May 16, 2019
+
 Released code files as separate files. No longer 1 zip file.
 Updated code, test files to latest release.
 
