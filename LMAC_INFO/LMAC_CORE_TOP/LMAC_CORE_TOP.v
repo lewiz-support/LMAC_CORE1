@@ -25,6 +25,7 @@
 //    Language: Verilog
 //
 
+// 6sep19 - quick fix - commented out line 286. Not needed
 
 // synopsys translate_off
 `timescale 1ns/10ps
@@ -282,7 +283,7 @@ always @(posedge clk)
 	fmac_ctrl1_dly[17:16]	<=	2'b00	;
 	fmac_ctrl1_dly[15:0]	<=	fmac_ctrl1[15:0]	;
 	
-	reg_rd_done				<=	1'b0;
+	//reg_rd_done				<=	1'b0;	//6sep19
 	end
 
 			  		
