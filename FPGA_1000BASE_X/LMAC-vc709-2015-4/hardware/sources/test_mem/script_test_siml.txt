@@ -1,0 +1,416 @@
+##
+##
+## Copyright (C) 2018 LeWiz Communications, Inc. 
+## 
+## This library is free software; you can redistribute it and/or
+## modify it under the terms of the GNU Lesser General Public
+## License as published by the Free Software Foundation; either
+## version 2.1 of the License, or (at your option) any later version.
+## 
+## This library is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+## Lesser General Public License for more details.
+## 
+## You should have received a copy of the GNU Lesser General Public
+## License along with this library release; if not, write to the Free Software
+## Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+## 
+## LeWiz can be contacted at:  support@lewiz.com
+## or address:  
+## PO Box 9276
+## San Jose, CA 95157-9276
+## www.lewiz.com
+## 
+##    Author: LeWiz Communications, Inc.
+##    Language: Verilog
+##
+
+########################################################################################################
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {55 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {1 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {55 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {55 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {55 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {55 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {55 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {55 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {d5 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+###########################################################################################################
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {ff 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {ff 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {ff 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {ff 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {ff 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {ff 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {01 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {00 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+###########################################################################################################
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {5e 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {00 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {00 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {00 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {08 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {00 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {45 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {00 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+###########################################################################################################
+
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {05 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {4d 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {fc 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {d6 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {40 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {00 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {40 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {11 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+###########################################################################################################
+
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {05 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {4d 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {fc 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {d6 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {40 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {00 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {40 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {11 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+###########################################################################################################
+
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a6 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {d1 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c0 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a8 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {08 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {65 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c0 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a8 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+###########################################################################################################
+
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a6 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {d1 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c0 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a8 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {08 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {65 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c0 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a8 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+###########################################################################################################
+
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a6 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {d1 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c0 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a8 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {08 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {65 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c0 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a8 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+###########################################################################################################
+
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a6 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {d1 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c0 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a8 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {08 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {65 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c0 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a8 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+###########################################################################################################
+
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a6 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {d1 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c0 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {a8 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {08 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {65 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {01 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {02 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+###########################################################################################################
+
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {03 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {04 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c0 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c1 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c2 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {c3 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {fd 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+run 8ns
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {fd 0ns}
+##add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {0 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+#run 8ns
+###########################################################################################################
+
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {fd 0ns}
+##add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {1 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {1 0ns}
+#run 8ns
+
+add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} -radix hex {0 0ns}
+#add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} -radix hex {0707070707070707 0ns}
+##add_force {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} -radix hex {ff 0ns}
+run 8ns
+remove_forces { {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd} }
+#remove_forces { {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxc} }
+remove_forces { {/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv} }

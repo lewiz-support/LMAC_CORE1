@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="board_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="board" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="328173077052fs"></ZoomStartTime>
+      <ZoomEndTime time="366456602590fs"></ZoomEndTime>
+      <Cursor1Time time="360076015000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="34" />
+   <wave_markers>
+      <marker time="51006400000" label="" />
+      <marker time="51235200000" label="" />
+      <marker time="51568000000" label="" />
+      <marker time="51792000000" label="" />
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/reset_" type="logic">
+      <obj_property name="ElementShortName">reset_</obj_property>
+      <obj_property name="ObjectShortName">reset_</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/tx_mac_wr" type="logic">
+      <obj_property name="ElementShortName">tx_mac_wr</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_wr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/tx_mac_data" type="array">
+      <obj_property name="ElementShortName">tx_mac_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/tx_mac_full" type="logic">
+      <obj_property name="ElementShortName">tx_mac_full</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_full</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/tx_mac_usedw" type="array">
+      <obj_property name="ElementShortName">tx_mac_usedw[12:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_usedw[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/rx_mac_data" type="array">
+      <obj_property name="ElementShortName">rx_mac_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/rx_mac_ctrl" type="array">
+      <obj_property name="ElementShortName">rx_mac_ctrl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_ctrl[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/rx_mac_empty" type="logic">
+      <obj_property name="ElementShortName">rx_mac_empty</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_empty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/rx_mac_rd" type="logic">
+      <obj_property name="ElementShortName">rx_mac_rd</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_rd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/cs_fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">cs_fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">cs_fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/cs_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">cs_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">cs_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/ipcs_fifo_dout" type="array">
+      <obj_property name="ElementShortName">ipcs_fifo_dout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ipcs_fifo_dout[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_txd" type="array">
+      <obj_property name="ElementShortName">gmii_txd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_txd[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_txc" type="logic">
+      <obj_property name="ElementShortName">gmii_txc</obj_property>
+      <obj_property name="ObjectShortName">gmii_txc</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rxd" type="array">
+      <obj_property name="ElementShortName">gmii_rxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_er" type="logic">
+      <obj_property name="ElementShortName">gmii_rx_er</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_er</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/xauiA_linkup" type="logic">
+      <obj_property name="ElementShortName">xauiA_linkup</obj_property>
+      <obj_property name="ObjectShortName">xauiA_linkup</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/host_addr_reg" type="array">
+      <obj_property name="ElementShortName">host_addr_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">host_addr_reg[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/SYS_ADDR" type="array">
+      <obj_property name="ElementShortName">SYS_ADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SYS_ADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/fail_over" type="logic">
+      <obj_property name="ElementShortName">fail_over</obj_property>
+      <obj_property name="ObjectShortName">fail_over</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/fmac_ctrl" type="array">
+      <obj_property name="ElementShortName">fmac_ctrl[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fmac_ctrl[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/fmac_ctrl1" type="array">
+      <obj_property name="ElementShortName">fmac_ctrl1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fmac_ctrl1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/fmac_rxd_en" type="logic">
+      <obj_property name="ElementShortName">fmac_rxd_en</obj_property>
+      <obj_property name="ObjectShortName">fmac_rxd_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/mac_pause_value" type="array">
+      <obj_property name="ElementShortName">mac_pause_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_pause_value[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/mac_addr0" type="array">
+      <obj_property name="ElementShortName">mac_addr0[47:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_addr0[47:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/reg_rd_start" type="logic">
+      <obj_property name="ElementShortName">reg_rd_start</obj_property>
+      <obj_property name="ObjectShortName">reg_rd_start</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/reg_rd_done_out" type="logic">
+      <obj_property name="ElementShortName">reg_rd_done_out</obj_property>
+      <obj_property name="ObjectShortName">reg_rd_done_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/FMAC_REGDOUT" type="array">
+      <obj_property name="ElementShortName">FMAC_REGDOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FMAC_REGDOUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/FIFO_OV_IPEND" type="logic">
+      <obj_property name="ElementShortName">FIFO_OV_IPEND</obj_property>
+      <obj_property name="ObjectShortName">FIFO_OV_IPEND</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/fmac_speed" type="array">
+      <obj_property name="ElementShortName">fmac_speed[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fmac_speed[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_rx_dv" type="logic">
+      <obj_property name="ElementShortName">gmii_rx_dv</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_dv</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_tx_en" type="logic">
+      <obj_property name="ElementShortName">gmii_tx_en</obj_property>
+      <obj_property name="ObjectShortName">gmii_tx_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LMAC_SYNTH/gmii_tx_vld" type="logic">
+      <obj_property name="ElementShortName">gmii_tx_vld</obj_property>
+      <obj_property name="ObjectShortName">gmii_tx_vld</obj_property>
+   </wvobject>
+</wave_config>

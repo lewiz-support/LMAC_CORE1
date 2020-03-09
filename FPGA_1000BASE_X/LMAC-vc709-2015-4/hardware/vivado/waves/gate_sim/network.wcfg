@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="board_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="board" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6361fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="50" />
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/\LMAC_CORE_TOP/byte_reordering/p_0_in " type="logic">
+      <obj_property name="ElementShortName">\LMAC_CORE_TOP/byte_reordering/p_0_in </obj_property>
+      <obj_property name="ObjectShortName">\LMAC_CORE_TOP/byte_reordering/p_0_in </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE_n_66" type="logic">
+      <obj_property name="ElementShortName">LPBK_MODULE_n_66</obj_property>
+      <obj_property name="ObjectShortName">LPBK_MODULE_n_66</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/clk125" type="logic">
+      <obj_property name="ElementShortName">clk125</obj_property>
+      <obj_property name="ObjectShortName">clk125</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/clk_ref_200_i" type="logic">
+      <obj_property name="ElementShortName">clk_ref_200_i</obj_property>
+      <obj_property name="ObjectShortName">clk_ref_200_i</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/cs_fifo_empty" type="logic">
+      <obj_property name="ElementShortName">cs_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">cs_fifo_empty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/cs_fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">cs_fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">cs_fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/cs_fifo_rd_en_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">cs_fifo_rd_en_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">cs_fifo_rd_en_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/first_data_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">first_data_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">first_data_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/first_qwd" type="logic">
+      <obj_property name="ElementShortName">first_qwd</obj_property>
+      <obj_property name="ObjectShortName">first_qwd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/first_qwd4_out" type="logic">
+      <obj_property name="ElementShortName">first_qwd4_out</obj_property>
+      <obj_property name="ObjectShortName">first_qwd4_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/fmac_speed_IBUF" type="array">
+      <obj_property name="ElementShortName">fmac_speed_IBUF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fmac_speed_IBUF[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/gig_eth_pcs_pma_inst_n_38" type="logic">
+      <obj_property name="ElementShortName">gig_eth_pcs_pma_inst_n_38</obj_property>
+      <obj_property name="ObjectShortName">gig_eth_pcs_pma_inst_n_38</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/gig_eth_pcs_pma_inst_n_39" type="logic">
+      <obj_property name="ElementShortName">gig_eth_pcs_pma_inst_n_39</obj_property>
+      <obj_property name="ObjectShortName">gig_eth_pcs_pma_inst_n_39</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/gig_eth_pcs_pma_inst_n_4" type="logic">
+      <obj_property name="ElementShortName">gig_eth_pcs_pma_inst_n_4</obj_property>
+      <obj_property name="ObjectShortName">gig_eth_pcs_pma_inst_n_4</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/gig_eth_pcs_pma_inst_n_5" type="logic">
+      <obj_property name="ElementShortName">gig_eth_pcs_pma_inst_n_5</obj_property>
+      <obj_property name="ObjectShortName">gig_eth_pcs_pma_inst_n_5</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/gig_eth_pcs_pma_inst_n_6" type="logic">
+      <obj_property name="ElementShortName">gig_eth_pcs_pma_inst_n_6</obj_property>
+      <obj_property name="ObjectShortName">gig_eth_pcs_pma_inst_n_6</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/gmii_rx_dv" type="logic">
+      <obj_property name="ElementShortName">gmii_rx_dv</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_dv</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/gmii_rx_er" type="logic">
+      <obj_property name="ElementShortName">gmii_rx_er</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_er</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/gmii_rxd_core" type="array">
+      <obj_property name="ElementShortName">gmii_rxd_core[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxd_core[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/gmii_tx_en" type="logic">
+      <obj_property name="ElementShortName">gmii_tx_en</obj_property>
+      <obj_property name="ObjectShortName">gmii_tx_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/gmii_txc_core" type="logic">
+      <obj_property name="ElementShortName">gmii_txc_core</obj_property>
+      <obj_property name="ObjectShortName">gmii_txc_core</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/gmii_txd_core" type="array">
+      <obj_property name="ElementShortName">gmii_txd_core[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_txd_core[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/ipcs_fifo_dout" type="array">
+      <obj_property name="ElementShortName">ipcs_fifo_dout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ipcs_fifo_dout[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/rx_fifo_bcnt_st" type="logic">
+      <obj_property name="ElementShortName">rx_fifo_bcnt_st</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo_bcnt_st</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/rx_fifo_data_st" type="logic">
+      <obj_property name="ElementShortName">rx_fifo_data_st</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo_data_st</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/rx_fifo_done_st" type="logic">
+      <obj_property name="ElementShortName">rx_fifo_done_st</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo_done_st</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/rx_fifo_idle_st" type="logic">
+      <obj_property name="ElementShortName">rx_fifo_idle_st</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo_idle_st</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/rx_fifo_state29_out" type="logic">
+      <obj_property name="ElementShortName">rx_fifo_state29_out</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo_state29_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/rx_mac_data" type="array">
+      <obj_property name="ElementShortName">rx_mac_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/rx_mac_empty" type="logic">
+      <obj_property name="ElementShortName">rx_mac_empty</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_empty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/rx_mac_rd" type="logic">
+      <obj_property name="ElementShortName">rx_mac_rd</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_rd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/sys_rst" type="logic">
+      <obj_property name="ElementShortName">sys_rst</obj_property>
+      <obj_property name="ObjectShortName">sys_rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/tx_mac_data" type="array">
+      <obj_property name="ElementShortName">tx_mac_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/tx_mac_full" type="logic">
+      <obj_property name="ElementShortName">tx_mac_full</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_full</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/tx_mac_usedw" type="array">
+      <obj_property name="ElementShortName">tx_mac_usedw[12:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_usedw[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/tx_mac_wr" type="logic">
+      <obj_property name="ElementShortName">tx_mac_wr</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_wr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/tx_mac_wr_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">tx_mac_wr_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_wr_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/xphy_refclk_n" type="logic">
+      <obj_property name="ElementShortName">xphy_refclk_n</obj_property>
+      <obj_property name="ObjectShortName">xphy_refclk_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/xphy_refclk_p" type="logic">
+      <obj_property name="ElementShortName">xphy_refclk_p</obj_property>
+      <obj_property name="ObjectShortName">xphy_refclk_p</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/xphy_rxn" type="logic">
+      <obj_property name="ElementShortName">xphy_rxn</obj_property>
+      <obj_property name="ObjectShortName">xphy_rxn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/xphy_rxp" type="logic">
+      <obj_property name="ElementShortName">xphy_rxp</obj_property>
+      <obj_property name="ObjectShortName">xphy_rxp</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/xphy_txn" type="logic">
+      <obj_property name="ElementShortName">xphy_txn</obj_property>
+      <obj_property name="ObjectShortName">xphy_txn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/xphy_txp" type="logic">
+      <obj_property name="ElementShortName">xphy_txp</obj_property>
+      <obj_property name="ObjectShortName">xphy_txp</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/NLW_gig_eth_pcs_pma_inst_gmii_isolate_UNCONNECTED" type="logic">
+      <obj_property name="ElementShortName">NLW_gig_eth_pcs_pma_inst_gmii_isolate_UNCONNECTED</obj_property>
+      <obj_property name="ObjectShortName">NLW_gig_eth_pcs_pma_inst_gmii_isolate_UNCONNECTED</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/NLW_gig_eth_pcs_pma_inst_gtrefclk_bufg_out_UNCONNECTED" type="logic">
+      <obj_property name="ElementShortName">NLW_gig_eth_pcs_pma_inst_gtrefclk_bufg_out_UNCONNECTED</obj_property>
+      <obj_property name="ObjectShortName">NLW_gig_eth_pcs_pma_inst_gtrefclk_bufg_out_UNCONNECTED</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/NLW_gig_eth_pcs_pma_inst_mmcm_locked_out_UNCONNECTED" type="logic">
+      <obj_property name="ElementShortName">NLW_gig_eth_pcs_pma_inst_mmcm_locked_out_UNCONNECTED</obj_property>
+      <obj_property name="ObjectShortName">NLW_gig_eth_pcs_pma_inst_mmcm_locked_out_UNCONNECTED</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/NLW_gig_eth_pcs_pma_inst_pma_reset_out_UNCONNECTED" type="logic">
+      <obj_property name="ElementShortName">NLW_gig_eth_pcs_pma_inst_pma_reset_out_UNCONNECTED</obj_property>
+      <obj_property name="ObjectShortName">NLW_gig_eth_pcs_pma_inst_pma_reset_out_UNCONNECTED</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/NLW_gig_eth_pcs_pma_inst_rxuserclk2_out_UNCONNECTED" type="logic">
+      <obj_property name="ElementShortName">NLW_gig_eth_pcs_pma_inst_rxuserclk2_out_UNCONNECTED</obj_property>
+      <obj_property name="ObjectShortName">NLW_gig_eth_pcs_pma_inst_rxuserclk2_out_UNCONNECTED</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/NLW_gig_eth_pcs_pma_inst_rxuserclk_out_UNCONNECTED" type="logic">
+      <obj_property name="ElementShortName">NLW_gig_eth_pcs_pma_inst_rxuserclk_out_UNCONNECTED</obj_property>
+      <obj_property name="ObjectShortName">NLW_gig_eth_pcs_pma_inst_rxuserclk_out_UNCONNECTED</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/NLW_gig_eth_pcs_pma_inst_status_vector_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_gig_eth_pcs_pma_inst_status_vector_UNCONNECTED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_gig_eth_pcs_pma_inst_status_vector_UNCONNECTED[15:0]</obj_property>
+   </wvobject>
+</wave_config>

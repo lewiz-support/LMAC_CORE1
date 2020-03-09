@@ -30,3 +30,7 @@ This release is not intended for synthesis as it does not contain any FPGA or ot
 (memory/FIFO IP, etc.) To synthesize, those parts need to be replaced with specific semiconductor technology equivalent.
 
 Simulation is intended for ModelSim tool.
+
+-------- Mar 09, 2020
+
+FPGA IMPLEMENTATION FOR LMAC_CORE1 (1000BASE-X) on VC709.

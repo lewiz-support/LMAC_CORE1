@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="board_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="board" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3254330433377fs"></ZoomStartTime>
+      <ZoomEndTime time="3254649233325fs"></ZoomEndTime>
+      <Cursor1Time time="3254596100000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="310" />
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/xphy_refclk_clk_n" type="logic">
+      <obj_property name="ElementShortName">xphy_refclk_clk_n</obj_property>
+      <obj_property name="ObjectShortName">xphy_refclk_clk_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/tx_mac_data" type="array">
+      <obj_property name="ElementShortName">tx_mac_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/Q" type="array">
+      <obj_property name="ElementShortName">Q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/SR" type="array">
+      <obj_property name="ElementShortName">SR[0:0]</obj_property>
+      <obj_property name="ObjectShortName">SR[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/UNCONN_IN" type="array">
+      <obj_property name="ElementShortName">UNCONN_IN[12:0]</obj_property>
+      <obj_property name="ObjectShortName">UNCONN_IN[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\bbstub_dout[63] " type="array">
+      <obj_property name="ElementShortName">\bbstub_dout[63] [15:0]</obj_property>
+      <obj_property name="ObjectShortName">\bbstub_dout[63] [15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/bbstub_empty" type="logic">
+      <obj_property name="ElementShortName">bbstub_empty</obj_property>
+      <obj_property name="ObjectShortName">bbstub_empty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/bbstub_empty_0" type="logic">
+      <obj_property name="ElementShortName">bbstub_empty_0</obj_property>
+      <obj_property name="ObjectShortName">bbstub_empty_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/bbstub_full" type="logic">
+      <obj_property name="ElementShortName">bbstub_full</obj_property>
+      <obj_property name="ObjectShortName">bbstub_full</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/byte_count" type="logic">
+      <obj_property name="ElementShortName">byte_count</obj_property>
+      <obj_property name="ObjectShortName">byte_count</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/byte_count2" type="array">
+      <obj_property name="ElementShortName">byte_count2[15:2]</obj_property>
+      <obj_property name="ObjectShortName">byte_count2[15:2]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[13]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[13]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[13]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[13]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[13]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[13]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[13]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[13]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[13]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[13]_i_6_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[13]_i_6_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[13]_i_6_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[15]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[15]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[15]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[15]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[15]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[15]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[15]_i_6_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[15]_i_6_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[15]_i_6_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[15]_i_7_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[15]_i_7_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[15]_i_7_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[15]_i_8_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[15]_i_8_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[15]_i_8_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[15]_i_9_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[15]_i_9_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[15]_i_9_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[5]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[5]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[5]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[5]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[5]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[5]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[5]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[5]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[5]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[5]_i_6_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[5]_i_6_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[5]_i_6_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[9]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[9]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[9]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[9]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[9]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[9]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[9]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[9]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[9]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count[9]_i_6_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count[9]_i_6_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count[9]_i_6_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[13]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[13]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[13]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[13]_i_2_n_1 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[13]_i_2_n_1 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[13]_i_2_n_1 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[13]_i_2_n_2 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[13]_i_2_n_2 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[13]_i_2_n_2 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[13]_i_2_n_3 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[13]_i_2_n_3 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[13]_i_2_n_3 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[15]_i_5_n_3 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[15]_i_5_n_3 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[15]_i_5_n_3 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[5]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[5]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[5]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[5]_i_2_n_1 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[5]_i_2_n_1 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[5]_i_2_n_1 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[5]_i_2_n_2 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[5]_i_2_n_2 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[5]_i_2_n_2 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[5]_i_2_n_3 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[5]_i_2_n_3 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[5]_i_2_n_3 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[9]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[9]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[9]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[9]_i_2_n_1 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[9]_i_2_n_1 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[9]_i_2_n_1 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[9]_i_2_n_2 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[9]_i_2_n_2 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[9]_i_2_n_2 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg[9]_i_2_n_3 " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg[9]_i_2_n_3 </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg[9]_i_2_n_3 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[0] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[0] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[0] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[10] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[10] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[10] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[11] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[11] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[11] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[12] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[12] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[12] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[13] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[13] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[13] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[14] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[14] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[14] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[15] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[15] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[15] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[1] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[1] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[1] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[2] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[2] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[2] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[3] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[3] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[3] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[4] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[4] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[4] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[5] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[5] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[5] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[6] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[6] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[6] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[7] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[7] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[7] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[8] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[8] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[8] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\byte_count_reg_n_0_[9] " type="logic">
+      <obj_property name="ElementShortName">\byte_count_reg_n_0_[9] </obj_property>
+      <obj_property name="ObjectShortName">\byte_count_reg_n_0_[9] </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/cs_fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">cs_fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">cs_fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/cs_fifo_rd_en_reg_0" type="logic">
+      <obj_property name="ElementShortName">cs_fifo_rd_en_reg_0</obj_property>
+      <obj_property name="ObjectShortName">cs_fifo_rd_en_reg_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/data2" type="array">
+      <obj_property name="ElementShortName">data2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data2[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/data4" type="array">
+      <obj_property name="ElementShortName">data4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data4[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/data5" type="array">
+      <obj_property name="ElementShortName">data5[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data5[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/data_sync_reg6" type="logic">
+      <obj_property name="ElementShortName">data_sync_reg6</obj_property>
+      <obj_property name="ObjectShortName">data_sync_reg6</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/fifth_qwd" type="logic">
+      <obj_property name="ElementShortName">fifth_qwd</obj_property>
+      <obj_property name="ObjectShortName">fifth_qwd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/first_qwd" type="logic">
+      <obj_property name="ElementShortName">first_qwd</obj_property>
+      <obj_property name="ObjectShortName">first_qwd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/first_qwd4_out" type="logic">
+      <obj_property name="ElementShortName">first_qwd4_out</obj_property>
+      <obj_property name="ObjectShortName">first_qwd4_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/first_qwd_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">first_qwd_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">first_qwd_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/first_qwd_reg_0" type="logic">
+      <obj_property name="ElementShortName">first_qwd_reg_0</obj_property>
+      <obj_property name="ObjectShortName">first_qwd_reg_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/first_qwd_reg_1" type="logic">
+      <obj_property name="ElementShortName">first_qwd_reg_1</obj_property>
+      <obj_property name="ObjectShortName">first_qwd_reg_1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/fourth_qwd" type="logic">
+      <obj_property name="ElementShortName">fourth_qwd</obj_property>
+      <obj_property name="ObjectShortName">fourth_qwd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/out" type="array">
+      <obj_property name="ElementShortName">out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/p_1_in" type="array">
+      <obj_property name="ElementShortName">p_1_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">p_1_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/rx_fifo_state29_out" type="logic">
+      <obj_property name="ElementShortName">rx_fifo_state29_out</obj_property>
+      <obj_property name="ObjectShortName">rx_fifo_state29_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\rx_fifo_state[0]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\rx_fifo_state[0]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\rx_fifo_state[0]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\rx_fifo_state[1]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\rx_fifo_state[1]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\rx_fifo_state[1]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\rx_fifo_state[1]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\rx_fifo_state[1]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\rx_fifo_state[1]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\rx_fifo_state[1]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\rx_fifo_state[1]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\rx_fifo_state[1]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\rx_fifo_state[1]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\rx_fifo_state[1]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\rx_fifo_state[1]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\rx_fifo_state[2]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\rx_fifo_state[2]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\rx_fifo_state[2]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\rx_fifo_state[3]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\rx_fifo_state[3]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\rx_fifo_state[3]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\rx_fifo_state[3]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\rx_fifo_state[3]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\rx_fifo_state[3]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\rx_fifo_state[3]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\rx_fifo_state[3]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\rx_fifo_state[3]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\rx_fifo_state_reg[2]_0 " type="logic">
+      <obj_property name="ElementShortName">\rx_fifo_state_reg[2]_0 </obj_property>
+      <obj_property name="ObjectShortName">\rx_fifo_state_reg[2]_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/rx_mac_rd" type="logic">
+      <obj_property name="ElementShortName">rx_mac_rd</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_rd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/rx_mac_rd_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">rx_mac_rd_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_rd_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/rx_mac_rd_i_2_n_0" type="logic">
+      <obj_property name="ElementShortName">rx_mac_rd_i_2_n_0</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_rd_i_2_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/second_qwd" type="logic">
+      <obj_property name="ElementShortName">second_qwd</obj_property>
+      <obj_property name="ObjectShortName">second_qwd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/sixth_qwd" type="logic">
+      <obj_property name="ElementShortName">sixth_qwd</obj_property>
+      <obj_property name="ObjectShortName">sixth_qwd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/third_qwd" type="logic">
+      <obj_property name="ElementShortName">third_qwd</obj_property>
+      <obj_property name="ObjectShortName">third_qwd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[0]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[0]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[0]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[0]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[0]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[0]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[0]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[0]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[0]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[0]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[0]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[0]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[0]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[0]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[0]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[10]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[10]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[10]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[10]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[10]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[10]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[10]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[10]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[10]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[10]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[10]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[10]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[10]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[10]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[10]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[11]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[11]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[11]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[11]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[11]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[11]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[11]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[11]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[11]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[11]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[11]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[11]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[11]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[11]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[11]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[12]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[12]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[12]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[12]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[12]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[12]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[12]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[12]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[12]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[12]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[12]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[12]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[12]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[12]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[12]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[13]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[13]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[13]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[13]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[13]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[13]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[13]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[13]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[13]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[13]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[13]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[13]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[13]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[13]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[13]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[14]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[14]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[14]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[14]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[14]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[14]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[14]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[14]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[14]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[14]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[14]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[14]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[14]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[14]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[14]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[15]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[15]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[15]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[15]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[15]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[15]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[15]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[15]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[15]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[15]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[15]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[15]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[15]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[15]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[15]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[15]_i_6_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[15]_i_6_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[15]_i_6_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[16]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[16]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[16]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[16]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[16]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[16]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[16]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[16]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[16]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[17]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[17]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[17]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[17]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[17]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[17]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[17]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[17]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[17]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[18]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[18]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[18]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[18]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[18]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[18]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[18]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[18]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[18]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[19]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[19]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[19]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[19]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[19]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[19]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[19]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[19]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[19]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[1]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[1]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[1]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[1]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[1]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[1]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[1]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[1]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[1]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[1]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[1]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[1]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[1]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[1]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[1]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[20]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[20]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[20]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[20]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[20]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[20]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[20]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[20]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[20]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[21]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[21]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[21]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[21]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[21]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[21]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[21]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[21]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[21]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[22]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[22]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[22]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[22]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[22]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[22]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[22]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[22]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[22]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[23]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[23]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[23]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[23]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[23]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[23]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[23]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[23]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[23]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[24]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[24]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[24]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[24]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[24]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[24]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[24]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[24]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[24]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[25]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[25]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[25]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[25]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[25]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[25]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[25]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[25]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[25]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[26]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[26]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[26]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[26]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[26]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[26]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[26]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[26]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[26]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[27]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[27]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[27]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[27]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[27]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[27]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[27]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[27]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[27]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[28]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[28]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[28]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[28]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[28]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[28]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[28]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[28]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[28]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[29]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[29]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[29]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[29]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[29]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[29]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[29]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[29]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[29]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[2]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[2]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[2]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[2]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[2]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[2]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[2]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[2]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[2]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[2]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[2]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[2]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[2]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[2]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[2]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[30]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[30]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[30]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[30]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[30]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[30]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[30]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[30]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[30]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[31]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[31]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[31]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[31]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[31]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[31]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[31]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[31]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[31]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[31]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[31]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[31]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[31]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[31]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[31]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[32]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[32]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[32]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[32]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[32]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[32]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[32]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[32]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[32]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[33]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[33]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[33]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[33]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[33]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[33]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[33]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[33]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[33]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[34]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[34]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[34]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[34]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[34]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[34]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[34]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[34]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[34]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[35]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[35]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[35]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[35]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[35]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[35]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[35]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[35]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[35]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[36]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[36]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[36]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[36]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[36]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[36]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[36]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[36]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[36]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[37]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[37]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[37]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[37]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[37]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[37]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[37]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[37]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[37]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[38]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[38]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[38]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[38]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[38]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[38]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[38]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[38]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[38]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[39]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[39]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[39]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[39]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[39]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[39]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[39]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[39]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[39]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[3]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[3]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[3]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[3]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[3]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[3]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[3]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[3]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[3]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[3]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[3]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[3]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[3]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[3]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[3]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[40]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[40]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[40]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[40]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[40]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[40]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[40]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[40]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[40]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[41]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[41]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[41]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[41]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[41]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[41]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[41]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[41]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[41]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[42]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[42]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[42]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[42]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[42]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[42]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[42]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[42]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[42]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[43]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[43]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[43]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[43]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[43]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[43]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[43]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[43]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[43]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[44]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[44]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[44]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[44]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[44]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[44]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[44]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[44]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[44]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[45]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[45]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[45]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[45]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[45]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[45]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[45]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[45]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[45]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[46]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[46]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[46]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[46]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[46]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[46]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[46]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[46]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[46]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[47]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[47]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[47]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[47]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[47]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[47]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[47]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[47]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[47]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[47]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[47]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[47]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[47]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[47]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[47]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[47]_i_6_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[47]_i_6_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[47]_i_6_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[47]_i_7_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[47]_i_7_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[47]_i_7_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[48]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[48]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[48]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[48]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[48]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[48]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[49]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[49]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[49]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[49]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[49]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[49]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[4]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[4]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[4]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[4]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[4]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[4]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[4]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[4]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[4]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[4]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[4]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[4]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[4]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[4]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[4]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[50]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[50]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[50]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[50]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[50]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[50]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[51]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[51]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[51]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[51]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[51]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[51]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[52]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[52]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[52]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[52]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[52]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[52]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[53]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[53]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[53]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[53]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[53]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[53]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[54]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[54]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[54]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[54]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[54]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[54]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[55]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[55]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[55]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[55]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[55]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[55]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[56]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[56]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[56]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[56]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[56]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[56]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[57]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[57]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[57]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[57]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[57]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[57]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[58]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[58]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[58]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[58]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[58]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[58]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[59]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[59]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[59]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[59]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[59]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[59]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[5]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[5]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[5]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[5]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[5]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[5]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[5]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[5]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[5]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[5]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[5]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[5]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[5]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[5]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[5]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[60]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[60]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[60]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[60]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[60]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[60]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[61]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[61]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[61]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[61]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[61]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[61]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[62]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[62]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[62]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[62]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[62]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[62]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[63]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[63]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[63]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[63]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[63]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[63]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[63]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[63]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[63]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[63]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[63]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[63]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[6]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[6]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[6]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[6]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[6]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[6]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[6]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[6]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[6]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[6]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[6]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[6]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[6]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[6]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[6]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[7]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[7]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[7]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[7]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[7]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[7]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[7]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[7]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[7]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[7]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[7]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[7]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[7]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[7]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[7]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[8]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[8]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[8]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[8]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[8]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[8]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[8]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[8]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[8]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[8]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[8]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[8]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[8]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[8]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[8]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[9]_i_1_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[9]_i_1_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[9]_i_1_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[9]_i_2_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[9]_i_2_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[9]_i_2_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[9]_i_3_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[9]_i_3_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[9]_i_3_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[9]_i_4_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[9]_i_4_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[9]_i_4_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\tx_mac_data[9]_i_5_n_0 " type="logic">
+      <obj_property name="ElementShortName">\tx_mac_data[9]_i_5_n_0 </obj_property>
+      <obj_property name="ObjectShortName">\tx_mac_data[9]_i_5_n_0 </obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/tx_mac_wr" type="logic">
+      <obj_property name="ElementShortName">tx_mac_wr</obj_property>
+      <obj_property name="ObjectShortName">tx_mac_wr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\NLW_byte_count_reg[15]_i_5_CO_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_byte_count_reg[15]_i_5_CO_UNCONNECTED [3:1]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_byte_count_reg[15]_i_5_CO_UNCONNECTED [3:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/board/dut/network_path_inst_0/LPBK_MODULE/\NLW_byte_count_reg[15]_i_5_O_UNCONNECTED " type="array">
+      <obj_property name="ElementShortName">\NLW_byte_count_reg[15]_i_5_O_UNCONNECTED [3:2]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_byte_count_reg[15]_i_5_O_UNCONNECTED [3:2]</obj_property>
+   </wvobject>
+</wave_config>
