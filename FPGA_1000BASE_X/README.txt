@@ -58,12 +58,12 @@ Screenshots of Gate level simulations can be found under GATE_LEVEL_SIMULATION d
 |                         |                               | 
 |                         |                               | 
 |                         v                               | 
-|	 ----------------------------------------------       |   
+|    ----------------------------------------------       |   
 |   |CLOCK CONTROL BLOCK                           |      | 
 |   |provides clock to other modules	           |      |    
 |    ----------------------------------------------       | 
 |                      |                                  | 
-|      				   v                                  |          
+|      		       v                                  |          
 |    ----------------------------------------------       | 
 |   |NETWORK_PATH_INST_0                           |      | 
 |   |                                              |      | 
@@ -72,7 +72,7 @@ Screenshots of Gate level simulations can be found under GATE_LEVEL_SIMULATION d
 |   |    | (to loopback input data)          |     |      | 
 |   |     -----------------------------------      |      | 
 |   |             |         ^                      |      | 
-|	|			  v         |                      |      |           
+|   |	          v         |                      |      |           
 |   |     ------------------------------------     |      | 
 |   |    | LMAC SYNTH                         |    |      | 
 |   |    |(LEWIZ MAC HDL/GATE TOP)            |    |      | 
@@ -80,7 +80,7 @@ Screenshots of Gate level simulations can be found under GATE_LEVEL_SIMULATION d
 |   |             |        ^                       |      | 
 |   |             v        |                       |      | 
 |   |     ------------------------------------     |      |       
-|   |    | gig_pcs_pma_inst               	 |     |      | 
+|   |    | gig_pcs_pma_inst                  |     |      | 
 |   |    |(Xilinx 1G SERDES)                 |     |      | 
 |   |     ------------------------------------     |      | 
 |   |             |        ^                       |      | 
@@ -90,9 +90,9 @@ Screenshots of Gate level simulations can be found under GATE_LEVEL_SIMULATION d
 |                 |        |                              | 
 |                 |        |                              | 
  -----------------|--------|------------------------------  
-	              |        |                     
-		          v        |                     
-		      diff_tx     diff_rx                
+	          |        |                     
+		  v        |                     
+	      diff_tx     diff_rx                
 
 
 LMAC-vc709-2015-4 directory contains 1 sub-directory: Hardware.
@@ -170,12 +170,12 @@ The following provides instructions for re-running the different process in the 
 ******TO PROGRAM CLOCK_CONTROL MODULE FOR GENERATING 125MHz CLOCK ****
 
 	1) 	First, you will need to go to the Silicon Labs website and download their DSPLLsim desktop application. This will calculate and generate the exact device register settings you need to load to get the device to output a clock signal of a particular frequency.
-	2)  When the tool starts select the "Create a new frequency plan with free run mode enable".  
-	3) 	On the next page select the Si5324 device and then on the following (configuration) page you enter the target frequency (CKOUT1) as well as the channel 1 input frequency (CKIN1).  The trick here is that we know the channel 1 input frequency is zero but we need to enter something to satsify the tool (so it can in turn satisfy the device that needs all of its registers initialized with legal values). So enter the crystal frequency (114.285) since that is what will be driven on channel 2 anyway (and as we said before if no frequency is detected on channel 1 it switches to channel 2) and we need to establish the corect ratio values.
-	4)	After you have entered the CKIN and CKOUT then press the "Calculate Ratio" button under CKOUT1. This will calculate an appropriate ratio based on your CKIN and CKOUT.  Before you leave this page set the number of output clocks to 1 (since only one output is used on the device on the vc709, anyway).  Then hit 'Next'.
-	5)	Leave the search parameters at default and hit next.  This will calculate solutions for the device parameters. If none are found go back to the search parameter page and lower the frequency a bit.  Keep iterating until a solution is found.
+	2) \A0When the tool starts select the "Create a new frequency plan with free run mode enable". \A0
+	3) 	On the next page select the Si5324 device and then on the following (configuration) page you enter the target frequency (CKOUT1) as well as the channel 1 input frequency (CKIN1). \A0The trick here is that we know the channel 1 input frequency is zero but we need to enter something to satsify the tool (so it can in turn satisfy the device that needs all of its registers initialized with legal values). So enter the crystal frequency (114.285) since that is what will be driven on channel 2 anyway (and as we said before if no frequency is detected on channel 1 it switches to channel 2) and we need to establish the corect ratio values.
+	4)	After you have entered the CKIN and CKOUT then press the "Calculate Ratio" button under CKOUT1. This will calculate an appropriate ratio based on your CKIN and CKOUT. \A0Before you leave this page set the number of output clocks to 1 (since only one output is used on the device on the vc709, anyway). \A0Then hit 'Next'.
+	5)	Leave the search parameters at default and hit next. \A0This will calculate solutions for the device parameters. If none are found go back to the search parameter page and lower the frequency a bit. \A0Keep iterating until a solution is found.
 	6)	When it is found, choose the top solution (it is usually the most accurate and the default one selected anyway) and hit 'Next'.
-	7)	You will soon get to a 'Results' page at which time you are asked if you want to use these settings.  The answer is, of course, 'OK'. That brings you to the tool's main display and we want to 'export' them So look on the application pulldown in the upper left and choose Options->Save Register Map File...  This will generate a text file that contains ALL the register settings that you need to get the device generating your target clock. 
-	8)	Open the register file and the data you need is between #REGISTER_MAP and #END_REGISTER_MAP as pairs in which the first element in the pair is the register number and the second is the register contents to be programmed. Use these values in your code to load the device registers in the exact order specified using the IIC connection. Then you are ready to go. For the device to load and act on these, you need to restart the device and get it to recalibrate itself. The last register setting in the seqeunce performs that operation.
- 
+	7)	You will soon get to a 'Results' page at which time you are asked if you want to use these settings. \A0The answer is, of course, 'OK'. That brings you to the tool's main display and we want to 'export' them So look on the application pulldown in the upper left and choose Options->Save Register Map File... \A0This will generate a text file that contains ALL the register settings that you need to get the device generating your target clock.\A0
+	8)	Open the register file and the data you need is between\A0#REGISTER_MAP and #END_REGISTER_MAP as pairs in which the first element in the pair is the register number and the second is the register contents to be programmed. Use these values in your code to\A0load the device registers in the exact order specified using the IIC connection. Then\A0you are ready to go. For the device to load and act on these, you need to restart the device and get it to recalibrate itself. The last register setting in the seqeunce performs that operation.
+\A0
 	After the load is complete, you should see the Si5324 CKOUT1 generating a clock at the frequency you indicated.
