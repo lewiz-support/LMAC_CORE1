@@ -78,7 +78,12 @@ gig_ethernet_pcs_pma_0 your_instance_name (
   .gmii_rx_dv(gmii_rx_dv),                          // output wire gmii_rx_dv
   .gmii_rx_er(gmii_rx_er),                          // output wire gmii_rx_er
   .gmii_isolate(gmii_isolate),                      // output wire gmii_isolate
+  .mdc(mdc),                                        // input wire mdc
+  .mdio_i(mdio_i),                                  // input wire mdio_i
+  .mdio_o(mdio_o),                                  // output wire mdio_o
+  .mdio_t(mdio_t),                                  // output wire mdio_t
   .configuration_vector(configuration_vector),      // input wire [4 : 0] configuration_vector
+  .configuration_valid(configuration_valid),        // input wire configuration_valid
   .status_vector(status_vector),                    // output wire [15 : 0] status_vector
   .reset(reset),                                    // input wire reset
   .signal_detect(signal_detect),                    // input wire signal_detect

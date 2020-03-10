@@ -121,10 +121,15 @@ module gig_ethernet_pcs_pma_0_block
       output       gmii_rx_er,            // Received control signal to client MAC.
       output       gmii_isolate,          // Tristate control to electrically isolate GMII.
 
-      // Management: Alternative to MDIO Interface
-      //------------------------------------------
+      // Management: MDIO Interface
+      //---------------------------
 
+      input        mdc,                   // Management Data Clock
+      input        mdio_i,                // Management Data In
+      output       mdio_o,                // Management Data Out
+      output       mdio_t,                // Management Data Tristate
       input [4:0]  configuration_vector,  // Alternative to MDIO interface.
+      input        configuration_valid,   // Validation signal for Config vector
 
       // General IO's
       //-------------
@@ -179,6 +184,7 @@ module gig_ethernet_pcs_pma_0_block
 
 
 
+assign mdio_o  =  mdio_o_int;
 
 
 
@@ -195,7 +201,7 @@ module gig_ethernet_pcs_pma_0_block
        .C_USE_TBI                   (1'b0),
        .C_USE_LVDS                  (1'b0),
        .C_HAS_AN                    (1'b0),
-       .C_HAS_MDIO                  (1'b0),
+       .C_HAS_MDIO                  (1'b1),
        .C_SGMII_PHY_MODE            (1'b0),
        .C_DYNAMIC_SWITCHING         (1'b0),
        .C_SGMII_FABRIC_BUFFER       (1'b1),
@@ -233,7 +239,13 @@ module gig_ethernet_pcs_pma_0_block
       .gmii_rx_dv            (gmii_rx_dv),
       .gmii_rx_er            (gmii_rx_er),
       .gmii_isolate          (gmii_isolate),
+      .mdc                   (mdc),
+      .mdio_in               (mdio_i),
+      .mdio_out              (mdio_o_int),
+      .mdio_tri              (mdio_t),
+      .phyad                 (5'd1),
       .configuration_vector  (configuration_vector),
+      .configuration_valid   (configuration_valid),
       .status_vector          (status_vector),
       .reset                  (reset),
       .signal_detect          (signal_detect),

@@ -77,7 +77,12 @@ COMPONENT gig_ethernet_pcs_pma_0
     gmii_rx_dv : OUT STD_LOGIC;
     gmii_rx_er : OUT STD_LOGIC;
     gmii_isolate : OUT STD_LOGIC;
+    mdc : IN STD_LOGIC;
+    mdio_i : IN STD_LOGIC;
+    mdio_o : OUT STD_LOGIC;
+    mdio_t : OUT STD_LOGIC;
     configuration_vector : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
+    configuration_valid : IN STD_LOGIC;
     status_vector : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
     reset : IN STD_LOGIC;
     signal_detect : IN STD_LOGIC;
@@ -116,7 +121,12 @@ your_instance_name : gig_ethernet_pcs_pma_0
     gmii_rx_dv => gmii_rx_dv,
     gmii_rx_er => gmii_rx_er,
     gmii_isolate => gmii_isolate,
+    mdc => mdc,
+    mdio_i => mdio_i,
+    mdio_o => mdio_o,
+    mdio_t => mdio_t,
     configuration_vector => configuration_vector,
+    configuration_valid => configuration_valid,
     status_vector => status_vector,
     reset => reset,
     signal_detect => signal_detect,

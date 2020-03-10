@@ -2,6 +2,10 @@
 
 Copyright (C) 2018-2019 LeWiz Communications, Inc.
 
+-------- Mar 09, 2020
+
+FPGA IMPLEMENTATION FOR LMAC_CORE1 (1G ETHERNET 1000BASE-X) on Xilinx VC709 board.
+
 LeWiz Communications, Inc. Ethernet MAC Core1 - Ethernet 1G/100M/10M
 
 -------- May 16, 2019
@@ -31,6 +35,4 @@ This release is not intended for synthesis as it does not contain any FPGA or ot
 
 Simulation is intended for ModelSim tool.
 
--------- Mar 09, 2020
 
-FPGA IMPLEMENTATION FOR LMAC_CORE1 (1000BASE-X) on VC709.

@@ -137,29 +137,6 @@ module network_path_shared # (
     wire [4:0] configuration_vector;
     
     assign configuration_vector = 5'b00000;
-//    reg	speed_is_10_100;
-//    reg	speed_is_100;
-    
-    
-//    always@(posedge xphy_refclk_p) begin 
-//    	if (!sys_rst) begin
-//    		speed_is_10_100 <= 1'b0;
-//    		speed_is_100	<= 1'b0;
-//    	end
-//    	else begin
-//    		speed_is_10_100 <= (fmac_speed == 2'd1) ? 1'b0 :
-//    						   (fmac_speed == 2'd2)	? 1'b1 :
-//    						   (fmac_speed == 2'd3)	? 1'b1 :
-//    						   1'b0;
-//			speed_is_100 	<= (fmac_speed == 2'd1) ? 1'b0 :
-//    						   (fmac_speed == 2'd2)	? 1'b1 :
-//    						   (fmac_speed == 2'd3)	? 1'b0 :
-//    						   1'b0; 
-//  		end
-//  	end   		
-    
-    	  
-
 
 //LEWIZ_LPBK_MODULE
 	LPBK_MODULE LPBK_MODULE(
@@ -296,15 +273,7 @@ gig_ethernet_pcs_pma_0 gig_eth_pcs_pma_inst(
       //-------------                           							
       .status_vector(),         								// Core status.
       .gt0_qplloutclk_out			(qplloutclk),
-      .gt0_qplloutrefclk_out		(qplloutrefclk)
-      //.pma_reset_out				(),
-      //.mmcm_locked_out				(),
-      //.sgmii_clk_r					(), 
-      //.sgmii_clk_f					(), 
-      //.sgmii_clk_en					(),
-      //.speed_is_10_100				(speed_is_10_100),
-      //.speed_is_100					(speed_is_100)
-      
+      .gt0_qplloutrefclk_out		(qplloutrefclk)      
    );  
    
 endmodule

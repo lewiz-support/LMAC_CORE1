@@ -344,6 +344,13 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/ip/gig_ethernet_pcs_pma_0/gig_ethernet_pcs_pma_0.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="LMAC_vc709_2015_4"/>
@@ -393,6 +400,7 @@
         <Option Name="VerilogDir" Val="$PPRDIR/../../sources/testbench/include"/>
         <Option Name="VerilogDir" Val="$PPRDIR/../../sources/hdl/gen_chk"/>
         <Option Name="VerilogDir" Val="$PPRDIR/../../vivado"/>
+        <Option Name="SimMode" Val="post-synthesis"/>
         <Option Name="SrcSet" Val="sources_1"/>
         <Option Name="xsim.simulate.runtime" Val="0ns"/>
         <Option Name="xsim.simulate.xsim.more_options" Val="-testplusarg TESTNAME=basic_test"/>
@@ -405,53 +413,6 @@
         <Define Name="x4Gb" Val="1"/>
         <Define Name="sg107E" Val="1"/>
         <Define Name="x8" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="gig_ethernet_pcs_pma_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/gig_ethernet_pcs_pma_0">
-      <File Path="$PSRCDIR/sources_1/ip/gig_ethernet_pcs_pma_0_2/gig_ethernet_pcs_pma_0.xci">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/gig_ethernet_pcs_pma_0_block.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/transceiver/gig_ethernet_pcs_pma_0_transceiver.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/gig_ethernet_pcs_pma_0_sync_block.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/gig_ethernet_pcs_pma_0_reset_sync.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/transceiver/gig_ethernet_pcs_pma_0_gtwizard_multi_gt.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/gig_ethernet_pcs_pma_0.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/transceiver/gig_ethernet_pcs_pma_0_gtwizard.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/transceiver/gig_ethernet_pcs_pma_0_gtwizard_gt.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/transceiver/gig_ethernet_pcs_pma_0_reset_wtd_timer.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/transceiver/gig_ethernet_pcs_pma_0_tx_startup_fsm.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/transceiver/gig_ethernet_pcs_pma_0_gtwizard_init.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/transceiver/gig_ethernet_pcs_pma_0_gtwizard_gtrxpmarst_seq.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/transceiver/gig_ethernet_pcs_pma_0_gtwizard_gtrxreset_seq.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/gig_ethernet_pcs_pma_0_resets.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="doc/gig_ethernet_pcs_pma_v15_1_changelog.txt"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="gig_ethernet_pcs_pma_v15_1_1/hdl/gig_ethernet_pcs_pma_v15_1_rfs.vhd"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="gig_ethernet_pcs_pma_0_board.xdc"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/transceiver/gig_ethernet_pcs_pma_0_rx_startup_fsm.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/gig_ethernet_pcs_pma_0_gt_common.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/gig_ethernet_pcs_pma_0_support.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/gig_ethernet_pcs_pma_0_clocking.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/transceiver/gig_ethernet_pcs_pma_0_cpll_railing.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/gig_ethernet_pcs_pma_0_ooc.xdc"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="synth/gig_ethernet_pcs_pma_0.xdc"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="gig_ethernet_pcs_pma_0.veo"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="gig_ethernet_pcs_pma_0.vho"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="gig_ethernet_pcs_pma_0.xml"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="gig_ethernet_pcs_pma_0_sim_netlist.vhdl"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="gig_ethernet_pcs_pma_0_sim_netlist.v"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="gig_ethernet_pcs_pma_0_stub.vhdl"/>
-        <CompFileExtendedInfo CompFileName="gig_ethernet_pcs_pma_0.xci" FileRelPathName="gig_ethernet_pcs_pma_0_stub.v"/>
-      </File>
-      <Config>
-        <Option Name="TopModule" Val="gig_ethernet_pcs_pma_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-        <Define Name="USE_DDR3_FIFO" Val="1"/>
-        <Define Name="USE_XPHY" Val="1"/>
-        <Define Name="USE_PVTMON" Val="1"/>
       </Config>
     </FileSet>
   </FileSets>
@@ -494,15 +455,6 @@
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="gig_ethernet_pcs_pma_0_synth_1" Type="Ft3:Synth" SrcSet="gig_ethernet_pcs_pma_0" Part="xc7vx690tffg1761-2" ConstrsSet="gig_ethernet_pcs_pma_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/gig_ethernet_pcs_pma_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-    </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7vx690tffg1761-2" ConstrsSet="constrs_1" Description="Uses multiple algorithms for optimization, placement, and routing to get potentially better results." State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Performance_Explore" Flow="Vivado Implementation 2015"/>
@@ -525,22 +477,6 @@
         <Step Id="write_bitstream"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-    </Run>
-    <Run Id="gig_ethernet_pcs_pma_0_impl_1" Type="Ft2:EntireDesign" Part="xc7vx690tffg1761-2" ConstrsSet="gig_ethernet_pcs_pma_0" Description="Vivado Implementation Defaults" SynthRun="gig_ethernet_pcs_pma_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015">
-          <Desc>Vivado Implementation Defaults</Desc>
-        </StratHandle>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
     </Run>
   </Runs>
 </Project>
