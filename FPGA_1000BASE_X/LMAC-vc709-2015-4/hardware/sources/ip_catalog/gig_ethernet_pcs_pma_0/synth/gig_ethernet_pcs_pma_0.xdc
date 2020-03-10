@@ -34,8 +34,6 @@ set_false_path  -to [get_pins -hier -filter {name =~  *core_resets_i/pma_reset_p
 
 
 
-
-
 #-----------------------------------------------------------
 # GT Initialization circuitry clock domain crossing
 #-----------------------------------------------------------
@@ -58,7 +56,4 @@ set_false_path -to [get_pins -hier -filter {name =~ *sync_block_rx_reset_done/da
 
 set_false_path -to [get_pins -hier -filter {name =~ *reset_sync*/PRE }]
 
-## timing for MDIO interface
-set_max_delay 6.000 -datapath_only -from [get_pins -hier -filter { name =~ */MDIO_INTERFACE_*/MDIO_OUT_reg/C } ]
-set_max_delay 6.000 -datapath_only -from [get_pins -hier -filter { name =~ */MDIO_INTERFACE_*/MDIO_TRI_reg/C } ]
 

@@ -49,7 +49,7 @@
       <spirit:vendorExtensions>
         <xilinx:busInterfaceInfo>
           <xilinx:enablement>
-            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.mdio_pcs_pma" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_HAS_MDIO&apos;))) and (not ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_LVDS&apos;))) and  ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = false() or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = true() and (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;zynquplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;kintexuplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;virtexuplus&quot;)) ))))">true</xilinx:isEnabled>
+            <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="BUSIF_ENABLEMENT.mdio_pcs_pma" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_HAS_MDIO&apos;))) and (not ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_LVDS&apos;))) and  ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = false() or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = true() and (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;zynquplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;kintexuplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;virtexuplus&quot;)) ))))">false</xilinx:isEnabled>
           </xilinx:enablement>
         </xilinx:busInterfaceInfo>
       </spirit:vendorExtensions>
@@ -4486,7 +4486,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>b396df71</spirit:value>
+            <spirit:value>e5db3768</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -4494,7 +4494,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRC</spirit:name>
-            <spirit:value>c0d0d0ec</spirit:value>
+            <spirit:value>568ace07</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRCversion</spirit:name>
@@ -4513,7 +4513,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>b396df71</spirit:value>
+            <spirit:value>e5db3768</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -4521,7 +4521,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRC</spirit:name>
-            <spirit:value>c0d0d0ec</spirit:value>
+            <spirit:value>568ace07</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRCversion</spirit:name>
@@ -4529,7 +4529,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Jan 21 20:00:03 UTC 2017</spirit:value>
+            <spirit:value>Tue Jan 10 16:30:52 UTC 2017</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -4547,7 +4547,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>b396df71</spirit:value>
+            <spirit:value>e5db3768</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -4555,7 +4555,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRC</spirit:name>
-            <spirit:value>c0d0d0ec</spirit:value>
+            <spirit:value>568ace07</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRCversion</spirit:name>
@@ -4563,7 +4563,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Jan 21 20:00:05 UTC 2017</spirit:value>
+            <spirit:value>Tue Jan 10 16:30:54 UTC 2017</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -4582,7 +4582,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>b396df71</spirit:value>
+            <spirit:value>e5db3768</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -4590,7 +4590,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRC</spirit:name>
-            <spirit:value>c0d0d0ec</spirit:value>
+            <spirit:value>568ace07</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRCversion</spirit:name>
@@ -4598,7 +4598,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Jan 21 20:00:06 UTC 2017</spirit:value>
+            <spirit:value>Tue Jan 10 16:30:55 UTC 2017</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -4616,7 +4616,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>79dc7bdc</spirit:value>
+            <spirit:value>8e85062e</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -4624,7 +4624,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRC</spirit:name>
-            <spirit:value>c0d0d0ec</spirit:value>
+            <spirit:value>568ace07</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRCversion</spirit:name>
@@ -4632,7 +4632,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Jan 21 20:00:05 UTC 2017</spirit:value>
+            <spirit:value>Tue Jan 10 16:30:54 UTC 2017</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -4651,7 +4651,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>79dc7bdc</spirit:value>
+            <spirit:value>8e85062e</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -4659,7 +4659,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRC</spirit:name>
-            <spirit:value>c0d0d0ec</spirit:value>
+            <spirit:value>568ace07</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRCversion</spirit:name>
@@ -4667,7 +4667,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Jan 21 20:00:06 UTC 2017</spirit:value>
+            <spirit:value>Tue Jan 10 16:30:55 UTC 2017</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -4685,7 +4685,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>b396df71</spirit:value>
+            <spirit:value>e5db3768</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -4693,7 +4693,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRC</spirit:name>
-            <spirit:value>c0d0d0ec</spirit:value>
+            <spirit:value>568ace07</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRCversion</spirit:name>
@@ -4701,7 +4701,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Jan 21 20:00:07 UTC 2017</spirit:value>
+            <spirit:value>Tue Jan 10 16:30:56 UTC 2017</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -4719,7 +4719,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>b396df71</spirit:value>
+            <spirit:value>e5db3768</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>customizationCRCversion</spirit:name>
@@ -4727,7 +4727,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRC</spirit:name>
-            <spirit:value>c0d0d0ec</spirit:value>
+            <spirit:value>568ace07</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>boundaryCRCversion</spirit:name>
@@ -4735,41 +4735,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Jan 21 20:00:07 UTC 2017</spirit:value>
-          </spirit:parameter>
-          <spirit:parameter>
-            <spirit:name>StaleAtRelink</spirit:name>
-            <spirit:value>false</spirit:value>
-          </spirit:parameter>
-        </spirit:parameters>
-      </spirit:view>
-      <spirit:view>
-        <spirit:name>xilinx_externalfiles</spirit:name>
-        <spirit:displayName>External Files</spirit:displayName>
-        <spirit:envIdentifier>:vivado.xilinx.com:external.files</spirit:envIdentifier>
-        <spirit:fileSetRef>
-          <spirit:localName>xilinx_externalfiles_view_fileset</spirit:localName>
-        </spirit:fileSetRef>
-        <spirit:parameters>
-          <spirit:parameter>
-            <spirit:name>customizationCRC</spirit:name>
-            <spirit:value>b396df71</spirit:value>
-          </spirit:parameter>
-          <spirit:parameter>
-            <spirit:name>customizationCRCversion</spirit:name>
-            <spirit:value>5</spirit:value>
-          </spirit:parameter>
-          <spirit:parameter>
-            <spirit:name>boundaryCRC</spirit:name>
-            <spirit:value>c0d0d0ec</spirit:value>
-          </spirit:parameter>
-          <spirit:parameter>
-            <spirit:name>boundaryCRCversion</spirit:name>
-            <spirit:value>1</spirit:value>
-          </spirit:parameter>
-          <spirit:parameter>
-            <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sat Jan 21 20:00:56 UTC 2017</spirit:value>
+            <spirit:value>Tue Jan 10 16:30:56 UTC 2017</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>StaleAtRelink</spirit:name>
@@ -6186,7 +6152,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.mdc" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_HAS_MDIO&apos;)) and (not (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_LVDS&apos;))) and  ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = false() or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = true() and (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;zynquplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;kintexuplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;virtexuplus&quot;)) ))))))">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.mdc" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_HAS_MDIO&apos;)) and (not (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_LVDS&apos;))) and  ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = false() or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = true() and (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;zynquplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;kintexuplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;virtexuplus&quot;)) ))))))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -6209,7 +6175,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.mdio_i" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_HAS_MDIO&apos;)) and (not (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_LVDS&apos;))) and  ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = false() or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = true() and (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;zynquplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;kintexuplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;virtexuplus&quot;)) ))))))">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.mdio_i" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_HAS_MDIO&apos;)) and (not (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_LVDS&apos;))) and  ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = false() or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = true() and (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;zynquplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;kintexuplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;virtexuplus&quot;)) ))))))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -6229,7 +6195,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.mdio_o" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_HAS_MDIO&apos;)) and (not (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_LVDS&apos;))) and  ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = false() or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = true() and (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;zynquplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;kintexuplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;virtexuplus&quot;)) ))))))">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.mdio_o" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_HAS_MDIO&apos;)) and (not (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_LVDS&apos;))) and  ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = false() or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = true() and (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;zynquplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;kintexuplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;virtexuplus&quot;)) ))))))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -6249,7 +6215,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.mdio_t" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_HAS_MDIO&apos;)) and (not (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_LVDS&apos;))) and  ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = false() or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = true() and (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;zynquplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;kintexuplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;virtexuplus&quot;)) ))))))">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.mdio_t" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_HAS_MDIO&apos;)) and (not (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_LVDS&apos;))) and  ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = false() or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = true() and (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;zynquplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;kintexuplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;virtexuplus&quot;)) ))))))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -6405,7 +6371,7 @@
         <spirit:vendorExtensions>
           <xilinx:portInfo>
             <xilinx:enablement>
-              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.configuration_valid" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_HAS_MDIO&apos;)) and (not (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_LVDS&apos;))) and  ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = false() or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = true() and (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;zynquplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;kintexuplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;virtexuplus&quot;)) ))))))">true</xilinx:isEnabled>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.configuration_valid" xilinx:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_HAS_MDIO&apos;)) and (not (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_USE_LVDS&apos;))) and  ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = false() or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_IS_SGMII&apos;))) = true() and (((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;zynquplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;kintexuplus&quot;) or ((spirit:decode(id(&apos;MODELPARAM_VALUE.C_FAMILY&apos;))) = &quot;virtexuplus&quot;)) ))))))">false</xilinx:isEnabled>
             </xilinx:enablement>
           </xilinx:portInfo>
         </spirit:vendorExtensions>
@@ -11955,7 +11921,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="boolean">
         <spirit:name>c_has_mdio</spirit:name>
-        <spirit:value spirit:format="bool" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.c_has_mdio">true</spirit:value>
+        <spirit:value spirit:format="bool" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.c_has_mdio">false</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="boolean">
         <spirit:name>c_has_ext_mdio</spirit:name>
@@ -12364,42 +12330,6 @@
         <spirit:userFileType>text</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
-    <spirit:fileSet>
-      <spirit:name>xilinx_externalfiles_view_fileset</spirit:name>
-      <spirit:file>
-        <spirit:name>gig_ethernet_pcs_pma_0.dcp</spirit:name>
-        <spirit:userFileType>dcp</spirit:userFileType>
-        <spirit:userFileType>USED_IN_implementation</spirit:userFileType>
-        <spirit:userFileType>USED_IN_synthesis</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>gig_ethernet_pcs_pma_0_stub.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>gig_ethernet_pcs_pma_0_stub.vhdl</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_synth_blackbox_stub</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>gig_ethernet_pcs_pma_0_sim_netlist.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
-        <spirit:userFileType>USED_IN_single_language</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>gig_ethernet_pcs_pma_0_sim_netlist.vhdl</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_simulation</spirit:userFileType>
-        <spirit:userFileType>USED_IN_single_language</spirit:userFileType>
-        <spirit:logicalName>xil_defaultlib</spirit:logicalName>
-      </spirit:file>
-    </spirit:fileSet>
   </spirit:fileSets>
   <spirit:description>The 1G/2.5G Ethernet PCS/PMA or SGMII LogiCORE(TM) provides the functionality to implement one of two different specifications: firstly the IEEE 802.3 1000BASE-X specification; secondly the Serial-GMII (SGMII) specification which is closely based on 1000BASE-X.  The core provides a choice of physical interface options: a Ten-Bit-Interface (TBI) for connection to an external SERDES; high speed serial functionality using the device specific transceivers in Virtex-7, Kintex-7 and Artix-7; SGMII standard only - LVDS using SelectIO in Kintex-7 devices -2 speed grade and faster.  All options provide up to 1/2.5 gigabit per second total bandwidth.  When perfoming the SGMII standard, the core can carry Ethernet traffic up to 1/2.5 gigabit per second total bandwidth; this is inclusive of 10Mbps, 100Mbps, 1Gbps and 2.5Gbps Ethernet speeds.  The core is designed to interface to the LogiCORE Tri-Mode Ethernet MAC or Zynq Processor subsystem from Xilinx to provide a complete solution.</spirit:description>
   <spirit:parameters>
@@ -12433,7 +12363,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Management_Interface</spirit:name>
-      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.Management_Interface" spirit:order="20100" spirit:configGroups="2 UnGrouped">true</spirit:value>
+      <spirit:value spirit:format="bool" spirit:resolve="user" spirit:id="PARAM_VALUE.Management_Interface" spirit:order="20100" spirit:configGroups="2 UnGrouped">false</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Ext_Management_Interface</spirit:name>

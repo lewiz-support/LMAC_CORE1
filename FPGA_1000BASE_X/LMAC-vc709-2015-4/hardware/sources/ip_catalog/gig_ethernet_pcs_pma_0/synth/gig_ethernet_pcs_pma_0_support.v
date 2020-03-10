@@ -93,15 +93,10 @@ module gig_ethernet_pcs_pma_0_support
       output       gmii_rx_er,            // Received control signal to client MAC.
       output       gmii_isolate,          // Tristate control to electrically isolate GMII.
 
-      // Management: MDIO Interface
-      //---------------------------
+      // Management: Alternative to MDIO Interface
+      //------------------------------------------
 
-      input        mdc,                   // Management Data Clock
-      input        mdio_i,                // Management Data In
-      output       mdio_o,                // Management Data Out
-      output       mdio_t,                // Management Data Tristate
       input [4:0]  configuration_vector,  // Alternative to MDIO interface.
-      input        configuration_valid,   // Validation signal for Config vector
 
       // General IO's
       //-------------
@@ -175,15 +170,10 @@ pcs_pma_block_i
       .gmii_rx_er                    (gmii_rx_er),
       .gmii_isolate                  (gmii_isolate),
 
-      // Management: MDIO Interface
-      //---------------------------
+      // Management: Alternative to MDIO Interface
+      //------------------------------------------
 
-      .mdc                           (mdc),
-      .mdio_i                        (mdio_i),
-      .mdio_o                        (mdio_o),
-      .mdio_t                        (mdio_t),
       .configuration_vector          (configuration_vector),
-      .configuration_valid           (configuration_valid),
 
 
       // General IO's

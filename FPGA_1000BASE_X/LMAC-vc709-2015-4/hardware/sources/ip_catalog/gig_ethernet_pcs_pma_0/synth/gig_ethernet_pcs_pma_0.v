@@ -120,15 +120,10 @@ module gig_ethernet_pcs_pma_0
       output       gmii_rx_er,            // Received control signal to client MAC.
       output       gmii_isolate,          // Tristate control to electrically isolate GMII.
 
-      // Management: MDIO Interface
-      //---------------------------
+      // Management: Alternative to MDIO Interface
+      //------------------------------------------
 
-      input        mdc,                   // Management Data Clock
-      input        mdio_i,                // Management Data In
-      output       mdio_o,                // Management Data Out
-      output       mdio_t,                // Management Data Tristate
       input [4:0]  configuration_vector,  // Alternative to MDIO interface.
-      input        configuration_valid,   // Validation signal for Config vector
 
       // General IO's
       //-------------
@@ -144,7 +139,7 @@ module gig_ethernet_pcs_pma_0
    );
 
 
-(* CORE_GENERATION_INFO = "gig_ethernet_pcs_pma_0,gig_ethernet_pcs_pma_v15_1_1,{x_ipProduct=Vivado 2015.4,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=gig_ethernet_pcs_pma,x_ipVersion=15.1,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,c_elaboration_transient_dir=.,c_component_name=gig_ethernet_pcs_pma_0,c_family=virtex7,c_is_sgmii=false,c_use_transceiver=true,c_use_tbi=false,c_is_2_5g=false,c_use_lvds=false,c_has_an=false,c_has_mdio=true,c_has_ext_mdio=false,c_sgmii_phy_mode=false,c_dynamic_switching=false,c_sgmii_fabric_buffer=true,c_1588=0,gt_rx_byte_width=1,C_EMAC_IF_TEMAC=true,C_PHYADDR=1,EXAMPLE_SIMULATION=0,c_support_level=true,c_sub_core_name=gig_ethernet_pcs_pma_0_gt,c_transceiver_type=GTHE2,c_gt_type=GTH,c_transceivercontrol=false,c_xdevicefamily=xc7vx690t,c_gt_dmonitorout_width=15,c_gt_drpaddr_width=9,c_gt_txdiffctrl_width=4,c_gt_rxmonitorout_width=7,c_num_of_lanes=1,c_refclkrate=125,c_drpclkrate=50.0}" *)
+(* CORE_GENERATION_INFO = "gig_ethernet_pcs_pma_0,gig_ethernet_pcs_pma_v15_1_1,{x_ipProduct=Vivado 2015.4,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=gig_ethernet_pcs_pma,x_ipVersion=15.1,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,c_elaboration_transient_dir=.,c_component_name=gig_ethernet_pcs_pma_0,c_family=virtex7,c_is_sgmii=false,c_use_transceiver=true,c_use_tbi=false,c_is_2_5g=false,c_use_lvds=false,c_has_an=false,c_has_mdio=false,c_has_ext_mdio=false,c_sgmii_phy_mode=false,c_dynamic_switching=false,c_sgmii_fabric_buffer=true,c_1588=0,gt_rx_byte_width=1,C_EMAC_IF_TEMAC=true,C_PHYADDR=1,EXAMPLE_SIMULATION=0,c_support_level=true,c_sub_core_name=gig_ethernet_pcs_pma_0_gt,c_transceiver_type=GTHE2,c_gt_type=GTH,c_transceivercontrol=false,c_xdevicefamily=xc7vx690t,c_gt_dmonitorout_width=15,c_gt_drpaddr_width=9,c_gt_txdiffctrl_width=4,c_gt_rxmonitorout_width=7,c_num_of_lanes=1,c_refclkrate=125,c_drpclkrate=50.0}" *)
 (* X_CORE_INFO = "gig_ethernet_pcs_pma_v15_1_1,Vivado 2015.4" *)
 
 gig_ethernet_pcs_pma_0_support  
@@ -181,15 +176,10 @@ inst
       .gmii_rx_er                    (gmii_rx_er),
       .gmii_isolate                  (gmii_isolate),
 
-      // Management: MDIO Interface
-      //---------------------------
+      // Management: Alternative to MDIO Interface
+      //------------------------------------------
 
-      .mdc                           (mdc),
-      .mdio_i                        (mdio_i),
-      .mdio_o                        (mdio_o),
-      .mdio_t                        (mdio_t),
       .configuration_vector          (configuration_vector),
-      .configuration_valid           (configuration_valid),
 
       // General IO's
       //-------------
