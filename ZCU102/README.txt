@@ -49,6 +49,9 @@ All the project files and code are provided here for the regular ZCU102 board.
 	- IP ADDR: 192.168.7.175
 	- MAC ADDR: F4:8E:38:B0:2D:02
 	
+  !!! IMPORTANT: Change this MAC Addr and IP Addr corresponding to the destination on your network.
+  Otherwise, you may not see the packet on your destination system.
+  
 - ARP Table on the Destination System has to be modified to add LEWIZ MAC ADDR to the IP ADDR as follows
 (This will help to generate the PING RESPONSE for correct address).
 
