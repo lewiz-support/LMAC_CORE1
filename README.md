@@ -2,10 +2,14 @@
 
 Copyright (C) 2018-2019 LeWiz Communications, Inc.
 
+-------- July 09, 2020
+
+FPGA IMPLEMENTATION FOR LMAC_CORE1 on Xilinx ZCU102 FPGA board.
+Tested Ping Application to different systems on the network.
+
 -------- Mar 09, 2020
 
 FPGA IMPLEMENTATION FOR LMAC_CORE1 (1G ETHERNET 1000BASE-X) on Xilinx VC709 FPGA board.
-
 
 LeWiz Communications, Inc. Ethernet MAC Core1 - Ethernet 1G/100M/10M
 
