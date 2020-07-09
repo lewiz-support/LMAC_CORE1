@@ -1,0 +1,52 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/gigerx_bcnt_fifo_ip_256x16/sim/gigerx_bcnt_fifo_ip_256x16.v" \
+"../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/gigerx_fifo_ip_256x8/sim/gigerx_fifo_ip_256x8.v" \
+"../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/gigerx_fifo_ip_256x64/sim/gigerx_fifo_ip_256x64.v" \
+"../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/br_sfifo_ip_4x32/sim/br_sfifo_ip_4x32.v" \
+"../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/ipcs_fifo_ip/sim/ipcs_fifo_ip.v" \
+"../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/pktctrl_fifo_ip/sim/pktctrl_fifo_ip.v" \
+"../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/rxfifo_ip_4Kx64/sim/rxfifo_ip_4Kx64.v" \
+"../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/txfifo_ip_1024x64/sim/txfifo_ip_1024x64.v" \
+"../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/RX_DFIFO_BCNT/sim/RX_DFIFO_BCNT.v" \
+"../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/RX_DFIFO/sim/RX_DFIFO.v" \
+"../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/TX_DFIFO_BCNT_1/sim/TX_DFIFO_BCNT.v" \
+"../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/TX_DFIFO_1/sim/TX_DFIFO.v" \
+"../../../../LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_RX.v" \
+"../../../../LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_TX.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/LMAC_CORE_TOP.v" \
+"../../../../LMAC_RTL/LMAC_DFIFO_TOP.v" \
+"../../../../LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/br_sfifo4x32.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/bsh32_dn_88.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/bsh8_dn_64.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/byte_reordering.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/crc32_d16s.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/crc32_d24s.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/crc32_d64.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/crc32_d8s.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/eth_crc32_gen.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/fmac_fifo4Kx64.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/fmac_fifo4Kx8.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/fmac_fifo512x64_2clk.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/fmac_register_if_LE2.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/g2x_ctrl.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/gige_crc32x64.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/gige_rx.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/gige_tx_encap.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/gige_tx_gmii.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/gigerx_bcnt_fifo256x16.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/gigerx_fifo256x64_2clk.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/gigerx_fifo256x8.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/tcore_fmac_core_LE2.v" \
+"../../../../LMAC_RTL/LMAC_CORE_TOP/txfifo_1024x64.v" \
+"../../../../LMAC_RTL/LMAC_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

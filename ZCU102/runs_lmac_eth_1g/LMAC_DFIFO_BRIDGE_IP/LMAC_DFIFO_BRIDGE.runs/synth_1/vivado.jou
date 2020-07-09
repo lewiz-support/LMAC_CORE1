@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Apr  8 14:26:18 2019
+# Process ID: 5655
+# Current directory: /home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1
+# Command line: vivado -log LMAC_DFIFO_TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LMAC_DFIFO_TOP.tcl
+# Log file: /home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/LMAC_DFIFO_TOP.vds
+# Journal file: /home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source LMAC_DFIFO_TOP.tcl -notrace

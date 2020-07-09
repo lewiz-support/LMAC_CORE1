@@ -1,0 +1,1553 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Apr  8 14:26:18 2019
+# Process ID: 5655
+# Current directory: /home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1
+# Command line: vivado -log LMAC_DFIFO_TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LMAC_DFIFO_TOP.tcl
+# Log file: /home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/LMAC_DFIFO_TOP.vds
+# Journal file: /home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source LMAC_DFIFO_TOP.tcl -notrace
+Command: synth_design -top LMAC_DFIFO_TOP -part xczu15eg-ffvb1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu15eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu15eg'
+INFO: [Common 17-86] Your Synthesis license expires in 24 day(s)
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5668 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1674.332 ; gain = 0.000 ; free physical = 5778 ; free virtual = 14144
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'LMAC_DFIFO_TOP' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_DFIFO_TOP.v:4]
+INFO: [Synth 8-6157] synthesizing module 'DFIFO_BRIDGE_TX' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_TX.v:32]
+	Parameter TX_WR_IDLE bound to: 4'b0001 
+	Parameter TX_WR_FIFO bound to: 4'b0010 
+	Parameter TX_WR_BCNT bound to: 4'b0100 
+	Parameter TX_WR_DONE bound to: 4'b1000 
+	Parameter TX_RD_IDLE bound to: 4'b0001 
+	Parameter TX_RD_BCNT bound to: 4'b0010 
+	Parameter TX_RD_FIFO bound to: 4'b0100 
+	Parameter TX_RD_DONE bound to: 4'b1000 
+INFO: [Synth 8-6157] synthesizing module 'TX_DFIFO' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/TX_DFIFO_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'TX_DFIFO' (1#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/TX_DFIFO_stub.v:6]
+WARNING: [Synth 8-350] instance 'TX_DFIFO_256x64' of module 'TX_DFIFO' requires 13 connections, but only 11 given [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_TX.v:178]
+INFO: [Synth 8-6157] synthesizing module 'TX_DFIFO_BCNT' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/TX_DFIFO_BCNT_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'TX_DFIFO_BCNT' (2#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/TX_DFIFO_BCNT_stub.v:6]
+WARNING: [Synth 8-350] instance 'TX_DFIFO_BCNT_16x16' of module 'TX_DFIFO_BCNT' requires 11 connections, but only 9 given [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_TX.v:196]
+INFO: [Synth 8-6155] done synthesizing module 'DFIFO_BRIDGE_TX' (3#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_TX.v:32]
+INFO: [Synth 8-6157] synthesizing module 'DFIFO_BRIDGE_RX' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_RX.v:32]
+	Parameter RX_RD_IDLE bound to: 6'b000001 
+	Parameter RX_RD_BCNT bound to: 6'b000010 
+	Parameter RX_RD_FIFO bound to: 6'b000100 
+	Parameter RX_RD_LSB_FIFO bound to: 6'b001000 
+	Parameter RX_RD_MSB_FIFO bound to: 6'b010000 
+	Parameter RX_RD_DONE bound to: 6'b100000 
+	Parameter RX_WR_IDLE bound to: 7'b0000001 
+	Parameter RX_READ_BCNT bound to: 7'b0000010 
+	Parameter RX_WR_BCNT bound to: 7'b0000100 
+	Parameter RX_WR_DATA bound to: 7'b0001000 
+	Parameter RX_WR_FIFO bound to: 7'b0010000 
+	Parameter RX_WR_DONE bound to: 7'b0100000 
+INFO: [Synth 8-6157] synthesizing module 'RX_DFIFO' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/RX_DFIFO_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RX_DFIFO' (4#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/RX_DFIFO_stub.v:6]
+WARNING: [Synth 8-350] instance 'RX_DFIFO_32x64' of module 'RX_DFIFO' requires 13 connections, but only 11 given [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_RX.v:201]
+INFO: [Synth 8-6157] synthesizing module 'RX_DFIFO_BCNT' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/RX_DFIFO_BCNT_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RX_DFIFO_BCNT' (5#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/RX_DFIFO_BCNT_stub.v:6]
+WARNING: [Synth 8-350] instance 'RX_DFIFO_BCNT_16x16' of module 'RX_DFIFO_BCNT' requires 11 connections, but only 9 given [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_RX.v:219]
+WARNING: [Synth 8-6014] Unused sequential element rx_bcnt_rdreq_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_RX.v:129]
+WARNING: [Synth 8-6014] Unused sequential element first_fifo_data_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_RX.v:130]
+WARNING: [Synth 8-6014] Unused sequential element tx_bcnt_temp_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_RX.v:283]
+INFO: [Synth 8-6155] done synthesizing module 'DFIFO_BRIDGE_RX' (6#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_RX.v:32]
+INFO: [Synth 8-6157] synthesizing module 'LMAC_SYNTH' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v:32]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v:39]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v:44]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v:55]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v:56]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v:57]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v:58]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v:59]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v:85]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v:86]
+INFO: [Synth 8-6157] synthesizing module 'LMAC_CORE_TOP' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/LMAC_CORE_TOP.v:33]
+	Parameter FMAC_ID bound to: 10 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'tcore_fmac_core' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/tcore_fmac_core_LE2.v:33]
+	Parameter FMAC_ID bound to: 10 - type: integer 
+	Parameter RX_FIFO_DEPTH bound to: 4096 - type: integer 
+	Parameter RX_FIFO_ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter RX_DRAM_DEPTH bound to: 3072 - type: integer 
+	Parameter RX_DRAM_ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter OVERSIZE_MARK bound to: 9022 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'txfifo_1024x64' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/txfifo_1024x64.v:32]
+	Parameter WIDTH bound to: 64 - type: integer 
+	Parameter DEPTH bound to: 1024 - type: integer 
+	Parameter PTR bound to: 10 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'txfifo_ip_1024x64' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/txfifo_ip_1024x64_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'txfifo_ip_1024x64' (7#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/txfifo_ip_1024x64_stub.v:6]
+WARNING: [Synth 8-350] instance 'txfifo_ip_1024x64' of module 'txfifo_ip_1024x64' requires 11 connections, but only 9 given [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/txfifo_1024x64.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'txfifo_1024x64' (8#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/txfifo_1024x64.v:32]
+INFO: [Synth 8-6157] synthesizing module 'gige_tx_encap' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_tx_encap.v:32]
+	Parameter IDLE bound to: 8'b00000001 
+	Parameter READSIZE bound to: 8'b00000010 
+	Parameter READ1 bound to: 8'b00000100 
+	Parameter WAIT bound to: 8'b00001000 
+	Parameter MAC_DAT bound to: 8'b00010000 
+	Parameter P_REQ bound to: 8'b00100000 
+	Parameter P_PREAM bound to: 8'b01000000 
+	Parameter P_PKT bound to: 8'b10000000 
+INFO: [Synth 8-6155] done synthesizing module 'gige_tx_encap' (9#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_tx_encap.v:32]
+INFO: [Synth 8-6157] synthesizing module 'gige_tx_gmii' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_tx_gmii.v:33]
+	Parameter IDLE bound to: 6'b000001 
+	Parameter GET_WAIT1 bound to: 6'b000010 
+	Parameter GET_WAIT2 bound to: 6'b000100 
+	Parameter TX_DAT bound to: 6'b001000 
+	Parameter TX_CRC bound to: 6'b010000 
+	Parameter WAIT_S bound to: 6'b100000 
+	Parameter DAT_I bound to: 9'b000000001 
+	Parameter DAT_0 bound to: 9'b000000010 
+	Parameter DAT_1 bound to: 9'b000000100 
+	Parameter DAT_2 bound to: 9'b000001000 
+	Parameter DAT_3 bound to: 9'b000010000 
+	Parameter DAT_4 bound to: 9'b000100000 
+	Parameter DAT_5 bound to: 9'b001000000 
+	Parameter DAT_6 bound to: 9'b010000000 
+	Parameter DAT_7 bound to: 9'b100000000 
+INFO: [Synth 8-6157] synthesizing module 'gige_crc32x64' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_crc32x64.v:30]
+	Parameter IDLE bound to: 3'b001 
+	Parameter CALC bound to: 3'b010 
+	Parameter WAIT1 bound to: 3'b100 
+INFO: [Synth 8-6155] done synthesizing module 'gige_crc32x64' (10#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_crc32x64.v:30]
+WARNING: [Synth 8-6014] Unused sequential element IDLE_sel_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_tx_gmii.v:230]
+INFO: [Synth 8-6155] done synthesizing module 'gige_tx_gmii' (11#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_tx_gmii.v:33]
+INFO: [Synth 8-6157] synthesizing module 'fmac_fifo4Kx64' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/fmac_fifo4Kx64.v:32]
+	Parameter WIDTH bound to: 64 - type: integer 
+	Parameter DEPTH bound to: 4096 - type: integer 
+	Parameter PTR bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'rxfifo_ip_4Kx64' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/rxfifo_ip_4Kx64_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rxfifo_ip_4Kx64' (12#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/rxfifo_ip_4Kx64_stub.v:6]
+WARNING: [Synth 8-350] instance 'rxfifo_ip_4Kx64' of module 'rxfifo_ip_4Kx64' requires 11 connections, but only 9 given [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/fmac_fifo4Kx64.v:86]
+INFO: [Synth 8-6155] done synthesizing module 'fmac_fifo4Kx64' (13#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/fmac_fifo4Kx64.v:32]
+INFO: [Synth 8-6157] synthesizing module 'fmac_fifo4Kx8' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/fmac_fifo4Kx8.v:32]
+	Parameter WIDTH bound to: 8 - type: integer 
+	Parameter DEPTH bound to: 4096 - type: integer 
+	Parameter PTR bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'pktctrl_fifo_ip' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/pktctrl_fifo_ip_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pktctrl_fifo_ip' (14#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/pktctrl_fifo_ip_stub.v:6]
+WARNING: [Synth 8-350] instance 'pktctrl_fifo_ip' of module 'pktctrl_fifo_ip' requires 11 connections, but only 9 given [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/fmac_fifo4Kx8.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'fmac_fifo4Kx8' (15#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/fmac_fifo4Kx8.v:32]
+INFO: [Synth 8-6157] synthesizing module 'fmac_fifo512x64_2clk' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/fmac_fifo512x64_2clk.v:31]
+	Parameter WIDTH bound to: 64 - type: integer 
+	Parameter DEPTH bound to: 512 - type: integer 
+	Parameter PTR bound to: 9 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ipcs_fifo_ip' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/ipcs_fifo_ip_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ipcs_fifo_ip' (16#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/ipcs_fifo_ip_stub.v:6]
+WARNING: [Synth 8-350] instance 'ipcs_fifo_ip' of module 'ipcs_fifo_ip' requires 11 connections, but only 9 given [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/fmac_fifo512x64_2clk.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'fmac_fifo512x64_2clk' (17#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/fmac_fifo512x64_2clk.v:31]
+INFO: [Synth 8-6157] synthesizing module 'tcore_rx_xgmii' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:33]
+	Parameter RX_DRAM_DEPTH bound to: 3072 - type: integer 
+	Parameter RX_DRAM_ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter MAX_RSVD_SIZE bound to: 16'b0000010010000010 
+	Parameter MAX_ALLOW bound to: 16'b0000101111110000 
+INFO: [Synth 8-6157] synthesizing module 'eth_crc32_gen' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/eth_crc32_gen.v:48]
+	Parameter CRC_DWIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'bsh32_dn_88' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/bsh32_dn_88.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'bsh32_dn_88' (18#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/bsh32_dn_88.v:34]
+INFO: [Synth 8-6157] synthesizing module 'bsh8_dn_64' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/bsh8_dn_64.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'bsh8_dn_64' (19#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/bsh8_dn_64.v:34]
+INFO: [Synth 8-6157] synthesizing module 'crc32_d64' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/crc32_d64.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'crc32_d64' (20#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/crc32_d64.v:34]
+INFO: [Synth 8-6157] synthesizing module 'crc32_d8s' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/crc32_d8s.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'crc32_d8s' (21#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/crc32_d8s.v:34]
+INFO: [Synth 8-6157] synthesizing module 'crc32_d16s' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/crc32_d16s.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'crc32_d16s' (22#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/crc32_d16s.v:34]
+INFO: [Synth 8-6157] synthesizing module 'crc32_d24s' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/crc32_d24s.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'crc32_d24s' (23#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/crc32_d24s.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'eth_crc32_gen' (24#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/eth_crc32_gen.v:48]
+INFO: [Synth 8-226] default block is never used [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:1469]
+WARNING: [Synth 8-6014] Unused sequential element qwd0_data_dly1_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:419]
+WARNING: [Synth 8-6014] Unused sequential element first_time_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:513]
+WARNING: [Synth 8-6014] Unused sequential element raddr_chk_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:544]
+WARNING: [Synth 8-6014] Unused sequential element upd_cnt_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:492]
+WARNING: [Synth 8-6014] Unused sequential element wrusedw_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:573]
+WARNING: [Synth 8-6014] Unused sequential element post_sof_dly_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:578]
+WARNING: [Synth 8-6014] Unused sequential element pkt_slice_en_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:1016]
+WARNING: [Synth 8-6014] Unused sequential element sof_n_eof_dly2_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:1021]
+INFO: [Synth 8-4471] merging register 'clr_carry_cast_reg' into 'ok_clk250_dly4_reg' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:1204]
+INFO: [Synth 8-4471] merging register 'drx_pkt_data_reg[63:0]' into 'pkt_data_reg[63:0]' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:1439]
+WARNING: [Synth 8-6014] Unused sequential element clr_carry_cast_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:1204]
+WARNING: [Synth 8-6014] Unused sequential element drx_pkt_data_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:1439]
+INFO: [Synth 8-6155] done synthesizing module 'tcore_rx_xgmii' (25#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:33]
+INFO: [Synth 8-6157] synthesizing module 'rx_decap' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:32]
+	Parameter FMAC_ID bound to: 10 - type: integer 
+	Parameter RX_FIFO_DEPTH bound to: 4096 - type: integer 
+	Parameter RX_FIFO_ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter RX_DRAM_DEPTH bound to: 3072 - type: integer 
+	Parameter RX_DRAM_ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter XON_MARK bound to: 3072 - type: integer 
+	Parameter XOFF_MARK bound to: 1024 - type: integer 
+	Parameter IDLE bound to: 8'b00000001 
+	Parameter GET_CNT bound to: 8'b00000010 
+	Parameter GET_WT1 bound to: 8'b00000100 
+	Parameter RAM_WT1 bound to: 8'b00001000 
+	Parameter GET_WT2 bound to: 8'b00010000 
+	Parameter RX_DAT bound to: 8'b00100000 
+	Parameter RX_WT bound to: 8'b01000000 
+	Parameter RX_DONE bound to: 8'b10000000 
+	Parameter RX_FIFO_CHK bound to: 14'b00111100000000 
+	Parameter KNOWN_PKT_SIZE bound to: 16'b0000000000111100 
+	Parameter SWITCH_PKT bound to: 16'b0000000100000000 
+	Parameter XIDLE bound to: 4'b0001 
+	Parameter XREQ1 bound to: 4'b0010 
+	Parameter XDONE1 bound to: 4'b0100 
+	Parameter XREQ2 bound to: 4'b1000 
+	Parameter RX_PKT_CNT_ADDR bound to: 10'b0000101000 
+	Parameter RX_BYTE_CNT_ADDR bound to: 10'b0000111000 
+	Parameter PKT_CNT_OVERSIZE_ADDR bound to: 10'b0001100000 
+	Parameter PKT_CNT_JABBER_ADDR bound to: 10'b0001111000 
+	Parameter PKT_CNT_FRAGMENT_ADDR bound to: 10'b0010000000 
+	Parameter PKT_RCV_ADDR64 bound to: 10'b0000000000 
+	Parameter PKT_RCV_ADDR127 bound to: 10'b0000001000 
+	Parameter PKT_RCV_ADDR255 bound to: 10'b0000010000 
+	Parameter PKT_RCV_ADDR511 bound to: 10'b0000011000 
+	Parameter PKT_RCV_ADDR1023 bound to: 10'b0000100000 
+	Parameter PKT_RCV_ADDR1518 bound to: 10'b0000101000 
+	Parameter PKT_RCV_ADDR2047 bound to: 10'b0000110000 
+	Parameter PKT_RCV_ADDR4095 bound to: 10'b0000111000 
+	Parameter PKT_RCV_ADDR8191 bound to: 10'b0001000000 
+	Parameter PKT_RCV_ADDR9018 bound to: 10'b0001001000 
+	Parameter PKT_RCV_ADDR9022 bound to: 10'b0001010000 
+	Parameter PKT_RCV_ADDR9199P bound to: 10'b0001011000 
+	Parameter PKT_RCV_ADDR_BCAST bound to: 10'b0001100000 
+	Parameter PKT_RCV_ADDR_MCAST bound to: 10'b0001101000 
+INFO: [Synth 8-155] case statement is not full and has no default [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:690]
+WARNING: [Synth 8-6014] Unused sequential element fmac_rxd_en156_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:326]
+WARNING: [Synth 8-6014] Unused sequential element bdata_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:328]
+WARNING: [Synth 8-6014] Unused sequential element fifo_din_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:329]
+WARNING: [Synth 8-6014] Unused sequential element upd_cnt_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:331]
+WARNING: [Synth 8-6014] Unused sequential element crc32_vld_dly1__reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:442]
+WARNING: [Synth 8-6014] Unused sequential element crc32_vld_dly2__reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:443]
+WARNING: [Synth 8-6014] Unused sequential element rx_stop_load_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:567]
+WARNING: [Synth 8-6014] Unused sequential element raddr_err_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:568]
+WARNING: [Synth 8-6014] Unused sequential element rsize_err_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:569]
+WARNING: [Synth 8-6014] Unused sequential element dbg_trig_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:571]
+WARNING: [Synth 8-6014] Unused sequential element dbg_trig2_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:572]
+WARNING: [Synth 8-6014] Unused sequential element not_my_pkt_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:574]
+WARNING: [Synth 8-6014] Unused sequential element fifo_stuck_trig_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:575]
+WARNING: [Synth 8-6014] Unused sequential element rx_fifo_ok_out_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:577]
+WARNING: [Synth 8-6014] Unused sequential element reach_xon_mark_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:625]
+WARNING: [Synth 8-6014] Unused sequential element reach_xoff_mark_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:626]
+WARNING: [Synth 8-6014] Unused sequential element xreq_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:628]
+WARNING: [Synth 8-6014] Unused sequential element xon_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:629]
+WARNING: [Synth 8-6014] Unused sequential element xstate_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:631]
+WARNING: [Synth 8-6014] Unused sequential element state_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:308]
+WARNING: [Synth 8-6014] Unused sequential element raddr_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:682]
+WARNING: [Synth 8-6014] Unused sequential element wr_en_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:683]
+WARNING: [Synth 8-6014] Unused sequential element bdata_vld_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:685]
+WARNING: [Synth 8-6014] Unused sequential element pre_stat_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:774]
+WARNING: [Synth 8-6014] Unused sequential element pre_stat2_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:775]
+WARNING: [Synth 8-6014] Unused sequential element rx_cnt_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:776]
+WARNING: [Synth 8-6014] Unused sequential element rptr_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:778]
+WARNING: [Synth 8-6014] Unused sequential element empty_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:779]
+WARNING: [Synth 8-6014] Unused sequential element has_pkt_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:780]
+WARNING: [Synth 8-6014] Unused sequential element ld_byte_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:782]
+WARNING: [Synth 8-6014] Unused sequential element ld_port_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:783]
+WARNING: [Synth 8-6014] Unused sequential element b2b_pkt_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:784]
+WARNING: [Synth 8-6014] Unused sequential element crc_we__reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:786]
+WARNING: [Synth 8-6014] Unused sequential element crc_last__reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:787]
+WARNING: [Synth 8-6014] Unused sequential element crc_cnt_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:788]
+WARNING: [Synth 8-6014] Unused sequential element advance_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:292]
+WARNING: [Synth 8-6014] Unused sequential element rewind_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:791]
+WARNING: [Synth 8-6014] Unused sequential element hold_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:793]
+WARNING: [Synth 8-6014] Unused sequential element raddr_marker_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:794]
+WARNING: [Synth 8-6014] Unused sequential element vlan_mode_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:796]
+WARNING: [Synth 8-6014] Unused sequential element normal_ip_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:797]
+WARNING: [Synth 8-6014] Unused sequential element non_ip_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:798]
+WARNING: [Synth 8-6014] Unused sequential element csum_abort_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:799]
+WARNING: [Synth 8-6014] Unused sequential element pkt_qwd_cnt_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:1536]
+WARNING: [Synth 8-6014] Unused sequential element bdata_dly1_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:1537]
+WARNING: [Synth 8-6014] Unused sequential element ipp_offset_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:1538]
+WARNING: [Synth 8-6014] Unused sequential element ip_dlen_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:1539]
+WARNING: [Synth 8-6014] Unused sequential element ipp_start_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:1540]
+WARNING: [Synth 8-6014] Unused sequential element mac_en1_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:1542]
+WARNING: [Synth 8-6014] Unused sequential element mac_en2_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:1543]
+WARNING: [Synth 8-6014] Unused sequential element csum_ack_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:1545]
+INFO: [Synth 8-6155] done synthesizing module 'rx_decap' (26#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'tcore_fmac_core' (27#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/tcore_fmac_core_LE2.v:33]
+INFO: [Synth 8-6157] synthesizing module 'tcore_byte_reordering' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/byte_reordering.v:33]
+	Parameter LINK_FAIL bound to: 3'b001 
+	Parameter LINK_RCVR bound to: 3'b010 
+	Parameter LINK_GOOD bound to: 3'b100 
+INFO: [Synth 8-6157] synthesizing module 'br_sfifo4x32' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/br_sfifo4x32.v:32]
+	Parameter WIDTH bound to: 32 - type: integer 
+	Parameter DEPTH bound to: 4 - type: integer 
+	Parameter PTR bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'br_sfifo_ip_4x32' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/br_sfifo_ip_4x32_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'br_sfifo_ip_4x32' (28#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/br_sfifo_ip_4x32_stub.v:6]
+WARNING: [Synth 8-350] instance 'br_sfifo_ip_4x32' of module 'br_sfifo_ip_4x32' requires 11 connections, but only 9 given [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/br_sfifo4x32.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'br_sfifo4x32' (29#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/br_sfifo4x32.v:32]
+WARNING: [Synth 8-6014] Unused sequential element raw_sof_cnt156_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/byte_reordering.v:186]
+WARNING: [Synth 8-6014] Unused sequential element raw_eof_cnt156_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/byte_reordering.v:187]
+WARNING: [Synth 8-6014] Unused sequential element any_sof_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/byte_reordering.v:426]
+WARNING: [Synth 8-6014] Unused sequential element any_eof_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/byte_reordering.v:427]
+INFO: [Synth 8-6155] done synthesizing module 'tcore_byte_reordering' (30#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/byte_reordering.v:33]
+INFO: [Synth 8-6157] synthesizing module 'gige_rx' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_rx.v:31]
+INFO: [Synth 8-6157] synthesizing module 'gige_s2p' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:33]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:84]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:107]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:108]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:122]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:124]
+INFO: [Synth 8-5534] Detected attribute (* KEEP = "TRUE" *) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:127]
+WARNING: [Synth 8-6014] Unused sequential element ctrl_in_dly_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:137]
+WARNING: [Synth 8-6014] Unused sequential element insert_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:140]
+WARNING: [Synth 8-6014] Unused sequential element sof_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:142]
+WARNING: [Synth 8-6014] Unused sequential element eof_seen_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:146]
+WARNING: [Synth 8-6014] Unused sequential element count_data_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:442]
+WARNING: [Synth 8-6014] Unused sequential element pdet_in_dly_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:601]
+WARNING: [Synth 8-6014] Unused sequential element pdet_in_dly_1_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:602]
+INFO: [Synth 8-6155] done synthesizing module 'gige_s2p' (31#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v:33]
+INFO: [Synth 8-6157] synthesizing module 'gigerx_fifo256x64_2clk' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gigerx_fifo256x64_2clk.v:32]
+	Parameter WIDTH bound to: 64 - type: integer 
+	Parameter DEPTH bound to: 256 - type: integer 
+	Parameter PTR bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'gigerx_fifo_ip_256x64' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/gigerx_fifo_ip_256x64_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'gigerx_fifo_ip_256x64' (32#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/gigerx_fifo_ip_256x64_stub.v:6]
+WARNING: [Synth 8-350] instance 'gigerx_fifo_ip_256x64' of module 'gigerx_fifo_ip_256x64' requires 11 connections, but only 9 given [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gigerx_fifo256x64_2clk.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'gigerx_fifo256x64_2clk' (33#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gigerx_fifo256x64_2clk.v:32]
+INFO: [Synth 8-6157] synthesizing module 'gigerx_fifo256x8' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gigerx_fifo256x8.v:32]
+	Parameter WIDTH bound to: 8 - type: integer 
+	Parameter DEPTH bound to: 256 - type: integer 
+	Parameter PTR bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'gigerx_fifo_ip_256x8' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/gigerx_fifo_ip_256x8_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'gigerx_fifo_ip_256x8' (34#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/gigerx_fifo_ip_256x8_stub.v:6]
+WARNING: [Synth 8-350] instance 'gigerx_fifo_ip_256x8' of module 'gigerx_fifo_ip_256x8' requires 11 connections, but only 9 given [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gigerx_fifo256x8.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'gigerx_fifo256x8' (35#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gigerx_fifo256x8.v:32]
+INFO: [Synth 8-6157] synthesizing module 'gigerx_bcnt_fifo256x16' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gigerx_bcnt_fifo256x16.v:32]
+	Parameter WIDTH bound to: 16 - type: integer 
+	Parameter DEPTH bound to: 256 - type: integer 
+	Parameter PTR bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'gigerx_bcnt_fifo_ip_256x16' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/gigerx_bcnt_fifo_ip_256x16_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'gigerx_bcnt_fifo_ip_256x16' (36#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/.Xil/Vivado-5655-ubeluga/realtime/gigerx_bcnt_fifo_ip_256x16_stub.v:6]
+WARNING: [Synth 8-350] instance 'gigerx_bcnt_fifo_ip_256x16' of module 'gigerx_bcnt_fifo_ip_256x16' requires 11 connections, but only 9 given [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gigerx_bcnt_fifo256x16.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'gigerx_bcnt_fifo256x16' (37#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gigerx_bcnt_fifo256x16.v:32]
+INFO: [Synth 8-6157] synthesizing module 'g2x_ctrl' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/g2x_ctrl.v:31]
+	Parameter GF_IDLE bound to: 8'b00000001 
+	Parameter GF_RD_BCNT bound to: 8'b00000010 
+	Parameter GF_BCNT_BUF bound to: 8'b00000100 
+	Parameter GF_RD_DATA bound to: 8'b00001000 
+	Parameter GF_DONE bound to: 8'b10000000 
+INFO: [Synth 8-6155] done synthesizing module 'g2x_ctrl' (38#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/g2x_ctrl.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'gige_rx' (39#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_rx.v:31]
+INFO: [Synth 8-6157] synthesizing module 'fmac_register_if' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/fmac_register_if_LE2.v:33]
+	Parameter FMAC_CTRL_addr bound to: 10'b0000000000 
+	Parameter FMAC_TX_PKT_CNT_addr bound to: 10'b0000100000 
+	Parameter FMAC_RX_PKT_CNT_addr bound to: 10'b0000101000 
+	Parameter FMAC_TX_BYTE_CNT_addr bound to: 10'b0000110000 
+	Parameter FMAC_RX_BYTE_CNT_addr bound to: 10'b0000111000 
+	Parameter FMAC_RX_UNDERSIZE_PKT_CNT_addr bound to: 10'b0001000000 
+	Parameter FMAC_RX_CRC_ERR_CNT_addr bound to: 10'b0001001000 
+	Parameter FMAC_DCNT_OVERRUN_addr bound to: 10'b0001010000 
+	Parameter FMAC_DCNT_LINK_ERR_addr bound to: 10'b0001011000 
+	Parameter FMAC_PKT_CNT_OVERSIZE_addr bound to: 10'b0001100000 
+	Parameter FMAC_PHY_STAT_addr bound to: 10'b0001101000 
+	Parameter FMAC_CTRL1_addr bound to: 10'b0001110000 
+	Parameter FMAC_PKT_CNT_JABBER_addr bound to: 10'b0001111000 
+	Parameter FMAC_PKT_CNT_FRAGMENT_addr bound to: 10'b0010000000 
+	Parameter FMAC_RAW_FRAME_CNT_addr bound to: 10'b0010001000 
+	Parameter FMAC_BAD_FRAMESOF_CNT_addr bound to: 10'b0010010000 
+INFO: [Synth 8-6155] done synthesizing module 'fmac_register_if' (40#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/fmac_register_if_LE2.v:33]
+INFO: [Synth 8-4471] merging register 'reg_rd_done_out_reg' into 'reg_rd_done_reg' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/LMAC_CORE_TOP.v:470]
+WARNING: [Synth 8-6014] Unused sequential element reg_rd_done_out_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/LMAC_CORE_TOP.v:470]
+INFO: [Synth 8-6155] done synthesizing module 'LMAC_CORE_TOP' (41#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/LMAC_CORE_TOP.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'LMAC_SYNTH' (42#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'LMAC_DFIFO_TOP' (43#1) [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_DFIFO_TOP.v:4]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[32]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[31]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[30]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[29]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[28]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[27]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[26]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[25]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[24]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[23]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[22]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[21]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[20]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[19]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[18]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[17]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[16]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[15]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[14]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[13]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[12]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[11]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[10]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[9]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[8]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[7]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[6]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[5]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[4]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[3]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[2]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[1]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT64_LO[0]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[32]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[31]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[30]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[29]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[28]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[27]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[26]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[25]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[24]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[23]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[22]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[21]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[20]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[19]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[18]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[17]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[16]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[15]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[14]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[13]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[12]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[11]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[10]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[9]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[8]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[7]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[6]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[5]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[4]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[3]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[2]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[1]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT127_LO[0]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[32]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[31]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[30]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[29]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[28]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[27]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[26]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[25]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[24]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[23]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[22]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[21]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[20]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[19]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[18]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[17]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[16]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[15]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[14]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[13]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[12]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[11]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[10]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[9]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[8]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[7]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[6]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[5]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[4]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[3]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[2]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[1]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT255_LO[0]
+WARNING: [Synth 8-3331] design fmac_register_if has unconnected port FMAC_RX_PKT_CNT511_LO[32]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1674.332 ; gain = 0.000 ; free physical = 5612 ; free virtual = 13980
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1674.332 ; gain = 0.000 ; free physical = 5459 ; free virtual = 13827
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1674.332 ; gain = 0.000 ; free physical = 5459 ; free virtual = 13827
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu15eg-ffvb1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/RX_DFIFO_BCNT/RX_DFIFO_BCNT/TX_DFIFO_BCNT_in_context.xdc] for cell 'DFIFO_BRIDGE_RX/RX_DFIFO_BCNT_16x16'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/RX_DFIFO_BCNT/RX_DFIFO_BCNT/TX_DFIFO_BCNT_in_context.xdc] for cell 'DFIFO_BRIDGE_RX/RX_DFIFO_BCNT_16x16'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/TX_DFIFO_BCNT_1/TX_DFIFO_BCNT/TX_DFIFO_BCNT_in_context.xdc] for cell 'DFIFO_BRIDGE_TX/TX_DFIFO_BCNT_16x16'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/TX_DFIFO_BCNT_1/TX_DFIFO_BCNT/TX_DFIFO_BCNT_in_context.xdc] for cell 'DFIFO_BRIDGE_TX/TX_DFIFO_BCNT_16x16'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/TX_DFIFO_1/TX_DFIFO/TX_DFIFO_in_context.xdc] for cell 'DFIFO_BRIDGE_TX/TX_DFIFO_256x64'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/TX_DFIFO_1/TX_DFIFO/TX_DFIFO_in_context.xdc] for cell 'DFIFO_BRIDGE_TX/TX_DFIFO_256x64'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/rxfifo_ip_4Kx64/rxfifo_ip_4Kx64/rxfifo_ip_4Kx64_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo/rxfifo_ip_4Kx64'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/rxfifo_ip_4Kx64/rxfifo_ip_4Kx64/rxfifo_ip_4Kx64_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo/rxfifo_ip_4Kx64'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/pktctrl_fifo_ip/pktctrl_fifo_ip/pktctrl_fifo_ip_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/core/pktctrl_fifo/pktctrl_fifo_ip'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/pktctrl_fifo_ip/pktctrl_fifo_ip/pktctrl_fifo_ip_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/core/pktctrl_fifo/pktctrl_fifo_ip'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/ipcs_fifo_ip/ipcs_fifo_ip/ipcs_fifo_ip_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/core/ipcs_fifo/ipcs_fifo_ip'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/ipcs_fifo_ip/ipcs_fifo_ip/ipcs_fifo_ip_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/core/ipcs_fifo/ipcs_fifo_ip'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/br_sfifo_ip_4x32/br_sfifo_ip_4x32/br_sfifo_ip_4x32_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/byte_reordering/rf_sfifo/br_sfifo_ip_4x32'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/br_sfifo_ip_4x32/br_sfifo_ip_4x32/br_sfifo_ip_4x32_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/byte_reordering/rf_sfifo/br_sfifo_ip_4x32'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/br_sfifo_ip_4x32/br_sfifo_ip_4x32/br_sfifo_ip_4x32_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/byte_reordering/bfsof_sfifo/br_sfifo_ip_4x32'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/br_sfifo_ip_4x32/br_sfifo_ip_4x32/br_sfifo_ip_4x32_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/byte_reordering/bfsof_sfifo/br_sfifo_ip_4x32'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/gigerx_fifo_ip_256x64/gigerx_fifo_ip_256x64/gigerx_fifo_ip_256x64_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/gigerx_fifo256x64_2clk/gigerx_fifo_ip_256x64'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/gigerx_fifo_ip_256x64/gigerx_fifo_ip_256x64/gigerx_fifo_ip_256x64_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/gigerx_fifo256x64_2clk/gigerx_fifo_ip_256x64'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/gigerx_fifo_ip_256x8/gigerx_fifo_ip_256x8/gigerx_fifo_ip_256x8_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/gigerx_fifo256x8/gigerx_fifo_ip_256x8'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/gigerx_fifo_ip_256x8/gigerx_fifo_ip_256x8/gigerx_fifo_ip_256x8_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/gigerx_fifo256x8/gigerx_fifo_ip_256x8'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/gigerx_bcnt_fifo_ip_256x16/gigerx_bcnt_fifo_ip_256x16/gigerx_bcnt_fifo_ip_256x16_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/gigerx_bcnt_fifo256x16/gigerx_bcnt_fifo_ip_256x16'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/gigerx_bcnt_fifo_ip_256x16/gigerx_bcnt_fifo_ip_256x16/gigerx_bcnt_fifo_ip_256x16_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/gigerx_bcnt_fifo256x16/gigerx_bcnt_fifo_ip_256x16'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/txfifo_ip_1024x64/txfifo_ip_1024x64/txfifo_ip_1024x64_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/core/txfifo/txfifo_ip_1024x64'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/txfifo_ip_1024x64/txfifo_ip_1024x64/txfifo_ip_1024x64_in_context.xdc] for cell 'LMAC_SYNTH/LMAC_CORE_TOP/core/txfifo/txfifo_ip_1024x64'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/RX_DFIFO/RX_DFIFO/RX_DFIFO_in_context.xdc] for cell 'DFIFO_BRIDGE_RX/RX_DFIFO_32x64'
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/RX_DFIFO/RX_DFIFO/RX_DFIFO_in_context.xdc] for cell 'DFIFO_BRIDGE_RX/RX_DFIFO_32x64'
+Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2507.129 ; gain = 0.000 ; free physical = 4523 ; free virtual = 12892
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 2507.129 ; gain = 832.797 ; free physical = 4617 ; free virtual = 12986
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu15eg-ffvb1156-2-e
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 2507.129 ; gain = 832.797 ; free physical = 4617 ; free virtual = 12986
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for DFIFO_BRIDGE_RX/RX_DFIFO_BCNT_16x16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DFIFO_BRIDGE_TX/TX_DFIFO_BCNT_16x16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DFIFO_BRIDGE_TX/TX_DFIFO_256x64. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo/rxfifo_ip_4Kx64. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for LMAC_SYNTH/LMAC_CORE_TOP/core/pktctrl_fifo/pktctrl_fifo_ip. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for LMAC_SYNTH/LMAC_CORE_TOP/core/ipcs_fifo/ipcs_fifo_ip. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for LMAC_SYNTH/LMAC_CORE_TOP/byte_reordering/rf_sfifo/br_sfifo_ip_4x32. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for LMAC_SYNTH/LMAC_CORE_TOP/byte_reordering/bfsof_sfifo/br_sfifo_ip_4x32. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/gigerx_fifo256x64_2clk/gigerx_fifo_ip_256x64. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/gigerx_fifo256x8/gigerx_fifo_ip_256x8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/gigerx_bcnt_fifo256x16/gigerx_bcnt_fifo_ip_256x16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for LMAC_SYNTH/LMAC_CORE_TOP/core/txfifo/txfifo_ip_1024x64. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DFIFO_BRIDGE_RX/RX_DFIFO_32x64. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 2507.129 ; gain = 832.797 ; free physical = 4621 ; free virtual = 12989
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "tx_fifo_bcnt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "m_axis_tkeep" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/gige_tx_encap.v:189]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'gige_tx_encap'
+INFO: [Synth 8-5546] ROM "pulse_10" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'gige_crc32x64'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'gige_tx_gmii'
+INFO: [Synth 8-802] inferred FSM for state register 'gstate_reg' in module 'gige_tx_gmii'
+INFO: [Synth 8-5546] ROM "gmii_tx_en2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gstate0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gstate1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gstate1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gstate1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gstate1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gstate1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gstate0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "gstate0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "chk_crc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bcnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pre_pkt_beat_bcnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'tcore_byte_reordering'
+INFO: [Synth 8-5544] ROM "link_cnt" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "eof0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "data_flag" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "gf_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "gige_data_fifo_re0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'fsm243435500'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'fsm1325AFD00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'gstate_reg' in module 'fsm1325AFD01'
+WARNING: [Synth 8-327] inferring latch for variable 'pre_pkt_we_wire_reg' [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v:1329]
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'fsm169A01B00'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 2507.129 ; gain = 832.797 ; free physical = 4617 ; free virtual = 12987
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 15    
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     16 Bit       Adders := 19    
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 5     
++---XORs : 
+	   2 Input     64 Bit         XORs := 1     
+	   2 Input     32 Bit         XORs := 3     
+	   2 Input      1 Bit         XORs := 252   
+	   3 Input      1 Bit         XORs := 87    
+	  32 Input      1 Bit         XORs := 2     
+	  38 Input      1 Bit         XORs := 3     
+	  37 Input      1 Bit         XORs := 3     
+	  28 Input      1 Bit         XORs := 3     
+	   4 Input      1 Bit         XORs := 43    
+	   7 Input      1 Bit         XORs := 20    
+	  12 Input      1 Bit         XORs := 2     
+	  19 Input      1 Bit         XORs := 4     
+	  27 Input      1 Bit         XORs := 2     
+	   5 Input      1 Bit         XORs := 35    
+	  11 Input      1 Bit         XORs := 2     
+	  21 Input      1 Bit         XORs := 5     
+	  23 Input      1 Bit         XORs := 5     
+	  15 Input      1 Bit         XORs := 3     
+	  30 Input      1 Bit         XORs := 1     
+	  41 Input      1 Bit         XORs := 1     
+	  35 Input      1 Bit         XORs := 1     
+	  20 Input      1 Bit         XORs := 4     
+	  25 Input      1 Bit         XORs := 4     
+	  31 Input      1 Bit         XORs := 2     
+	  18 Input      1 Bit         XORs := 6     
+	   9 Input      1 Bit         XORs := 6     
+	  24 Input      1 Bit         XORs := 4     
+	  22 Input      1 Bit         XORs := 3     
+	  26 Input      1 Bit         XORs := 1     
+	  34 Input      1 Bit         XORs := 2     
+	   8 Input      1 Bit         XORs := 11    
+	  16 Input      1 Bit         XORs := 2     
+	  17 Input      1 Bit         XORs := 1     
+	  14 Input      1 Bit         XORs := 1     
+	   6 Input      1 Bit         XORs := 27    
+	  10 Input      1 Bit         XORs := 3     
++---Registers : 
+	               64 Bit    Registers := 20    
+	               48 Bit    Registers := 2     
+	               33 Bit    Registers := 16    
+	               32 Bit    Registers := 26    
+	               16 Bit    Registers := 22    
+	               14 Bit    Registers := 2     
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 4     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 5     
+	                8 Bit    Registers := 29    
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 7     
+	                3 Bit    Registers := 7     
+	                1 Bit    Registers := 305   
++---Muxes : 
+	   2 Input     88 Bit        Muxes := 2     
+	   6 Input     64 Bit        Muxes := 2     
+	   2 Input     64 Bit        Muxes := 33    
+	   4 Input     64 Bit        Muxes := 2     
+	   9 Input     64 Bit        Muxes := 1     
+	   2 Input     48 Bit        Muxes := 1     
+	   2 Input     33 Bit        Muxes := 32    
+	   2 Input     32 Bit        Muxes := 24    
+	   8 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 1     
+	   9 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 21    
+	   5 Input     16 Bit        Muxes := 1     
+	   9 Input     16 Bit        Muxes := 3     
+	   7 Input     16 Bit        Muxes := 1     
+	  10 Input     16 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 2     
+	   3 Input     16 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 4     
+	   6 Input     12 Bit        Muxes := 1     
+	   4 Input      9 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 9     
+	  10 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 16    
+	   9 Input      8 Bit        Muxes := 2     
+	  17 Input      8 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 1     
+	  10 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 3     
+	   3 Input      7 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 18    
+	   4 Input      6 Bit        Muxes := 1     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 15    
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 31    
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 16    
+	   8 Input      3 Bit        Muxes := 2     
+	  10 Input      3 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 15    
+	   2 Input      1 Bit        Muxes := 208   
+	   6 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 11    
+	   7 Input      1 Bit        Muxes := 5     
+	  10 Input      1 Bit        Muxes := 9     
+	   4 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module DFIFO_BRIDGE_TX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 6     
++---Registers : 
+	               64 Bit    Registers := 2     
+	               16 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   6 Input     64 Bit        Muxes := 2     
+	   2 Input     64 Bit        Muxes := 2     
+	   4 Input     64 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 3     
+	   5 Input     16 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+	   6 Input      1 Bit        Muxes := 1     
+Module DFIFO_BRIDGE_RX 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 16    
+	   2 Input      6 Bit        Muxes := 9     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 32    
+Module gige_tx_encap 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               64 Bit    Registers := 2     
+	               16 Bit    Registers := 3     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 6     
+	   4 Input     64 Bit        Muxes := 1     
+	   9 Input     16 Bit        Muxes := 2     
+	   4 Input      9 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 5     
+	   9 Input      8 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 7     
+	   2 Input      4 Bit        Muxes := 3     
+	   9 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 24    
+	   9 Input      1 Bit        Muxes := 9     
+Module gige_crc32x64 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 52    
+	   3 Input      1 Bit         XORs := 13    
+	  32 Input      1 Bit         XORs := 2     
+	  38 Input      1 Bit         XORs := 3     
+	  37 Input      1 Bit         XORs := 3     
+	  28 Input      1 Bit         XORs := 2     
+	   4 Input      1 Bit         XORs := 5     
+	   7 Input      1 Bit         XORs := 4     
+	  12 Input      1 Bit         XORs := 1     
+	  19 Input      1 Bit         XORs := 2     
+	  27 Input      1 Bit         XORs := 2     
+	   5 Input      1 Bit         XORs := 3     
+	  11 Input      1 Bit         XORs := 1     
+	  21 Input      1 Bit         XORs := 1     
+	  23 Input      1 Bit         XORs := 3     
+	  15 Input      1 Bit         XORs := 1     
+	  30 Input      1 Bit         XORs := 1     
+	  41 Input      1 Bit         XORs := 1     
+	  35 Input      1 Bit         XORs := 1     
+	  20 Input      1 Bit         XORs := 1     
+	  25 Input      1 Bit         XORs := 2     
+	  31 Input      1 Bit         XORs := 2     
+	  18 Input      1 Bit         XORs := 1     
+	   9 Input      1 Bit         XORs := 1     
+	  24 Input      1 Bit         XORs := 1     
+	  22 Input      1 Bit         XORs := 1     
+	  26 Input      1 Bit         XORs := 1     
+	  34 Input      1 Bit         XORs := 2     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 7     
+	   2 Input     32 Bit        Muxes := 3     
+	   8 Input     32 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+Module gige_tx_gmii 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 6     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 4     
+	               32 Bit    Registers := 2     
+	               16 Bit    Registers := 5     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 7     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 5     
+	   7 Input     16 Bit        Muxes := 1     
+	  10 Input     16 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 8     
+	  10 Input      9 Bit        Muxes := 1     
+	  17 Input      8 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 1     
+	  10 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   3 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 8     
+	   2 Input      5 Bit        Muxes := 7     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 5     
+	   2 Input      2 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 32    
+	   7 Input      1 Bit        Muxes := 4     
+	  10 Input      1 Bit        Muxes := 8     
+Module bsh32_dn_88 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     88 Bit        Muxes := 2     
+Module crc32_d64 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 60    
+	   9 Input      1 Bit         XORs := 2     
+	  19 Input      1 Bit         XORs := 2     
+	   3 Input      1 Bit         XORs := 11    
+	  25 Input      1 Bit         XORs := 2     
+	  28 Input      1 Bit         XORs := 1     
+	   4 Input      1 Bit         XORs := 5     
+	  21 Input      1 Bit         XORs := 4     
+	  23 Input      1 Bit         XORs := 2     
+	  18 Input      1 Bit         XORs := 5     
+	  20 Input      1 Bit         XORs := 3     
+	  22 Input      1 Bit         XORs := 2     
+	   5 Input      1 Bit         XORs := 2     
+	  24 Input      1 Bit         XORs := 3     
+	   8 Input      1 Bit         XORs := 1     
+	  12 Input      1 Bit         XORs := 1     
+	  16 Input      1 Bit         XORs := 2     
+	  17 Input      1 Bit         XORs := 1     
+	  11 Input      1 Bit         XORs := 1     
+	  14 Input      1 Bit         XORs := 1     
+	  15 Input      1 Bit         XORs := 2     
+Module crc32_d8s 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 39    
+	   3 Input      1 Bit         XORs := 24    
+	   4 Input      1 Bit         XORs := 9     
+	   6 Input      1 Bit         XORs := 2     
+	   5 Input      1 Bit         XORs := 2     
+Module crc32_d16s 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 49    
+	   3 Input      1 Bit         XORs := 28    
+	   4 Input      1 Bit         XORs := 18    
+	   5 Input      1 Bit         XORs := 18    
+	   6 Input      1 Bit         XORs := 6     
+	   7 Input      1 Bit         XORs := 1     
+Module crc32_d24s 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 52    
+	   3 Input      1 Bit         XORs := 11    
+	   4 Input      1 Bit         XORs := 6     
+	   6 Input      1 Bit         XORs := 19    
+	   7 Input      1 Bit         XORs := 15    
+	   5 Input      1 Bit         XORs := 10    
+	   8 Input      1 Bit         XORs := 10    
+	   9 Input      1 Bit         XORs := 3     
+	  10 Input      1 Bit         XORs := 3     
+Module eth_crc32_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 2     
++---XORs : 
+	   2 Input     64 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 7     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+Module tcore_rx_xgmii 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 6     
+	               48 Bit    Registers := 2     
+	               32 Bit    Registers := 3     
+	               16 Bit    Registers := 5     
+	               14 Bit    Registers := 1     
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 3     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 85    
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input     48 Bit        Muxes := 1     
+	   8 Input     32 Bit        Muxes := 1     
+	   9 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 4     
+	   6 Input     12 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 6     
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 34    
+	  10 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+Module rx_decap 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 15    
++---Registers : 
+	               33 Bit    Registers := 16    
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	                1 Bit    Registers := 66    
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 32    
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 36    
+Module tcore_fmac_core 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module tcore_byte_reordering 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 2     
+	               32 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 22    
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 6     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 13    
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 1     
+Module gige_s2p 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	                8 Bit    Registers := 13    
+	                1 Bit    Registers := 37    
++---Muxes : 
+	   9 Input     64 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 9     
+	   3 Input     16 Bit        Muxes := 1     
+	   9 Input     16 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 5     
+	   9 Input      8 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 18    
+	   4 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 10    
+	   9 Input      1 Bit        Muxes := 2     
+Module g2x_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     14 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module fmac_register_if 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 7     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 27    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module LMAC_CORE_TOP 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 3528 (col length:168)
+BRAMs: 1488 (col length: RAMB18 168 RAMB36 84)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "gmii_tx_en2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "pre_pkt_beat_bcnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bcnt" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "gige_tx_encap/pulse_10" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element g2x_ctrl/dbg_reg was removed.  [/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_RTL/LMAC_CORE_TOP/g2x_ctrl.v:105]
+INFO: [Synth 8-5546] ROM "g2x_ctrl/gige_data_fifo_re0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/g2x_ctrl/gf_state_reg[4]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/gige_s2p/real_los_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/g2x_ctrl/gf_state_reg[5]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/gige_s2p/real_los_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/g2x_ctrl/gf_state_reg[6]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/gige_rx/gige_s2p/real_los_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LMAC_SYNTH/LMAC_CORE_TOP /\gige_rx/gige_s2p/real_los_reg )
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_ctrl_dly_reg[9]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_ctrl1_dly_reg[16]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_ctrl_dly_reg[8]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_ctrl1_dly_reg[16]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_ctrl_dly_reg[1]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_ctrl1_dly_reg[16]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_register_if/STAT_GROUP_addr_reg[0]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_ctrl1_dly_reg[16]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_register_if/STAT_GROUP_addr_reg[1]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_ctrl1_dly_reg[16]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_register_if/STAT_GROUP_addr_reg[2]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_ctrl1_dly_reg[16]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_ctrl1_dly_reg[16]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/fmac_ctrl1_dly_reg[17]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LMAC_SYNTH/LMAC_CORE_TOP /\fmac_ctrl1_dly_reg[17] )
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[0]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[1]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[1]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[2]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[2]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[3]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[3]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[4]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[4]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[5]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[6]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[6]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[7]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[7]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[8]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/b2b_cnt_val_reg[8]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LMAC_SYNTH/LMAC_CORE_TOP /core/rx_xgmii/\rport_reg[0] )
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[61]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[48]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[56]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[43]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[58]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[42]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[50]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[40]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[60]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[59]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[52]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[44]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[36]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[28]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[60]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[57]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[62]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[12]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[4]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[43]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[20]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[55]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[49]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[41]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[57]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[23]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[47]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[25]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[43]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[17]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[22]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[9]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[1]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[43]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[33]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[46]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[54]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[24]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[43]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[32]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[39]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[43]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[23]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[31]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[43]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[45]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[37]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[53]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[21]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[29]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[43]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[43]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[35]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[35]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[27]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[27]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[26]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[19]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[26]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[11]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[3]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[51]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[30]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[14]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[6]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[38]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[8]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[0]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[16]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[7]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[5]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[26]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[13]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[26]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[18]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[10]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[2]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[34]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/p_data_reg[63]' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/state_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LMAC_SYNTH/LMAC_CORE_TOP /core/\gige_tx_encap/state_reg[5] )
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_gmii/nbytes_reg_reg[0]' (FDRE) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_gmii/nbytes_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_gmii/nbytes_reg_reg[1]' (FDRE) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_gmii/nbytes_reg_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LMAC_SYNTH/LMAC_CORE_TOP /core/gige_tx_gmii/\nbytes_reg_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\LMAC_SYNTH/LMAC_CORE_TOP /core/rx_xgmii/xaui_mode_reg)
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo_usedw_dbg_reg[0]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/rx_pause_sync_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo_usedw_dbg_reg[1]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/rx_pause_sync_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo_usedw_dbg_reg[2]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/rx_pause_sync_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo_usedw_dbg_reg[3]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/rx_pause_sync_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo_usedw_dbg_reg[4]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/rx_pause_sync_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo_usedw_dbg_reg[5]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/rx_pause_sync_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo_usedw_dbg_reg[6]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/rx_pause_sync_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo_usedw_dbg_reg[7]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/rx_pause_sync_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo_usedw_dbg_reg[8]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/rx_pause_sync_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo_usedw_dbg_reg[9]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/rx_pause_sync_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo_usedw_dbg_reg[10]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/rx_pause_sync_reg'
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rxfifo_usedw_dbg_reg[11]' (FD) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/gige_tx_encap/rx_pause_sync_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LMAC_SYNTH/LMAC_CORE_TOP /core/\gige_tx_encap/rx_pause_sync_reg )
+INFO: [Synth 8-3886] merging instance 'LMAC_SYNTH/LMAC_CORE_TOP/core/rx_xgmii/sof_dly_reg' (FDR) to 'LMAC_SYNTH/LMAC_CORE_TOP/core/rx_xgmii/pre_pkt_start_reg'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\LMAC_SYNTH/LMAC_CORE_TOP /core/\gige_tx_encap/p_cnt_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\LMAC_SYNTH/LMAC_CORE_TOP /core/\gige_tx_encap/p_cnt_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\LMAC_SYNTH/LMAC_CORE_TOP /core/\gige_tx_encap/p_cnt_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (gige_tx_encap/state_reg[7]) is unused and will be removed from module tcore_fmac_core.
+WARNING: [Synth 8-3332] Sequential element (gige_tx_encap/state_reg[6]) is unused and will be removed from module tcore_fmac_core.
+WARNING: [Synth 8-3332] Sequential element (gige_crc32x64/crc32_vld__reg) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (nbytes_reg_reg[2]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (wcnt_reg[2]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (wcnt_reg[1]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (wcnt_reg[0]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[15]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[14]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[13]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[12]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[11]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[10]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[9]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[8]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[7]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[6]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[5]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[4]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (rbytes_reg_reg[3]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (gmii_tx_vld_reg) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (sent_reg) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (sent_dly_reg) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (statistic_ok_reg) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[31]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[30]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[29]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[28]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[27]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[26]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[25]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[24]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[23]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[22]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[21]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[20]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[19]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[18]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[17]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[16]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[15]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[14]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[13]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[12]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[11]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[10]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[9]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[8]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[7]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[6]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[5]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[4]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[3]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[2]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[1]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_PKT_CNT_reg[0]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[31]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[30]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[29]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[28]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[27]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[26]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[25]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[24]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[23]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[22]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[21]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[20]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[19]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[18]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[17]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[16]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[15]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[14]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[13]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[12]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[11]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[10]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[9]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[8]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[7]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[6]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[5]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[4]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[3]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[2]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[1]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (FMAC_TX_BYTE_CNT_reg[0]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (crc_cnt_reg[2]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (crc_cnt_reg[1]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (crc_cnt_reg[0]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (pdin_reg[7]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (pdin_reg[6]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (pdin_reg[5]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (pdin_reg[4]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (pdin_reg[3]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (pdin_reg[2]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (pdin_reg[1]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (pdin_reg[0]) is unused and will be removed from module gige_tx_gmii.
+WARNING: [Synth 8-3332] Sequential element (eth_crc32_gen/crc_dout_s3_reg[31]) is unused and will be removed from module tcore_rx_xgmii.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:45 . Memory (MB): peak = 2507.129 ; gain = 832.797 ; free physical = 4584 ; free virtual = 12965
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:27 . Memory (MB): peak = 2703.676 ; gain = 1029.344 ; free physical = 4055 ; free virtual = 12437
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:02 ; elapsed = 00:01:28 . Memory (MB): peak = 2706.676 ; gain = 1032.344 ; free physical = 4099 ; free virtual = 12433
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:03 ; elapsed = 00:01:29 . Memory (MB): peak = 2758.441 ; gain = 1084.109 ; free physical = 4341 ; free virtual = 12432
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:03 ; elapsed = 00:01:29 . Memory (MB): peak = 2758.441 ; gain = 1084.109 ; free physical = 4406 ; free virtual = 12432
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:03 ; elapsed = 00:01:29 . Memory (MB): peak = 2758.441 ; gain = 1084.109 ; free physical = 4406 ; free virtual = 12432
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:03 ; elapsed = 00:01:30 . Memory (MB): peak = 2758.441 ; gain = 1084.109 ; free physical = 4406 ; free virtual = 12432
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:03 ; elapsed = 00:01:30 . Memory (MB): peak = 2758.441 ; gain = 1084.109 ; free physical = 4406 ; free virtual = 12432
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:03 ; elapsed = 00:01:30 . Memory (MB): peak = 2758.441 ; gain = 1084.109 ; free physical = 4406 ; free virtual = 12432
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:03 ; elapsed = 00:01:30 . Memory (MB): peak = 2758.441 ; gain = 1084.109 ; free physical = 4406 ; free virtual = 12432
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------------------+----------+
+|      |BlackBox name              |Instances |
++------+---------------------------+----------+
+|1     |RX_DFIFO                   |         1|
+|2     |RX_DFIFO_BCNT              |         1|
+|3     |TX_DFIFO                   |         1|
+|4     |TX_DFIFO_BCNT              |         1|
+|5     |br_sfifo_ip_4x32           |         2|
+|6     |ipcs_fifo_ip               |         1|
+|7     |pktctrl_fifo_ip            |         1|
+|8     |rxfifo_ip_4Kx64            |         1|
+|9     |txfifo_ip_1024x64          |         1|
+|10    |gigerx_bcnt_fifo_ip_256x16 |         1|
+|11    |gigerx_fifo_ip_256x64      |         1|
+|12    |gigerx_fifo_ip_256x8       |         1|
++------+---------------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------+------+
+|      |Cell                       |Count |
++------+---------------------------+------+
+|1     |RX_DFIFO                   |     1|
+|2     |RX_DFIFO_BCNT              |     1|
+|3     |TX_DFIFO                   |     1|
+|4     |TX_DFIFO_BCNT              |     1|
+|5     |br_sfifo_ip_4x32           |     1|
+|6     |br_sfifo_ip_4x32__2        |     1|
+|7     |gigerx_bcnt_fifo_ip_256x16 |     1|
+|8     |gigerx_fifo_ip_256x64      |     1|
+|9     |gigerx_fifo_ip_256x8       |     1|
+|10    |ipcs_fifo_ip               |     1|
+|11    |pktctrl_fifo_ip            |     1|
+|12    |rxfifo_ip_4Kx64            |     1|
+|13    |txfifo_ip_1024x64          |     1|
+|14    |BUFG                       |     2|
+|15    |CARRY8                     |    30|
+|16    |LUT1                       |    91|
+|17    |LUT2                       |   371|
+|18    |LUT3                       |   333|
+|19    |LUT4                       |   388|
+|20    |LUT5                       |   356|
+|21    |LUT6                       |  1049|
+|22    |MUXF7                      |    33|
+|23    |FDRE                       |  1596|
+|24    |FDSE                       |   353|
+|25    |IBUF                       |    53|
+|26    |OBUF                       |    49|
++------+---------------------------+------+
+
+Report Instance Areas: 
++------+-------------------------------+------------------------+------+
+|      |Instance                       |Module                  |Cells |
++------+-------------------------------+------------------------+------+
+|1     |top                            |                        |  5339|
+|2     |  DFIFO_BRIDGE_RX              |DFIFO_BRIDGE_RX         |   611|
+|3     |  DFIFO_BRIDGE_TX              |DFIFO_BRIDGE_TX         |   504|
+|4     |  LMAC_SYNTH                   |LMAC_SYNTH              |  4119|
+|5     |    LMAC_CORE_TOP              |LMAC_CORE_TOP           |  4042|
+|6     |      byte_reordering          |tcore_byte_reordering   |   459|
+|7     |        bfsof_sfifo            |br_sfifo4x32            |    40|
+|8     |        rf_sfifo               |br_sfifo4x32__xdcDup__1 |    40|
+|9     |      core                     |tcore_fmac_core         |  2549|
+|10    |        gige_tx_encap          |gige_tx_encap           |   407|
+|11    |        gige_tx_gmii           |gige_tx_gmii            |  1396|
+|12    |          gige_crc32x64        |gige_crc32x64           |   777|
+|13    |        ipcs_fifo              |fmac_fifo512x64_2clk    |    77|
+|14    |        pktctrl_fifo           |fmac_fifo4Kx8           |    24|
+|15    |        rx_xgmii               |tcore_rx_xgmii          |   435|
+|16    |        rxfifo                 |fmac_fifo4Kx64          |    80|
+|17    |        txfifo                 |txfifo_1024x64          |   129|
+|18    |      gige_rx                  |gige_rx                 |  1032|
+|19    |        g2x_ctrl               |g2x_ctrl                |   239|
+|20    |        gige_s2p               |gige_s2p                |   655|
+|21    |        gigerx_bcnt_fifo256x16 |gigerx_bcnt_fifo256x16  |    42|
+|22    |        gigerx_fifo256x64_2clk |gigerx_fifo256x64_2clk  |    76|
+|23    |        gigerx_fifo256x8       |gigerx_fifo256x8        |    20|
++------+-------------------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:03 ; elapsed = 00:01:30 . Memory (MB): peak = 2758.441 ; gain = 1084.109 ; free physical = 4406 ; free virtual = 12432
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2497 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:50 ; elapsed = 00:01:09 . Memory (MB): peak = 2758.441 ; gain = 251.312 ; free physical = 4445 ; free virtual = 12471
+Synthesis Optimization Complete : Time (s): cpu = 00:01:04 ; elapsed = 00:01:30 . Memory (MB): peak = 2758.449 ; gain = 1084.109 ; free physical = 4446 ; free virtual = 12472
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 118 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 55 instances were transformed.
+  BUFG => BUFGCE: 2 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 53 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+280 Infos, 291 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:31 . Memory (MB): peak = 2790.457 ; gain = 1124.129 ; free physical = 4443 ; free virtual = 12469
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE_IP/LMAC_DFIFO_BRIDGE.runs/synth_1/LMAC_DFIFO_TOP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file LMAC_DFIFO_TOP_utilization_synth.rpt -pb LMAC_DFIFO_TOP_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.28 ; elapsed = 00:00:00.32 . Memory (MB): peak = 2814.469 ; gain = 0.000 ; free physical = 4442 ; free virtual = 12468
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  8 14:28:05 2019...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Apr  7 09:59:24 2019
+# Process ID: 7651
+# Current directory: /home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE/LMAC_DFIFO_BRIDGE.runs/gigerx_bcnt_fifo_ip_256x16_synth_1
+# Command line: vivado -log gigerx_bcnt_fifo_ip_256x16.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source gigerx_bcnt_fifo_ip_256x16.tcl
+# Log file: /home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE/LMAC_DFIFO_BRIDGE.runs/gigerx_bcnt_fifo_ip_256x16_synth_1/gigerx_bcnt_fifo_ip_256x16.vds
+# Journal file: /home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE/LMAC_DFIFO_BRIDGE.runs/gigerx_bcnt_fifo_ip_256x16_synth_1/vivado.jou
+#-----------------------------------------------------------
+source gigerx_bcnt_fifo_ip_256x16.tcl -notrace

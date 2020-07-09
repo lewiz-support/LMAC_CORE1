@@ -1,0 +1,2 @@
+ipcs_fifo_ip.v,verilog,xil_defaultlib,../../../../LMAC_DFIFO_BRIDGE.srcs/sources_1/ip/ipcs_fifo_ip/sim/ipcs_fifo_ip.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

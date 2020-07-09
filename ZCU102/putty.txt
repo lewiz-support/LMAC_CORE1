@@ -1,0 +1,645 @@
+//RUN - 1
+
+***LPRINTs
+***Going to ProgramSi570
+***Inside ProgramSi570
+***IN I2cSetupHardware
+***DONE XIicPs_LookupConfig
+***DONE XIicPs_CfgInitialize
+***DONE: Perform a self-test to ensure that the hardware was built correctly.
+***DONE: Set the IIC serial clock rate.
+***DONE: Set the selection of the I2C Mux on the ZCU102.
+***Done I2cSetupHardware
+Read reg 0x07, value: 0x01
+Read reg 0x08, value: 0xC2
+Read reg 0x09, value: 0xBC
+Read reg 0x0A, value: 0x01
+Read reg 0x0B, value: 0x0A
+Read reg 0x0C, value: 0x1C
+***READ_Done
+***Freeze DCO
+Writing to reg 0x87, value: 0x10
+***Write the seven divider regsiters with value for 125MHz.
+Writing to reg 0x07, value: 0x21
+Writing to reg 0x08, value: 0xC2
+Writing to reg 0x09, value: 0xBC
+Writing to reg 0x0A, value: 0x01
+Writing to reg 0x0B, value: 0x1E
+Writing to reg 0x0C, value: 0xB8
+***Unfreeze DCO
+Writing to reg 0x87, value: 0x00
+***WRITE_Done
+***Read the registers again to verify if the values are correctly written.
+Read reg 0x07, value: 0x21
+Read reg 0x08, value: 0xC2
+Read reg 0x09, value: 0xBC
+Read reg 0x0A, value: 0x01
+Read reg 0x0B, value: 0x1E
+Read reg 0x0C, value: 0xB8
+***READ_Done
+***Done ProgramSi570
+***Going to Reset the PHY only.
+***DONE: Reset the PHY only.
+
+
+--- Starting PING Test ---
+
+--- DONE: XAxiDma_LookupConfig ---
+
+--- DONE: XAxiDma_CfgInitialize ---
+
+--- DONE: TxSetup ---
+
+--- IN: RxSetup ---
+
+--- DONE: XAxiDma_BdRingIntDisable ---
+
+--- DONE: XAxiDma_BdRingSetCoalesce ---
+
+--- DONE: Setup Rx BD space ---
+
+--- DONE: XAxiDma_BdRingCreate ---
+
+--- DONE: Setup an all-zero BD as the template for the Rx channel. ---
+
+--- DONE: Attach buffers to RxBD ring so we are ready to receive packets. ---
+
+--- DONE: RxSetup ---
+
+F4 8E 38 B0 2D 02 00 12
+32 FF FF FF 08 00 45 00
+00 54 6A 2C 40 00 40 01
+3F A8 C0 A8 07 D5 C0 A8
+07 AF 08 00 C7 93 71 98
+00 01 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+--- DONE: Allocate a BD ---
+
+--- DONE: Setup the BD ---
+
+--- DONE: SendPacket 1 ---
+
+F4 8E 38 B0 2D 02 00 12
+32 FF FF FF 08 00 45 00
+00 54 6A 2C 40 00 40 01
+3F A8 C0 A8 07 D5 C0 A8
+07 AF 08 00 C7 92 71 98
+00 02 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+--- DONE: Allocate a BD ---
+
+--- DONE: Setup the BD ---
+
+--- DONE: SendPacket 2 ---
+
+F4 8E 38 B0 2D 02 00 12
+32 FF FF FF 08 00 45 00
+00 54 6A 2C 40 00 40 01
+3F A8 C0 A8 07 D5 C0 A8
+07 AF 08 00 C7 91 71 98
+00 03 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+--- DONE: Allocate a BD ---
+
+--- DONE: Setup the BD ---
+
+--- DONE: SendPacket 3 ---
+
+F4 8E 38 B0 2D 02 00 12
+32 FF FF FF 08 00 45 00
+00 54 6A 2C 40 00 40 01
+3F A8 C0 A8 07 D5 C0 A8
+07 AF 08 00 C7 90 71 98
+00 04 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+--- DONE: Allocate a BD ---
+
+--- DONE: Setup the BD ---
+
+--- DONE: SendPacket 4 ---
+
+--- Inside: CheckDmaResult ---
+
+--- DONE: Wait until the one BD TX transaction is done ---
+
+--- DONE: Free all processed TX BDs for future transmission ---
+
+--- Inside: CheckData ---
+
+--- Done: Read RxPacket ---
+
+00 12 32 FF FF FF F4 8E
+38 B0 2D 02 08 00 45 00
+00 54 85 36 00 00 40 01
+64 9E C0 A8 07 AF C0 A8
+07 D5 00 00 CF 93 71 98
+00 01 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+
+00 12 32 FF FF FF F4 8E
+38 B0 2D 02 08 00 45 00
+00 54 85 3D 00 00 40 01
+64 97 C0 A8 07 AF C0 A8
+07 D5 00 00 CF 92 71 98
+00 02 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+
+00 12 32 FF FF FF F4 8E
+38 B0 2D 02 08 00 45 00
+00 54 85 40 00 00 40 01
+64 94 C0 A8 07 AF C0 A8
+07 D5 00 00 CF 91 71 98
+00 03 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+
+00 12 32 FF FF FF F4 8E
+38 B0 2D 02 08 00 45 00
+00 54 85 49 00 00 40 01
+64 8B C0 A8 07 AF C0 A8
+07 D5 00 00 CF 90 71 98
+00 04 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+
+--- DONE: CheckDmaResult ---
+***Successfully ran the PING Test.
+
+
+
+
+//RUN - 2
+
+***LPRINTs
+***Going to ProgramSi570
+***Inside ProgramSi570
+***IN I2cSetupHardware
+***DONE XIicPs_LookupConfig
+***DONE XIicPs_CfgInitialize
+***DONE: Perform a self-test to ensure that the hardware was built correctly.
+***DONE: Set the IIC serial clock rate.
+***DONE: Set the selection of the I2C Mux on the ZCU102.
+***Done I2cSetupHardware
+Read reg 0x07, value: 0x21
+Read reg 0x08, value: 0xC2
+Read reg 0x09, value: 0xBC
+Read reg 0x0A, value: 0x01
+Read reg 0x0B, value: 0x1E
+Read reg 0x0C, value: 0xB8
+***READ_Done
+***Freeze DCO
+Writing to reg 0x87, value: 0x10
+***Write the seven divider regsiters with value for 125MHz.
+Writing to reg 0x07, value: 0x21
+Writing to reg 0x08, value: 0xC2
+Writing to reg 0x09, value: 0xBC
+Writing to reg 0x0A, value: 0x01
+Writing to reg 0x0B, value: 0x1E
+Writing to reg 0x0C, value: 0xB8
+***Unfreeze DCO
+Writing to reg 0x87, value: 0x00
+***WRITE_Done
+***Read the registers again to verify if the values are correctly written.
+Read reg 0x07, value: 0x21
+Read reg 0x08, value: 0xC2
+Read reg 0x09, value: 0xBC
+Read reg 0x0A, value: 0x01
+Read reg 0x0B, value: 0x1E
+Read reg 0x0C, value: 0xB8
+***READ_Done
+***Done ProgramSi570
+***Going to Reset the PHY only.
+***DONE: Reset the PHY only.
+
+
+--- Starting PING Test ---
+
+--- DONE: XAxiDma_LookupConfig ---
+
+--- DONE: XAxiDma_CfgInitialize ---
+
+--- DONE: TxSetup ---
+
+--- IN: RxSetup ---
+
+--- DONE: XAxiDma_BdRingIntDisable ---
+
+--- DONE: XAxiDma_BdRingSetCoalesce ---
+
+--- DONE: Setup Rx BD space ---
+
+--- DONE: XAxiDma_BdRingCreate ---
+
+--- DONE: Setup an all-zero BD as the template for the Rx channel. ---
+
+--- DONE: Attach buffers to RxBD ring so we are ready to receive packets. ---
+
+--- DONE: RxSetup ---
+
+F4 8E 38 B0 2D 02 00 12
+32 FF FF FF 08 00 45 00
+00 54 6A 2C 40 00 40 01
+3F A8 C0 A8 07 D5 C0 A8
+07 AF 08 00 C7 93 71 98
+00 01 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+--- DONE: Allocate a BD ---
+
+--- DONE: Setup the BD ---
+
+--- DONE: SendPacket 1 ---
+
+F4 8E 38 B0 2D 02 00 12
+32 FF FF FF 08 00 45 00
+00 54 6A 2C 40 00 40 01
+3F A8 C0 A8 07 D5 C0 A8
+07 AF 08 00 C7 92 71 98
+00 02 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+--- DONE: Allocate a BD ---
+
+--- DONE: Setup the BD ---
+
+--- DONE: SendPacket 2 ---
+
+F4 8E 38 B0 2D 02 00 12
+32 FF FF FF 08 00 45 00
+00 54 6A 2C 40 00 40 01
+3F A8 C0 A8 07 D5 C0 A8
+07 AF 08 00 C7 91 71 98
+00 03 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+--- DONE: Allocate a BD ---
+
+--- DONE: Setup the BD ---
+
+--- DONE: SendPacket 3 ---
+
+F4 8E 38 B0 2D 02 00 12
+32 FF FF FF 08 00 45 00
+00 54 6A 2C 40 00 40 01
+3F A8 C0 A8 07 D5 C0 A8
+07 AF 08 00 C7 90 71 98
+00 04 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+--- DONE: Allocate a BD ---
+
+--- DONE: Setup the BD ---
+
+--- DONE: SendPacket 4 ---
+
+--- Inside: CheckDmaResult ---
+
+--- DONE: Wait until the one BD TX transaction is done ---
+
+--- DONE: Free all processed TX BDs for future transmission ---
+
+--- Inside: CheckData ---
+
+--- Done: Read RxPacket ---
+
+00 12 32 FF FF FF F4 8E
+38 B0 2D 02 08 00 45 00
+00 54 8A 2B 00 00 40 01
+5F A9 C0 A8 07 AF C0 A8
+07 D5 00 00 CF 93 71 98
+00 01 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+
+00 12 32 FF FF FF F4 8E
+38 B0 2D 02 08 00 45 00
+00 54 8A 2D 00 00 40 01
+5F A7 C0 A8 07 AF C0 A8
+07 D5 00 00 CF 92 71 98
+00 02 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+
+00 12 32 FF FF FF F4 8E
+38 B0 2D 02 08 00 45 00
+00 54 8A 32 00 00 40 01
+5F A2 C0 A8 07 AF C0 A8
+07 D5 00 00 CF 91 71 98
+00 03 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+
+00 12 32 FF FF FF F4 8E
+38 B0 2D 02 08 00 45 00
+00 54 8A 34 00 00 40 01
+5F A0 C0 A8 07 AF C0 A8
+07 D5 00 00 CF 90 71 98
+00 04 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+
+--- DONE: CheckDmaResult ---
+***Successfully ran the PING Test.
+
+
+
+
+//RUN - 3
+
+***LPRINTs
+***Going to ProgramSi570
+***Inside ProgramSi570
+***IN I2cSetupHardware
+***DONE XIicPs_LookupConfig
+***DONE XIicPs_CfgInitialize
+***DONE: Perform a self-test to ensure that the hardware was built correctly.
+***DONE: Set the IIC serial clock rate.
+***DONE: Set the selection of the I2C Mux on the ZCU102.
+***Done I2cSetupHardware
+Read reg 0x07, value: 0x21
+Read reg 0x08, value: 0xC2
+Read reg 0x09, value: 0xBC
+Read reg 0x0A, value: 0x01
+Read reg 0x0B, value: 0x1E
+Read reg 0x0C, value: 0xB8
+***READ_Done
+***Freeze DCO
+Writing to reg 0x87, value: 0x10
+***Write the seven divider regsiters with value for 125MHz.
+Writing to reg 0x07, value: 0x21
+Writing to reg 0x08, value: 0xC2
+Writing to reg 0x09, value: 0xBC
+Writing to reg 0x0A, value: 0x01
+Writing to reg 0x0B, value: 0x1E
+Writing to reg 0x0C, value: 0xB8
+***Unfreeze DCO
+Writing to reg 0x87, value: 0x00
+***WRITE_Done
+***Read the registers again to verify if the values are correctly written.
+Read reg 0x07, value: 0x21
+Read reg 0x08, value: 0xC2
+Read reg 0x09, value: 0xBC
+Read reg 0x0A, value: 0x01
+Read reg 0x0B, value: 0x1E
+Read reg 0x0C, value: 0xB8
+***READ_Done
+***Done ProgramSi570
+***Going to Reset the PHY only.
+***DONE: Reset the PHY only.
+
+
+--- Starting PING Test ---
+
+--- DONE: XAxiDma_LookupConfig ---
+
+--- DONE: XAxiDma_CfgInitialize ---
+
+--- DONE: TxSetup ---
+
+--- IN: RxSetup ---
+
+--- DONE: XAxiDma_BdRingIntDisable ---
+
+--- DONE: XAxiDma_BdRingSetCoalesce ---
+
+--- DONE: Setup Rx BD space ---
+
+--- DONE: XAxiDma_BdRingCreate ---
+
+--- DONE: Setup an all-zero BD as the template for the Rx channel. ---
+
+--- DONE: Attach buffers to RxBD ring so we are ready to receive packets. ---
+
+--- DONE: RxSetup ---
+
+F4 8E 38 B0 2D 02 00 12
+32 FF FF FF 08 00 45 00
+00 54 6A 2C 40 00 40 01
+3F A8 C0 A8 07 D5 C0 A8
+07 AF 08 00 C7 93 71 98
+00 01 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+--- DONE: Allocate a BD ---
+
+--- DONE: Setup the BD ---
+
+--- DONE: SendPacket 1 ---
+
+F4 8E 38 B0 2D 02 00 12
+32 FF FF FF 08 00 45 00
+00 54 6A 2C 40 00 40 01
+3F A8 C0 A8 07 D5 C0 A8
+07 AF 08 00 C7 92 71 98
+00 02 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+--- DONE: Allocate a BD ---
+
+--- DONE: Setup the BD ---
+
+--- DONE: SendPacket 2 ---
+
+F4 8E 38 B0 2D 02 00 12
+32 FF FF FF 08 00 45 00
+00 54 6A 2C 40 00 40 01
+3F A8 C0 A8 07 D5 C0 A8
+07 AF 08 00 C7 91 71 98
+00 03 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+--- DONE: Allocate a BD ---
+
+--- DONE: Setup the BD ---
+
+--- DONE: SendPacket 3 ---
+
+F4 8E 38 B0 2D 02 00 12
+32 FF FF FF 08 00 45 00
+00 54 6A 2C 40 00 40 01
+3F A8 C0 A8 07 D5 C0 A8
+07 AF 08 00 C7 90 71 98
+00 04 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+--- DONE: Allocate a BD ---
+
+--- DONE: Setup the BD ---
+
+--- DONE: SendPacket 4 ---
+
+--- Inside: CheckDmaResult ---
+
+--- DONE: Wait until the one BD TX transaction is done ---
+
+--- DONE: Free all processed TX BDs for future transmission ---
+
+--- Inside: CheckData ---
+
+--- Done: Read RxPacket ---
+
+00 12 32 FF FF FF F4 8E
+38 B0 2D 02 08 00 45 00
+00 54 A9 8E 00 00 40 01
+40 46 C0 A8 07 AF C0 A8
+07 D5 00 00 CF 93 71 98
+00 01 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+
+00 12 32 FF FF FF F4 8E
+38 B0 2D 02 08 00 45 00
+00 54 A9 8F 00 00 40 01
+40 45 C0 A8 07 AF C0 A8
+07 D5 00 00 CF 92 71 98
+00 02 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+
+00 12 32 FF FF FF F4 8E
+38 B0 2D 02 08 00 45 00
+00 54 A9 90 00 00 40 01
+40 44 C0 A8 07 AF C0 A8
+07 D5 00 00 CF 91 71 98
+00 03 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+
+00 12 32 FF FF FF F4 8E
+38 B0 2D 02 08 00 45 00
+00 54 A9 93 00 00 40 01
+40 41 C0 A8 07 AF C0 A8
+07 D5 00 00 CF 90 71 98
+00 04 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 10 11 12 13 14 15
+16 17 18 19 1A 1B 1C 1D
+1E 1F 20 21 22 23 24 25
+26 27 28 29 2A 2B 2C 2D
+2E 2F 30 31 32 33 34 35
+36 37
+
+--- DONE: CheckDmaResult ---
+***Successfully ran the PING Test.
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="LMAC_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="LMAC_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3864664863fs"></ZoomStartTime>
+      <ZoomEndTime time="4053957684fs"></ZoomEndTime>
+      <Cursor1Time time="3988100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="164"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject type="logic" fp_name="/LMAC_TB/LMAC_DFIFO_TOP/DFIFO_BRIDGE_RX/lclk">
+      <obj_property name="ElementShortName">lclk</obj_property>
+      <obj_property name="ObjectShortName">lclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/LMAC_TB/LMAC_DFIFO_TOP/DFIFO_BRIDGE_RX/reset_">
+      <obj_property name="ElementShortName">reset_</obj_property>
+      <obj_property name="ObjectShortName">reset_</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/LMAC_TB/LMAC_DFIFO_TOP/DFIFO_BRIDGE_RX/ascii_rx_rd_state">
+      <obj_property name="ElementShortName">ascii_rx_rd_state[511:0]</obj_property>
+      <obj_property name="ObjectShortName">ascii_rx_rd_state[511:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/LMAC_TB/LMAC_DFIFO_TOP/DFIFO_BRIDGE_RX/dclk">
+      <obj_property name="ElementShortName">dclk</obj_property>
+      <obj_property name="ObjectShortName">dclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/LMAC_TB/LMAC_DFIFO_TOP/DFIFO_BRIDGE_RX/lclk">
+      <obj_property name="ElementShortName">lclk</obj_property>
+      <obj_property name="ObjectShortName">lclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/LMAC_TB/LMAC_DFIFO_TOP/DFIFO_BRIDGE_RX/reset_">
+      <obj_property name="ElementShortName">reset_</obj_property>
+      <obj_property name="ObjectShortName">reset_</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/LMAC_TB/LMAC_DFIFO_TOP/DFIFO_BRIDGE_RX/rx_mac_data">
+      <obj_property name="ElementShortName">rx_mac_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/LMAC_TB/LMAC_DFIFO_TOP/DFIFO_BRIDGE_RX/rx_mac_empty">
+      <obj_property name="ElementShortName">rx_mac_empty</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_empty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/LMAC_TB/LMAC_DFIFO_TOP/DFIFO_BRIDGE_RX/rx_mac_rd">
+      <obj_property name="ElementShortName">rx_mac_rd</obj_property>
+      <obj_property name="ObjectShortName">rx_mac_rd</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/LMAC_TB/LMAC_DFIFO_TOP/DFIFO_BRIDGE_RX/cs_fifo_rd_en">
+      <obj_property name="ElementShortName">cs_fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">cs_fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/LMAC_TB/LMAC_DFIFO_TOP/DFIFO_BRIDGE_RX/cs_fifo_empty">
+      <obj_property name="ElementShortName">cs_fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">cs_fifo_empty</obj_property>
+   </wvobject>
+</wave_config>

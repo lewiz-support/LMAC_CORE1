@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xczu15eg-ffvb1156-2-e" LaunchTime="1554758777">
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="LMAC_DFIFO_TOP_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DCP" Name="LMAC_DFIFO_TOP_routed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="LMAC_DFIFO_TOP_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BITSTR-LTX" Name="LMAC_DFIFO_TOP.ltx"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="LMAC_DFIFO_TOP_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="LMAC_DFIFO_TOP_reports.tcl"/>
+  <File Type="OPT-DCP" Name="LMAC_DFIFO_TOP_opt.dcp"/>
+  <File Type="OPT-DRC" Name="LMAC_DFIFO_TOP_drc_opted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="LMAC_DFIFO_TOP_physopt.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="LMAC_DFIFO_TOP_methodology_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="LMAC_DFIFO_TOP.drc"/>
+  <File Type="ROUTE-ERROR-DCP" Name="LMAC_DFIFO_TOP_routed_error.dcp"/>
+  <File Type="OPT-HWDEF" Name="LMAC_DFIFO_TOP.hwdef"/>
+  <File Type="ROUTE-TIMING-RPX" Name="LMAC_DFIFO_TOP_timing_summary_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="LMAC_DFIFO_TOP.mmi"/>
+  <File Type="ROUTE-BUS-SKEW" Name="LMAC_DFIFO_TOP_bus_skew_routed.rpt"/>
+  <File Type="BG-BGN" Name="LMAC_DFIFO_TOP.bgn"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="LMAC_DFIFO_TOP_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="LMAC_DFIFO_TOP_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="LMAC_DFIFO_TOP_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="LMAC_DFIFO_TOP.bit"/>
+  <File Type="ROUTE-STATUS-PB" Name="LMAC_DFIFO_TOP_route_status.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="LMAC_DFIFO_TOP_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="LMAC_DFIFO_TOP_clock_utilization_routed.rpt"/>
+  <File Type="BITSTR-BMM" Name="LMAC_DFIFO_TOP_bd.bmm"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="LMAC_DFIFO_TOP_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="LMAC_DFIFO_TOP_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIN" Name="LMAC_DFIFO_TOP.bin"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="LMAC_DFIFO_TOP_timing_summary_routed.rpt"/>
+  <File Type="BITSTR-NKY" Name="LMAC_DFIFO_TOP.nky"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="LMAC_DFIFO_TOP_postplace_pwropt.dcp"/>
+  <File Type="RDI-RDI" Name="LMAC_DFIFO_TOP.vdi"/>
+  <File Type="ROUTE-PWR" Name="LMAC_DFIFO_TOP_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="LMAC_DFIFO_TOP_drc_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="LMAC_DFIFO_TOP_route_status.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="LMAC_DFIFO_TOP_power_summary_routed.pb"/>
+  <File Type="PLACE-DCP" Name="LMAC_DFIFO_TOP_placed.dcp"/>
+  <File Type="ROUTE-PWR-RPX" Name="LMAC_DFIFO_TOP_power_routed.rpx"/>
+  <File Type="PWROPT-DCP" Name="LMAC_DFIFO_TOP_pwropt.dcp"/>
+  <File Type="PLACE-IO" Name="LMAC_DFIFO_TOP_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="LMAC_DFIFO_TOP_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="LMAC_DFIFO_TOP_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="LMAC_DFIFO_TOP_control_sets_placed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="LMAC_DFIFO_TOP.sysdef"/>
+  <File Type="ROUTE-TIMING-PB" Name="LMAC_DFIFO_TOP_timing_summary_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="LMAC_DFIFO_TOP.msk"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="LMAC_DFIFO_TOP_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="LMAC_DFIFO_TOP.tcl"/>
+  <File Type="BITSTR-RBT" Name="LMAC_DFIFO_TOP.rbt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/RX_DFIFO_BCNT/RX_DFIFO_BCNT.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/TX_DFIFO_BCNT_1/TX_DFIFO_BCNT.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/TX_DFIFO_1/TX_DFIFO.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_RX.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/DFIFO_BRIDGE/DFIFO_BRIDGE_TX.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/LMAC_CORE_TOP.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_SYNTH/LMAC_SYNTH.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/br_sfifo4x32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/bsh32_dn_88.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/bsh8_dn_64.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/byte_reordering.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/crc32_d16s.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/crc32_d24s.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/crc32_d64.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/crc32_d8s.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/eth_crc32_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/fmac_fifo4Kx64.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/fmac_fifo4Kx8.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/fmac_fifo512x64_2clk.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/fmac_register_if_LE2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/g2x_ctrl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/gige_crc32x64.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/gige_rx.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/gige_s2p.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/gige_tx_encap.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/gige_tx_gmii.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/gigerx_bcnt_fifo256x16.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/gigerx_fifo256x64_2clk.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/gigerx_fifo256x8.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/rx_decap_LE2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/rx_xgmii_LE2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/tcore_fmac_core_LE2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_CORE_TOP/txfifo_1024x64.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/LMAC_RTL/LMAC_DFIFO_TOP.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="LMAC_DFIFO_TOP"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="rxfifo_ip_4Kx64"/>
+  <BlockFileSet Type="BlockSrcs" Name="ipcs_fifo_ip"/>
+  <BlockFileSet Type="BlockSrcs" Name="gigerx_bcnt_fifo_ip_256x16"/>
+  <BlockFileSet Type="BlockSrcs" Name="gigerx_fifo_ip_256x8"/>
+  <BlockFileSet Type="BlockSrcs" Name="RX_DFIFO"/>
+  <BlockFileSet Type="BlockSrcs" Name="gigerx_fifo_ip_256x64"/>
+  <BlockFileSet Type="BlockSrcs" Name="pktctrl_fifo_ip"/>
+  <BlockFileSet Type="BlockSrcs" Name="br_sfifo_ip_4x32"/>
+  <BlockFileSet Type="BlockSrcs" Name="txfifo_ip_1024x64"/>
+</GenRun>

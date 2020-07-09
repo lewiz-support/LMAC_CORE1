@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="RX_DFIFO_synth_1" LaunchPart="xczu15eg-ffvb1156-2-e" LaunchTime="1554673189">
+  <File Type="RDS-UTIL-PB" Name="RX_DFIFO_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="RX_DFIFO_utilization_synth.rpt"/>
+  <File Type="RDS-RDS" Name="RX_DFIFO.vds"/>
+  <File Type="RDS-DCP" Name="RX_DFIFO.dcp"/>
+  <File Type="PA-TCL" Name="RX_DFIFO.tcl"/>
+  <File Type="REPORTS-TCL" Name="RX_DFIFO_reports.tcl"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/RX_DFIFO">
+    <File Path="$PSRCDIR/sources_1/ip/RX_DFIFO/RX_DFIFO.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="RX_DFIFO"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/RX_DFIFO">
+    <File Path="$PSRCDIR/sources_1/ip/RX_DFIFO/RX_DFIFO.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="RX_DFIFO"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

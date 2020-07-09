@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Apr  7 11:18:24 2019
+# Process ID: 12162
+# Current directory: /home/lewiz/sambashare/KIRATEY/RELEASE/runs_lmac_eth_1g_xczu9eg/ps_emio_eth_1g.runs/impl_1
+# Command line: vivado -log ps_emio_eth_1g_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ps_emio_eth_1g_wrapper.tcl -notrace
+# Log file: /home/lewiz/sambashare/KIRATEY/RELEASE/runs_lmac_eth_1g_xczu9eg/ps_emio_eth_1g.runs/impl_1/ps_emio_eth_1g_wrapper.vdi
+# Journal file: /home/lewiz/sambashare/KIRATEY/RELEASE/runs_lmac_eth_1g_xczu9eg/ps_emio_eth_1g.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source ps_emio_eth_1g_wrapper.tcl -notrace
