@@ -31,6 +31,12 @@ Make sure you check the FPGA chip on your ZCU102 board and use the correct FPGA 
 This project uses Xilinx's Zynq SoC Ultrascale+ FPGA on ZCU102 board with LWIP software as the base.
 It's intended to show the use of LeWiz LMAC1 IP core with SoC FPGA device and DMA.
 
+Make sure jumper J16 & J17 are set on your ZCU102 board to enable the 4 SFPs on the board.
+When the jumpers are open, they block the traffic from the SFP ports.
+The SFP port used for this design is SFP0, top-row to the right (when looking at the ports)
+0 X
+0 0
+
 ***IMPORTANT NOTES:
 - Project was tested on ZCU102 board with FPGA 'xczu15eg-ffvb1156-2-e' and VIVADO/SDK - 2018.2
 The board with LMAC1 was able to connect to the network and ping other systems on the network successfully.
