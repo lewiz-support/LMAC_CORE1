@@ -24,8 +24,23 @@
 //    Author: LeWiz Communications, Inc.
 
 ---- HISTORY:
-    9jul2020 - as of this date, people in Europe reported this is working in their set up
+
+
+-------- July 21, 2020
+***Changed the DMA Address and Data width to 64-bits.
+
+***Included files:
+- 'putty_4pkts.txt' and 'putty_10pkts.txt' contains the serial output from the FPGA Board and packets diplayed are on the DMA side.
+- The current software code in '.../LMAC_ETH_1G/LMAC_ETH_1G.sdk/hello_world/src/helloworld.c' will only send/receive 4 packets.
+- To modify the code to send/receive upto 10 packets, uncomment lines 289-310. This will first send/receive 4 packets and then send/receive 6 packets.
+- NOTE: If more packets are being received, the possibility of receiving broadcast or multicast packet is more. So the packet count is limited to 4 for now.
+--------
+
+
+-------- JULY 9, 2020 - as of this date, people in Europe reported this is working in their set up
 Make sure you check the FPGA chip on your ZCU102 board and use the correct FPGA device in your Vivado project.
+--------
+
 
 -----------------
 This project uses Xilinx's Zynq SoC Ultrascale+ FPGA on ZCU102 board with LWIP software as the base.
@@ -45,7 +60,7 @@ All the project files and code are provided here for the regular ZCU102 board.
 - The synthesis, implementation and bitstream generation is already done & released here for 'xczu9eg-ffvb1156-2-e' FPGA
 
 - The software provided will test simple ping packets for network compatibility
-- This software hard coded ping packets with fixed IP and MAC addresses (in .../runs_lmac_eth_1g/ps_emio_eth_1g.sdk/hello_world/src/helloworld.c)
+- This software hard coded ping packets with fixed IP and MAC addresses (in .../LMAC_ETH_1G/LMAC_ETH_1G.sdk/hello_world/src/helloworld.c)
 	In 'helloworld.c':
 		function: 'static int SendPacket(XAxiDma * AxiDmaInstPtr)'
 		variable: 'temp[0], temp[1], temp[2], temp[3]' which goes to TxPacket.   //you need to change the hard coded packets in these buffers
@@ -90,15 +105,13 @@ All the project files and code are provided here for the regular ZCU102 board.
 	? (192.168.7.213) at 00:12:32:ff:ff:ff [ether] PERM on enp1s0
 
 ***STEPS below will only work after above configurations:
-- Open Vivado, Load the ../runs_lmac_eth_1g/ps_emio_eth_1g.xpr file
+- Open Vivado, Load the ../LMAC_ETH_1G/LMAC_ETH_1G.xpr file
 - bitstream is already generated and exported in the SDK Directory for the 'xczu9eg-ffvb1156-2-e'
 - In vivado, goto FILE -> Launch SDK
 - Once SDK finishes loading the hardware files, build project 'hello_world'
 - Program FPGA
 - Then right click on 'hello_world' click "Run -> Launch on Hardware (System Debugger)"
 
-***Included files:
-- 'putty.txt' contains the serial output from the FPGA Board and packets diplayed are on the DMA side.
 
-- As you run the test in your network, you should capture the packets on the Destination Node
+***As you run the test in your network, you should capture the packets on the Destination Node
 to see the packets transmitted and received.

@@ -1,0 +1,1 @@
+vopt -64 +acc -l elaborate.log -L xil_defaultlib -L xpm -L fifo_generator_v13_2_2 -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.txwregif_fifo4x16_ip xil_defaultlib.glbl -o txwregif_fifo4x16_ip_opt

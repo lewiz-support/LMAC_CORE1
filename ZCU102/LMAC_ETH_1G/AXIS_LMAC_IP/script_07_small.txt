@@ -1,0 +1,3106 @@
+run 996ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {d5 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {8e 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {38 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {2d 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {02 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {08 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {45 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {24 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {5f 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {42 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {11 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {87 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {af 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {bf 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {66 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {05 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fe 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {10 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {0a 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f5 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {34 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {43 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {46 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {32 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {04 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {52 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {9b 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f2 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {db 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fd 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {d5 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {8e 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {38 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {2d 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {02 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {08 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {45 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {24 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {5f 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {42 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {11 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {87 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {af 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {bf 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {66 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {05 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fe 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {10 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {0a 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f5 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {34 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {43 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {46 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {32 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {04 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {52 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {9b 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f2 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {db 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fd 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {d5 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {8e 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {38 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {2d 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {02 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {08 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {45 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {24 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {5f 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {42 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {11 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {87 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {af 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {bf 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {66 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {05 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fe 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {10 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {0a 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f5 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {34 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {43 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {46 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {32 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {04 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {52 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {9b 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f2 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {db 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fd 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {d5 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {8e 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {38 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {2d 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {02 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {08 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {45 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {24 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {5f 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {42 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {11 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {87 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {af 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {bf 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {66 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {05 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fe 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {10 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {0a 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f5 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {34 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {43 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {46 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {32 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {04 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {52 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {9b 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f2 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {db 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fd 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {d5 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {8e 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {38 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {2d 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {02 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {08 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {45 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {24 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {5f 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {42 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {11 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {87 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {af 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {bf 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {66 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {05 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fe 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {10 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {0a 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f5 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {34 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {43 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {46 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {32 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {04 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {52 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {9b 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f2 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {db 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fd 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {d5 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {8e 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {38 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {2d 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {02 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {08 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {45 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {24 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {5f 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {42 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {11 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {87 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {af 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {bf 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {66 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {05 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fe 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {10 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {0a 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f5 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {34 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {43 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {46 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {32 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {04 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {52 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {9b 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f2 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {db 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fd 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {d5 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {8e 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {38 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {2d 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {02 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {08 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {45 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {24 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {5f 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {42 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {11 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {87 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {af 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {bf 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {66 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {05 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fe 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {10 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {0a 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f5 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {34 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {43 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {46 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {32 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {04 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {52 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {9b 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f2 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {db 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fd 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {55 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {d5 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {8e 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {38 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {2d 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {02 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {08 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {45 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {24 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {5f 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {42 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {40 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {11 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {b4 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {87 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {af 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {c0 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {a8 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {ff 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {bf 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {66 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {05 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fe 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {10 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {0a 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f5 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {34 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {43 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {46 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {32 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {04 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {00 0ns}
+
+run 8ns
+
+##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {52 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {9b 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {f2 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {1 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {db 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {fd 0ns}
+
+run 8ns
+
+##**##
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+add_force {/LMAC_TB/gmii_rx_dv} -radix hex {0 0ns}
+add_force {/LMAC_TB/gmii_rxd} -radix hex {07 0ns}
+
+run 8ns
+
+##**##
+
+remove_forces { {/LMAC_TB/gmii_rx_dv} }
+remove_forces { {/LMAC_TB/gmii_rxd} }
+
+run 2us

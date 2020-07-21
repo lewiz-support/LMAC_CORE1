@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="36">
+  <CompositeFile CompositeFileTopName="LMAC_ETH_1G" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1554672564"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1554672564"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1554672564"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1554672564"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip/LMAC_ETH_1G_zynq_ultra_ps_e_0_0/LMAC_ETH_1G_zynq_ultra_ps_e_0_0.xci" Type="IP">
+        <Instance HierarchyPath="zynq_ultra_ps_e_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_axi_dma_0_1/LMAC_ETH_1G_axi_dma_0_1.xci" Type="IP">
+        <Instance HierarchyPath="axi_dma_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_axi_smc_1/LMAC_ETH_1G_axi_smc_1.xci" Type="IP">
+        <Instance HierarchyPath="axi_smc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_rst_ps8_0_49M_1/LMAC_ETH_1G_rst_ps8_0_49M_1.xci" Type="IP">
+        <Instance HierarchyPath="rst_ps8_0_49M"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_ps8_0_axi_periph_1/LMAC_ETH_1G_ps8_0_axi_periph_1.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_AXIS_LMAC_IP_0_0/LMAC_ETH_1G_AXIS_LMAC_IP_0_0.xci" Type="IP">
+        <Instance HierarchyPath="AXIS_LMAC_IP_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_xlconstant_0_0/LMAC_ETH_1G_xlconstant_0_0.xci" Type="IP">
+        <Instance HierarchyPath="xlconstant_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_gig_ethernet_pcs_pma_0_0/LMAC_ETH_1G_gig_ethernet_pcs_pma_0_0.xci" Type="IP">
+        <Instance HierarchyPath="gig_ethernet_pcs_pma_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_c_counter_binary_0_0/LMAC_ETH_1G_c_counter_binary_0_0.xci" Type="IP">
+        <Instance HierarchyPath="c_counter_binary_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_xlslice_0_0/LMAC_ETH_1G_xlslice_0_0.xci" Type="IP">
+        <Instance HierarchyPath="xlslice_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_ila_0_0/LMAC_ETH_1G_ila_0_0.xci" Type="IP">
+        <Instance HierarchyPath="ila_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_util_ds_buf_0_0/LMAC_ETH_1G_util_ds_buf_0_0.xci" Type="IP">
+        <Instance HierarchyPath="util_ds_buf_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_util_ds_buf_1_0/LMAC_ETH_1G_util_ds_buf_1_0.xci" Type="IP">
+        <Instance HierarchyPath="util_ds_buf_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_c_counter_binary_1_0/LMAC_ETH_1G_c_counter_binary_1_0.xci" Type="IP">
+        <Instance HierarchyPath="c_counter_binary_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_xlslice_1_0/LMAC_ETH_1G_xlslice_1_0.xci" Type="IP">
+        <Instance HierarchyPath="xlslice_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_xlslice_2_0/LMAC_ETH_1G_xlslice_2_0.xci" Type="IP">
+        <Instance HierarchyPath="xlslice_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_xlslice_3_0/LMAC_ETH_1G_xlslice_3_0.xci" Type="IP">
+        <Instance HierarchyPath="xlslice_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_xlconcat_0_0/LMAC_ETH_1G_xlconcat_0_0.xci" Type="IP">
+        <Instance HierarchyPath="xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_xlconstant_1_0/LMAC_ETH_1G_xlconstant_1_0.xci" Type="IP">
+        <Instance HierarchyPath="xlconstant_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_xlconstant_2_0/LMAC_ETH_1G_xlconstant_2_0.xci" Type="IP">
+        <Instance HierarchyPath="xlconstant_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_xlconstant_3_0/LMAC_ETH_1G_xlconstant_3_0.xci" Type="IP">
+        <Instance HierarchyPath="xlconstant_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_xlconstant_4_0/LMAC_ETH_1G_xlconstant_4_0.xci" Type="IP">
+        <Instance HierarchyPath="xlconstant_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_xlconstant_5_0/LMAC_ETH_1G_xlconstant_5_0.xci" Type="IP">
+        <Instance HierarchyPath="xlconstant_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_auto_ds_0/LMAC_ETH_1G_auto_ds_0.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph/s00_couplers/auto_ds"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/LMAC_ETH_1G_auto_pc_0/LMAC_ETH_1G_auto_pc_0.xci" Type="IP">
+        <Instance HierarchyPath="ps8_0_axi_periph/s00_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="synth/LMAC_ETH_1G.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="sim/LMAC_ETH_1G.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="LMAC_ETH_1G_ooc.xdc" Type="XDC">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="OUT_OF_CONTEXT"/>
+      </File>
+      <File Name="hw_handoff/LMAC_ETH_1G.hwh" Type="HwHandoff">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="hw_handoff/LMAC_ETH_1G_bd.tcl">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="synth/LMAC_ETH_1G.hwdef">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

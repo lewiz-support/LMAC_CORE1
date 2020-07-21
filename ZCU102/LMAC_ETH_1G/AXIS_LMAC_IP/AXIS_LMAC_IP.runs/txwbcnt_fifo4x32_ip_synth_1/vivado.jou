@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Apr  7 11:50:58 2019
+# Process ID: 28837
+# Current directory: /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G/AXIS_LMAC_IP/AXIS_LMAC_IP.runs/txwbcnt_fifo4x32_ip_synth_1
+# Command line: vivado -log txwbcnt_fifo4x32_ip.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source txwbcnt_fifo4x32_ip.tcl
+# Log file: /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G/AXIS_LMAC_IP/AXIS_LMAC_IP.runs/txwbcnt_fifo4x32_ip_synth_1/txwbcnt_fifo4x32_ip.vds
+# Journal file: /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G/AXIS_LMAC_IP/AXIS_LMAC_IP.runs/txwbcnt_fifo4x32_ip_synth_1/vivado.jou
+#-----------------------------------------------------------
+source txwbcnt_fifo4x32_ip.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Apr  7 14:37:48 2019
+# Process ID: 6672
+# Current directory: /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.runs/LMAC_ETH_1G_c_counter_binary_1_0_synth_1
+# Command line: vivado -log LMAC_ETH_1G_c_counter_binary_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LMAC_ETH_1G_c_counter_binary_1_0.tcl
+# Log file: /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.runs/LMAC_ETH_1G_c_counter_binary_1_0_synth_1/LMAC_ETH_1G_c_counter_binary_1_0.vds
+# Journal file: /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.runs/LMAC_ETH_1G_c_counter_binary_1_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source LMAC_ETH_1G_c_counter_binary_1_0.tcl -notrace

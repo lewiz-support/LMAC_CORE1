@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="br_sfifo_ip_4x32_synth_1" LaunchDir="/home/lewiz/sambashare/KIRATEY/LMAC_DFIFO_BRIDGE/LMAC_DFIFO_BRIDGE.runs/br_sfifo_ip_4x32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-</Runs>
-

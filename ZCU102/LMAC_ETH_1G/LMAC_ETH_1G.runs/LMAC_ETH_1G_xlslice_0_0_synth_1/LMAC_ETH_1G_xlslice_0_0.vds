@@ -1,0 +1,321 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Apr  7 14:35:05 2019
+# Process ID: 6105
+# Current directory: /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.runs/LMAC_ETH_1G_xlslice_0_0_synth_1
+# Command line: vivado -log LMAC_ETH_1G_xlslice_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LMAC_ETH_1G_xlslice_0_0.tcl
+# Log file: /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.runs/LMAC_ETH_1G_xlslice_0_0_synth_1/LMAC_ETH_1G_xlslice_0_0.vds
+# Journal file: /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.runs/LMAC_ETH_1G_xlslice_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source LMAC_ETH_1G_xlslice_0_0.tcl -notrace
+Command: synth_design -top LMAC_ETH_1G_xlslice_0_0 -part xczu9eg-ffvb1156-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu9eg'
+INFO: [Common 17-86] Your Synthesis license expires in 25 day(s)
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6133 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1797.211 ; gain = 0.000 ; free physical = 2119 ; free virtual = 7142
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'LMAC_ETH_1G_xlslice_0_0' [/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_xlslice_0_0/synth/LMAC_ETH_1G_xlslice_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice' [/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 25 - type: integer 
+	Parameter DIN_TO bound to: 25 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice' (1#1) [/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'LMAC_ETH_1G_xlslice_0_0' (2#1) [/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_xlslice_0_0/synth/LMAC_ETH_1G_xlslice_0_0.v:57]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1797.211 ; gain = 0.000 ; free physical = 2127 ; free virtual = 7143
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1797.211 ; gain = 0.000 ; free physical = 2123 ; free virtual = 7140
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1797.211 ; gain = 0.000 ; free physical = 2123 ; free virtual = 7140
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraint will be written out.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.10 . Memory (MB): peak = 2496.664 ; gain = 0.000 ; free physical = 760 ; free virtual = 5776
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:27 . Memory (MB): peak = 2496.664 ; gain = 699.453 ; free physical = 808 ; free virtual = 5825
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu9eg-ffvb1156-2-e
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:27 . Memory (MB): peak = 2496.664 ; gain = 699.453 ; free physical = 808 ; free virtual = 5825
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:27 . Memory (MB): peak = 2496.664 ; gain = 699.453 ; free physical = 808 ; free virtual = 5825
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:27 . Memory (MB): peak = 2496.664 ; gain = 699.453 ; free physical = 808 ; free virtual = 5824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2520 (col length:168)
+BRAMs: 1824 (col length: RAMB18 168 RAMB36 84)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3330] design LMAC_ETH_1G_xlslice_0_0 has an empty top module
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design LMAC_ETH_1G_xlslice_0_0 has unconnected port Din[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 2496.664 ; gain = 699.453 ; free physical = 806 ; free virtual = 5823
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:01:14 . Memory (MB): peak = 2696.328 ; gain = 899.117 ; free physical = 1997 ; free virtual = 7040
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:01:14 . Memory (MB): peak = 2696.328 ; gain = 899.117 ; free physical = 1997 ; free virtual = 7040
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:01:14 . Memory (MB): peak = 2696.328 ; gain = 899.117 ; free physical = 1996 ; free virtual = 7040
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:01:15 . Memory (MB): peak = 2696.328 ; gain = 899.117 ; free physical = 1982 ; free virtual = 7026
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:01:15 . Memory (MB): peak = 2696.328 ; gain = 899.117 ; free physical = 1982 ; free virtual = 7026
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:01:15 . Memory (MB): peak = 2696.328 ; gain = 899.117 ; free physical = 1982 ; free virtual = 7026
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:01:15 . Memory (MB): peak = 2696.328 ; gain = 899.117 ; free physical = 1982 ; free virtual = 7026
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:01:15 . Memory (MB): peak = 2696.328 ; gain = 899.117 ; free physical = 1982 ; free virtual = 7026
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:01:15 . Memory (MB): peak = 2696.328 ; gain = 899.117 ; free physical = 1982 ; free virtual = 7026
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:01:15 . Memory (MB): peak = 2696.328 ; gain = 899.117 ; free physical = 1982 ; free virtual = 7026
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 32 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:53 . Memory (MB): peak = 2697.328 ; gain = 200.664 ; free physical = 2017 ; free virtual = 7061
+Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:01:15 . Memory (MB): peak = 2697.336 ; gain = 900.117 ; free physical = 2017 ; free virtual = 7061
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 64 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:01:15 . Memory (MB): peak = 2738.031 ; gain = 948.824 ; free physical = 1982 ; free virtual = 7028
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.runs/LMAC_ETH_1G_xlslice_0_0_synth_1/LMAC_ETH_1G_xlslice_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_xlslice_0_0/LMAC_ETH_1G_xlslice_0_0.xci
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_xczu9eg/LMAC_ETH_1G.runs/LMAC_ETH_1G_xlslice_0_0_synth_1/LMAC_ETH_1G_xlslice_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file LMAC_ETH_1G_xlslice_0_0_utilization_synth.rpt -pb LMAC_ETH_1G_xlslice_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.25 ; elapsed = 00:00:00.32 . Memory (MB): peak = 2742.031 ; gain = 0.000 ; free physical = 1945 ; free virtual = 6991
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  7 14:36:38 2019...
