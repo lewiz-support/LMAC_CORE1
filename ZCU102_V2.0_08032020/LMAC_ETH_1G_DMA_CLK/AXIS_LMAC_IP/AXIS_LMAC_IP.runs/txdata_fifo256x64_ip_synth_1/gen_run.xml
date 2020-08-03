@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="txdata_fifo256x64_ip_synth_1" LaunchPart="xczu15eg-ffvb1156-2-e" LaunchTime="1554663004">
+  <File Type="RDS-UTIL" Name="txdata_fifo256x64_ip_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="txdata_fifo256x64_ip_utilization_synth.pb"/>
+  <File Type="RDS-RDS" Name="txdata_fifo256x64_ip.vds"/>
+  <File Type="RDS-DCP" Name="txdata_fifo256x64_ip.dcp"/>
+  <File Type="PA-TCL" Name="txdata_fifo256x64_ip.tcl"/>
+  <File Type="REPORTS-TCL" Name="txdata_fifo256x64_ip_reports.tcl"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/txdata_fifo256x64_ip">
+    <File Path="$PSRCDIR/sources_1/ip/txdata_fifo256x64_ip/txdata_fifo256x64_ip.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="txdata_fifo256x64_ip"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/txdata_fifo256x64_ip">
+    <File Path="$PSRCDIR/sources_1/ip/txdata_fifo256x64_ip/txdata_fifo256x64_ip.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="txdata_fifo256x64_ip"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

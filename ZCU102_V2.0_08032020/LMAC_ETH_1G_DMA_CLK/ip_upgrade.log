@@ -1,0 +1,627 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Mon Apr  8 15:02:15 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_AXIS_LMAC_IP_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of LMAC_ETH_1G_AXIS_LMAC_IP_0_0 (lewiz:user:AXIS_LMAC_IP:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 09:49:38 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_AXIS_LMAC_IP_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of LMAC_ETH_1G_AXIS_LMAC_IP_0_0 (lewiz:user:AXIS_LMAC_IP:1.0) from (Rev. 6) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 14:20:43 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_AXIS_LMAC_IP_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of LMAC_ETH_1G_AXIS_LMAC_IP_0_0 (lewiz:user:AXIS_LMAC_IP:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:12:54 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_AXIS_LMAC_IP_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of LMAC_ETH_1G_AXIS_LMAC_IP_0_0 (lewiz:user:AXIS_LMAC_IP:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'LMAC_ETH_1G_AXIS_LMAC_IP_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'dataout_wcf'
+
+-Upgrade has added port 'dataout_wf'
+
+-Upgrade has added port 'rdempty_wcf'
+
+-Upgrade has added port 'rdempty_wf'
+
+-Upgrade has added port 'rden_wcf'
+
+-Upgrade has added port 'rden_wf'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:10:33 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_AXIS_LMAC_IP_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_AXIS_LMAC_IP_0_0 (lewiz:user:AXIS_LMAC_IP:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:18 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_zynq_ultra_ps_e_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_zynq_ultra_ps_e_0_0 (xilinx.com:ip:zynq_ultra_ps_e:3.2 (Rev. 1)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+Set parameter PSU__GPIO_EMIO__PERIPHERAL__IO to value 95 (source 'default')
+WARNING: upgrade cannot add parameter PSU__USE__USB3_0_HUB with default value 0 : a parameter called PSU__USE__USB3_0_HUB already exists in zynq_ultra_ps_e_v3_2
+WARNING: upgrade cannot add parameter PSU__USE__USB3_1_HUB with default value 0 : a parameter called PSU__USE__USB3_1_HUB already exists in zynq_ultra_ps_e_v3_2
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:18 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_xlslice_3_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_xlslice_3_0 (xilinx.com:ip:xlslice:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:18 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_xlslice_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_xlslice_2_0 (xilinx.com:ip:xlslice:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:18 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_xlslice_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_xlslice_1_0 (xilinx.com:ip:xlslice:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:18 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_xlslice_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_xlslice_0_0 (xilinx.com:ip:xlslice:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:17 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_xlconstant_5_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_xlconstant_5_0 (xilinx.com:ip:xlconstant:1.1 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:17 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_xlconstant_4_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_xlconstant_4_0 (xilinx.com:ip:xlconstant:1.1 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:17 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_xlconstant_3_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_xlconstant_3_0 (xilinx.com:ip:xlconstant:1.1 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:17 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_xlconstant_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_xlconstant_2_0 (xilinx.com:ip:xlconstant:1.1 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:17 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_xlconstant_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_xlconstant_1_0 (xilinx.com:ip:xlconstant:1.1 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:17 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1 (Rev. 5)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:17 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:17 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_util_ds_buf_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_util_ds_buf_1_0 (xilinx.com:ip:util_ds_buf:2.1 (Rev. 10)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:16 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_util_ds_buf_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_util_ds_buf_0_0 (xilinx.com:ip:util_ds_buf:2.1 (Rev. 10)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:16 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_rst_ps8_0_49M_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_rst_ps8_0_49M_1 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:16 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_ps8_0_axi_periph_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_ps8_0_axi_periph_1 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 18)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:16 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_ila_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_ila_0_0 (xilinx.com:ip:ila:6.2 (Rev. 7)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:16 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_gig_ethernet_pcs_pma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_gig_ethernet_pcs_pma_0_0 (xilinx.com:ip:gig_ethernet_pcs_pma:16.1 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:16 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_c_counter_binary_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_c_counter_binary_1_0 (xilinx.com:ip:c_counter_binary:12.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:16 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_c_counter_binary_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_c_counter_binary_0_0 (xilinx.com:ip:c_counter_binary:12.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:16 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_axi_smc_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_axi_smc_1 (xilinx.com:ip:smartconnect:1.0 (Rev. 9)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'LMAC_ETH_1G_axi_smc_1'.
+
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'LMAC_ETH_1G_axi_smc_1'. These changes may impact your design.
+
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:15 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_axi_dma_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_axi_dma_0_1 (xilinx.com:ip:axi_dma:7.1 (Rev. 18)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Apr  7 08:26:15 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_AXIS_LMAC_IP_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of LMAC_ETH_1G_AXIS_LMAC_IP_0_0 (lewiz:user:AXIS_LMAC_IP:1.0 (Rev. 4)) to Vivado generation flows.
+

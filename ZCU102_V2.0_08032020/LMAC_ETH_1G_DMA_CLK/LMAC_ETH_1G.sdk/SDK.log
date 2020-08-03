@@ -1,0 +1,1060 @@
+15:28:59 INFO  : Registering command handlers for SDK TCF services
+15:29:00 INFO  : Launching XSCT server: xsct -n -interactive /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/temp_xsdb_launch_script.tcl
+15:29:02 INFO  : XSCT server has started successfully.
+15:29:02 INFO  : Successfully done setting XSCT server connection channel  
+15:29:02 INFO  : Successfully done setting SDK workspace  
+15:29:02 INFO  : Processing command line option -hwspec /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper.hdf.
+15:32:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:32:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051" && level==0} -index 0' command is executed.
+15:33:10 INFO  : FPGA configured successfully with bitstream "/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/LMAC_ETH_1G_wrapper.bit"
+15:33:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:33:19 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+15:33:19 INFO  : 'jtag frequency' command is executed.
+15:33:19 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:33:19 INFO  : Context for 'APU' is selected.
+15:33:19 INFO  : Hardware design information is loaded from '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+15:33:19 INFO  : 'configparams force-mem-access 1' command is executed.
+15:33:19 INFO  : Context for 'APU' is selected.
+15:33:19 INFO  : Sourcing of '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:33:20 INFO  : 'psu_init' command is executed.
+15:33:21 INFO  : 'after 1000' command is executed.
+15:33:21 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:33:22 INFO  : 'after 1000' command is executed.
+15:33:22 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:33:22 INFO  : 'catch {psu_protection}' command is executed.
+15:33:22 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:33:22 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:33:23 INFO  : The application '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:33:23 INFO  : 'configparams force-mem-access 0' command is executed.
+15:33:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:33:23 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:33:23 INFO  : 'con' command is executed.
+15:33:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+15:33:23 INFO  : Launch script is exported to file '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+15:34:26 INFO  : Disconnected from the channel tcfchan#1.
+15:34:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:34:32 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+15:34:32 INFO  : 'jtag frequency' command is executed.
+15:34:32 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:34:32 INFO  : Context for 'APU' is selected.
+15:34:32 INFO  : Hardware design information is loaded from '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+15:34:32 INFO  : 'configparams force-mem-access 1' command is executed.
+15:34:32 INFO  : Context for 'APU' is selected.
+15:34:32 INFO  : Sourcing of '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:34:32 INFO  : 'psu_init' command is executed.
+15:34:33 INFO  : 'after 1000' command is executed.
+15:34:33 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:34:34 INFO  : 'after 1000' command is executed.
+15:34:34 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:34:34 INFO  : 'catch {psu_protection}' command is executed.
+15:34:34 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:34:34 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:34:35 INFO  : The application '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:34:35 INFO  : 'configparams force-mem-access 0' command is executed.
+15:34:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:34:35 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:34:35 INFO  : 'con' command is executed.
+15:34:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+15:34:35 INFO  : Launch script is exported to file '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+15:36:33 INFO  : Disconnected from the channel tcfchan#2.
+15:36:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:36:40 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+15:36:40 INFO  : 'jtag frequency' command is executed.
+15:36:40 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:36:40 INFO  : Context for 'APU' is selected.
+15:36:40 INFO  : Hardware design information is loaded from '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+15:36:40 INFO  : 'configparams force-mem-access 1' command is executed.
+15:36:40 INFO  : Context for 'APU' is selected.
+15:36:40 INFO  : Sourcing of '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:36:40 INFO  : 'psu_init' command is executed.
+15:36:41 INFO  : 'after 1000' command is executed.
+15:36:41 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:36:42 INFO  : 'after 1000' command is executed.
+15:36:42 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:36:42 INFO  : 'catch {psu_protection}' command is executed.
+15:36:42 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:36:42 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:36:43 INFO  : The application '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:36:43 INFO  : 'configparams force-mem-access 0' command is executed.
+15:36:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:36:43 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:36:43 INFO  : 'con' command is executed.
+15:36:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+15:36:43 INFO  : Launch script is exported to file '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+15:41:16 INFO  : Disconnected from the channel tcfchan#3.
+15:41:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:41:22 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+15:41:22 INFO  : 'jtag frequency' command is executed.
+15:41:22 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:41:22 INFO  : Context for 'APU' is selected.
+15:41:22 INFO  : Hardware design information is loaded from '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+15:41:22 INFO  : 'configparams force-mem-access 1' command is executed.
+15:41:22 INFO  : Context for 'APU' is selected.
+15:41:22 INFO  : Sourcing of '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:41:23 INFO  : 'psu_init' command is executed.
+15:41:24 INFO  : 'after 1000' command is executed.
+15:41:24 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:41:25 INFO  : 'after 1000' command is executed.
+15:41:25 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:41:25 INFO  : 'catch {psu_protection}' command is executed.
+15:41:25 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:41:25 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:41:25 INFO  : The application '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:41:25 INFO  : 'configparams force-mem-access 0' command is executed.
+15:41:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:41:25 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:41:25 INFO  : 'con' command is executed.
+15:41:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+15:41:25 INFO  : Launch script is exported to file '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+15:42:44 INFO  : Disconnected from the channel tcfchan#4.
+15:42:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:42:51 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+15:42:51 INFO  : 'jtag frequency' command is executed.
+15:42:51 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:42:51 INFO  : Context for 'APU' is selected.
+15:42:51 INFO  : Hardware design information is loaded from '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+15:42:51 INFO  : 'configparams force-mem-access 1' command is executed.
+15:42:51 INFO  : Context for 'APU' is selected.
+15:42:51 INFO  : Sourcing of '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:42:52 INFO  : 'psu_init' command is executed.
+15:42:53 INFO  : 'after 1000' command is executed.
+15:42:53 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:42:54 INFO  : 'after 1000' command is executed.
+15:42:54 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:42:54 INFO  : 'catch {psu_protection}' command is executed.
+15:42:54 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:42:54 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:42:54 INFO  : The application '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:42:54 INFO  : 'configparams force-mem-access 0' command is executed.
+15:42:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:42:54 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:42:54 INFO  : 'con' command is executed.
+15:42:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+15:42:54 INFO  : Launch script is exported to file '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+15:43:06 INFO  : Disconnected from the channel tcfchan#5.
+15:43:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:43:13 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+15:43:13 INFO  : 'jtag frequency' command is executed.
+15:43:13 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:43:13 INFO  : Context for 'APU' is selected.
+15:43:13 INFO  : Hardware design information is loaded from '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+15:43:13 INFO  : 'configparams force-mem-access 1' command is executed.
+15:43:13 INFO  : Context for 'APU' is selected.
+15:43:13 INFO  : Sourcing of '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:43:13 INFO  : 'psu_init' command is executed.
+15:43:14 INFO  : 'after 1000' command is executed.
+15:43:14 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:43:15 INFO  : 'after 1000' command is executed.
+15:43:15 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:43:15 INFO  : 'catch {psu_protection}' command is executed.
+15:43:15 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:43:15 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:43:16 INFO  : The application '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:43:16 INFO  : 'configparams force-mem-access 0' command is executed.
+15:43:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:43:16 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:43:16 INFO  : 'con' command is executed.
+15:43:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+15:43:16 INFO  : Launch script is exported to file '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+15:46:03 INFO  : Disconnected from the channel tcfchan#6.
+15:46:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:46:10 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+15:46:10 INFO  : 'jtag frequency' command is executed.
+15:46:10 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+15:46:10 INFO  : Context for 'APU' is selected.
+15:46:10 INFO  : Hardware design information is loaded from '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+15:46:10 INFO  : 'configparams force-mem-access 1' command is executed.
+15:46:10 INFO  : Context for 'APU' is selected.
+15:46:10 INFO  : Sourcing of '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+15:46:10 INFO  : 'psu_init' command is executed.
+15:46:11 INFO  : 'after 1000' command is executed.
+15:46:11 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+15:46:12 INFO  : 'after 1000' command is executed.
+15:46:12 INFO  : 'psu_ps_pl_reset_config' command is executed.
+15:46:12 INFO  : 'catch {psu_protection}' command is executed.
+15:46:12 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:46:12 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+15:46:13 INFO  : The application '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+15:46:13 INFO  : 'configparams force-mem-access 0' command is executed.
+15:46:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:46:13 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+15:46:13 INFO  : 'con' command is executed.
+15:46:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+15:46:13 INFO  : Launch script is exported to file '/home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+15:53:34 INFO  : Disconnected from the channel tcfchan#7.
+08:16:57 INFO  : Registering command handlers for SDK TCF services
+08:16:58 INFO  : Launching XSCT server: xsct -n -interactive /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/temp_xsdb_launch_script.tcl
+08:17:01 INFO  : XSCT server has started successfully.
+08:17:01 INFO  : Successfully done setting XSCT server connection channel  
+08:17:01 INFO  : Successfully done setting SDK workspace  
+08:17:01 INFO  : Processing command line option -hwspec /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper.hdf.
+08:17:52 INFO  : Launching XSCT server: xsct -n -interactive /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/temp_xsdb_launch_script.tcl
+08:17:53 INFO  : XSCT server has started successfully.
+08:17:53 INFO  : Successfully done setting XSCT server connection channel  
+08:17:58 INFO  : Successfully done setting SDK workspace  
+08:18:00 INFO  : Registering command handlers for SDK TCF services
+08:18:01 INFO  : Processing command line option -hwspec /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper.hdf.
+08:18:02 INFO  : Checking for hwspec changes in the project LMAC_ETH_1G_wrapper_hw_platform_1.
+08:18:15 ERROR : (XSDB Server)invalid command name "coonect"
+
+08:18:54 ERROR : (XSDB Server)filter syntax error near column 7
+
+08:19:04 ERROR : (XSDB Server)filter syntax error near column 7
+
+08:19:18 ERROR : (XSDB Server)filter syntax error near column 7
+
+08:19:52 ERROR : (XSDB Server)filter syntax error near column 7
+
+08:25:59 ERROR : (XSDB Server)invalid command name "xsct%"
+
+08:29:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:29:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051" && level==0} -index 0' command is executed.
+08:30:04 INFO  : FPGA configured successfully with bitstream "/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/LMAC_ETH_1G_wrapper.bit"
+08:30:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:30:15 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+08:30:15 INFO  : 'jtag frequency' command is executed.
+08:30:15 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+08:30:15 INFO  : Context for 'APU' is selected.
+08:30:16 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+08:30:16 INFO  : 'configparams force-mem-access 1' command is executed.
+08:30:16 INFO  : Context for 'APU' is selected.
+08:30:16 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+08:30:16 INFO  : 'psu_init' command is executed.
+08:30:17 INFO  : 'after 1000' command is executed.
+08:30:17 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+08:30:18 INFO  : 'after 1000' command is executed.
+08:30:18 INFO  : 'psu_ps_pl_reset_config' command is executed.
+08:30:18 INFO  : 'catch {psu_protection}' command is executed.
+08:30:18 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+08:30:18 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+08:30:19 INFO  : The application '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+08:30:19 INFO  : 'configparams force-mem-access 0' command is executed.
+08:30:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+08:30:19 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+08:30:19 INFO  : 'con' command is executed.
+08:30:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+08:30:19 INFO  : Launch script is exported to file '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+08:38:33 INFO  : Disconnected from the channel tcfchan#1.
+08:40:15 INFO  : Launching XSCT server: xsct -n -interactive /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/temp_xsdb_launch_script.tcl
+08:40:17 INFO  : XSCT server has started successfully.
+08:40:22 INFO  : Successfully done setting XSCT server connection channel  
+08:40:23 INFO  : Successfully done setting SDK workspace  
+08:40:24 INFO  : Registering command handlers for SDK TCF services
+08:40:25 INFO  : Processing command line option -hwspec /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper.hdf.
+08:40:25 INFO  : Checking for hwspec changes in the project LMAC_ETH_1G_wrapper_hw_platform_1.
+08:43:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:43:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051" && level==0} -index 0' command is executed.
+08:44:22 INFO  : FPGA configured successfully with bitstream "/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/LMAC_ETH_1G_wrapper.bit"
+08:44:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:44:33 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+08:44:33 INFO  : 'jtag frequency' command is executed.
+08:44:33 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+08:44:33 INFO  : Context for 'APU' is selected.
+08:44:34 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+08:44:34 INFO  : 'configparams force-mem-access 1' command is executed.
+08:44:34 INFO  : Context for 'APU' is selected.
+08:44:34 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+08:44:34 INFO  : 'psu_init' command is executed.
+08:44:35 INFO  : 'after 1000' command is executed.
+08:44:35 ERROR : Timeout Reached. Mask poll failed at ADDRESS: 0XFFD80110 MASK: 0x00800000
+08:44:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+----------------End of Script----------------
+
+08:44:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:44:58 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+08:44:58 INFO  : 'jtag frequency' command is executed.
+08:44:58 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+08:44:58 INFO  : Context for 'APU' is selected.
+08:44:58 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+08:44:58 INFO  : 'configparams force-mem-access 1' command is executed.
+08:44:58 INFO  : Context for 'APU' is selected.
+08:44:58 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+08:44:58 INFO  : 'psu_init' command is executed.
+08:44:59 INFO  : 'after 1000' command is executed.
+08:44:59 ERROR : Timeout Reached. Mask poll failed at ADDRESS: 0XFFD80110 MASK: 0x00800000
+08:44:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+----------------End of Script----------------
+
+08:45:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:45:15 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+08:45:15 INFO  : 'jtag frequency' command is executed.
+08:45:15 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+08:45:15 INFO  : Context for 'APU' is selected.
+08:45:15 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+08:45:15 INFO  : 'configparams force-mem-access 1' command is executed.
+08:45:15 INFO  : Context for 'APU' is selected.
+08:45:15 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+08:45:15 INFO  : 'psu_init' command is executed.
+08:45:16 INFO  : 'after 1000' command is executed.
+08:45:16 ERROR : Timeout Reached. Mask poll failed at ADDRESS: 0XFFD80110 MASK: 0x00800000
+08:45:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+----------------End of Script----------------
+
+08:48:59 INFO  : Launching XSCT server: xsct -n -interactive /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/temp_xsdb_launch_script.tcl
+08:49:00 INFO  : XSCT server has started successfully.
+08:49:00 INFO  : Successfully done setting XSCT server connection channel  
+08:49:05 INFO  : Successfully done setting SDK workspace  
+08:49:07 INFO  : Registering command handlers for SDK TCF services
+08:49:08 INFO  : Processing command line option -hwspec /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper.hdf.
+08:49:09 INFO  : Checking for hwspec changes in the project LMAC_ETH_1G_wrapper_hw_platform_1.
+08:51:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:51:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051" && level==0} -index 0' command is executed.
+08:52:28 INFO  : FPGA configured successfully with bitstream "/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/LMAC_ETH_1G_wrapper.bit"
+08:52:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:52:38 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+08:52:38 INFO  : 'jtag frequency' command is executed.
+08:52:38 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+08:52:38 INFO  : Context for 'APU' is selected.
+08:52:39 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+08:52:39 INFO  : 'configparams force-mem-access 1' command is executed.
+08:52:39 INFO  : Context for 'APU' is selected.
+08:52:39 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+08:52:39 INFO  : 'psu_init' command is executed.
+08:52:40 INFO  : 'after 1000' command is executed.
+08:52:40 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+08:52:41 INFO  : 'after 1000' command is executed.
+08:52:41 INFO  : 'psu_ps_pl_reset_config' command is executed.
+08:52:41 INFO  : 'catch {psu_protection}' command is executed.
+08:52:41 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+08:52:41 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+08:52:42 INFO  : The application '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+08:52:42 INFO  : 'configparams force-mem-access 0' command is executed.
+08:52:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+08:52:42 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+08:52:42 INFO  : 'con' command is executed.
+08:52:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+08:52:42 INFO  : Launch script is exported to file '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+08:59:43 INFO  : Disconnected from the channel tcfchan#1.
+09:28:56 INFO  : Launching XSCT server: xsct -n -interactive /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/temp_xsdb_launch_script.tcl
+09:28:58 INFO  : XSCT server has started successfully.
+09:29:07 INFO  : Successfully done setting XSCT server connection channel  
+09:29:07 INFO  : Successfully done setting SDK workspace  
+09:29:09 INFO  : Registering command handlers for SDK TCF services
+09:29:10 INFO  : Processing command line option -hwspec /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper.hdf.
+09:29:10 INFO  : Checking for hwspec changes in the project LMAC_ETH_1G_wrapper_hw_platform_1.
+09:32:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:32:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051" && level==0} -index 0' command is executed.
+09:32:53 INFO  : FPGA configured successfully with bitstream "/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/LMAC_ETH_1G_wrapper.bit"
+09:33:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:33:02 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+09:33:02 INFO  : 'jtag frequency' command is executed.
+09:33:02 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+09:33:02 INFO  : Context for 'APU' is selected.
+09:33:02 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+09:33:02 INFO  : 'configparams force-mem-access 1' command is executed.
+09:33:02 INFO  : Context for 'APU' is selected.
+09:33:02 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+09:33:03 INFO  : 'psu_init' command is executed.
+09:33:04 INFO  : 'after 1000' command is executed.
+09:33:04 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+09:33:05 INFO  : 'after 1000' command is executed.
+09:33:05 INFO  : 'psu_ps_pl_reset_config' command is executed.
+09:33:05 INFO  : 'catch {psu_protection}' command is executed.
+09:33:05 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+09:33:05 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+09:33:06 INFO  : The application '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+09:33:06 INFO  : 'configparams force-mem-access 0' command is executed.
+09:33:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+09:33:06 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+09:33:06 INFO  : 'con' command is executed.
+09:33:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+09:33:06 INFO  : Launch script is exported to file '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+09:35:54 INFO  : Disconnected from the channel tcfchan#1.
+09:47:30 INFO  : Launching XSCT server: xsct -n -interactive /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/temp_xsdb_launch_script.tcl
+09:47:31 INFO  : XSCT server has started successfully.
+09:47:37 INFO  : Successfully done setting XSCT server connection channel  
+09:47:37 INFO  : Successfully done setting SDK workspace  
+09:47:38 INFO  : Registering command handlers for SDK TCF services
+09:47:39 INFO  : Processing command line option -hwspec /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper.hdf.
+09:47:39 INFO  : Checking for hwspec changes in the project LMAC_ETH_1G_wrapper_hw_platform_1.
+09:49:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:49:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051" && level==0} -index 0' command is executed.
+09:50:18 INFO  : FPGA configured successfully with bitstream "/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/LMAC_ETH_1G_wrapper.bit"
+09:50:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:50:26 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+09:50:26 INFO  : 'jtag frequency' command is executed.
+09:50:26 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+09:50:26 INFO  : Context for 'APU' is selected.
+09:50:26 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+09:50:26 INFO  : 'configparams force-mem-access 1' command is executed.
+09:50:26 INFO  : Context for 'APU' is selected.
+09:50:26 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+09:50:26 INFO  : 'psu_init' command is executed.
+09:50:27 INFO  : 'after 1000' command is executed.
+09:50:27 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+09:50:28 INFO  : 'after 1000' command is executed.
+09:50:28 INFO  : 'psu_ps_pl_reset_config' command is executed.
+09:50:28 INFO  : 'catch {psu_protection}' command is executed.
+09:50:29 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+09:50:29 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+09:50:29 INFO  : The application '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+09:50:29 INFO  : 'configparams force-mem-access 0' command is executed.
+09:50:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+09:50:29 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+09:50:29 INFO  : 'con' command is executed.
+09:50:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+09:50:29 INFO  : Launch script is exported to file '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+10:46:24 ERROR : (XSDB Server)Core is powered down
+
+10:46:39 ERROR : (XSDB Server)Core is powered down
+
+10:47:25 ERROR : (XSDB Server)Core is powered down
+
+10:55:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:55:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051" && level==0} -index 0' command is executed.
+10:55:46 INFO  : FPGA configured successfully with bitstream "/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/LMAC_ETH_1G_wrapper.bit"
+10:56:06 INFO  : Disconnected from the channel tcfchan#1.
+10:56:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:56:08 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+10:56:08 INFO  : 'jtag frequency' command is executed.
+10:56:08 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+10:56:08 INFO  : Context for 'APU' is selected.
+10:56:08 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+10:56:08 INFO  : 'configparams force-mem-access 1' command is executed.
+10:56:08 INFO  : Context for 'APU' is selected.
+10:56:08 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+10:56:08 INFO  : 'psu_init' command is executed.
+10:56:09 INFO  : 'after 1000' command is executed.
+10:56:09 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+10:56:10 INFO  : 'after 1000' command is executed.
+10:56:10 INFO  : 'psu_ps_pl_reset_config' command is executed.
+10:56:10 INFO  : 'catch {psu_protection}' command is executed.
+10:56:10 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+10:56:10 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+10:56:11 INFO  : The application '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+10:56:11 INFO  : 'configparams force-mem-access 0' command is executed.
+10:56:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:56:11 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+10:56:11 INFO  : 'con' command is executed.
+10:56:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+10:56:11 INFO  : Launch script is exported to file '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+10:58:43 INFO  : Disconnected from the channel tcfchan#2.
+10:59:53 INFO  : Launching XSCT server: xsct -n -interactive /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/temp_xsdb_launch_script.tcl
+10:59:54 INFO  : XSCT server has started successfully.
+10:59:54 INFO  : Successfully done setting XSCT server connection channel  
+11:00:00 INFO  : Successfully done setting SDK workspace  
+11:00:01 INFO  : Registering command handlers for SDK TCF services
+11:00:02 INFO  : Processing command line option -hwspec /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper.hdf.
+11:00:02 INFO  : Checking for hwspec changes in the project LMAC_ETH_1G_wrapper_hw_platform_1.
+11:02:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:02:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051" && level==0} -index 0' command is executed.
+11:02:52 INFO  : FPGA configured successfully with bitstream "/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/LMAC_ETH_1G_wrapper.bit"
+11:03:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:03:01 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+11:03:01 INFO  : 'jtag frequency' command is executed.
+11:03:01 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+11:03:01 INFO  : Context for 'APU' is selected.
+11:03:01 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+11:03:01 INFO  : 'configparams force-mem-access 1' command is executed.
+11:03:02 INFO  : Context for 'APU' is selected.
+11:03:02 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+11:03:02 INFO  : 'psu_init' command is executed.
+11:03:03 INFO  : 'after 1000' command is executed.
+11:03:03 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+11:03:04 INFO  : 'after 1000' command is executed.
+11:03:04 INFO  : 'psu_ps_pl_reset_config' command is executed.
+11:03:04 INFO  : 'catch {psu_protection}' command is executed.
+11:03:04 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:03:04 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+11:03:05 INFO  : The application '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+11:03:05 INFO  : 'configparams force-mem-access 0' command is executed.
+11:03:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:03:05 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:03:05 INFO  : 'con' command is executed.
+11:03:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+11:03:05 INFO  : Launch script is exported to file '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+11:05:01 INFO  : Disconnected from the channel tcfchan#1.
+11:06:35 INFO  : Launching XSCT server: xsct -n -interactive /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/temp_xsdb_launch_script.tcl
+11:06:36 INFO  : XSCT server has started successfully.
+11:06:36 INFO  : Successfully done setting XSCT server connection channel  
+11:06:41 INFO  : Successfully done setting SDK workspace  
+11:06:42 INFO  : Registering command handlers for SDK TCF services
+11:06:43 INFO  : Processing command line option -hwspec /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper.hdf.
+11:06:44 INFO  : Checking for hwspec changes in the project LMAC_ETH_1G_wrapper_hw_platform_1.
+11:08:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:08:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051" && level==0} -index 0' command is executed.
+11:08:53 INFO  : FPGA configured successfully with bitstream "/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/LMAC_ETH_1G_wrapper.bit"
+11:09:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:09:02 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+11:09:02 INFO  : 'jtag frequency' command is executed.
+11:09:02 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+11:09:02 INFO  : Context for 'APU' is selected.
+11:09:02 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+11:09:02 INFO  : 'configparams force-mem-access 1' command is executed.
+11:09:02 INFO  : Context for 'APU' is selected.
+11:09:02 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+11:09:03 INFO  : 'psu_init' command is executed.
+11:09:04 INFO  : 'after 1000' command is executed.
+11:09:04 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+11:09:05 INFO  : 'after 1000' command is executed.
+11:09:05 INFO  : 'psu_ps_pl_reset_config' command is executed.
+11:09:05 INFO  : 'catch {psu_protection}' command is executed.
+11:09:05 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:09:05 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+11:09:06 INFO  : The application '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+11:09:06 INFO  : 'configparams force-mem-access 0' command is executed.
+11:09:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:09:06 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:09:06 INFO  : 'con' command is executed.
+11:09:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+11:09:06 INFO  : Launch script is exported to file '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+11:15:11 ERROR : (XSDB Server)APU L2 cache is held in reset
+
+11:15:16 ERROR : (XSDB Server)APU L2 cache is held in reset
+
+11:15:43 INFO  : Disconnected from the channel tcfchan#1.
+11:50:45 INFO  : Launching XSCT server: xsct -n -interactive /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/temp_xsdb_launch_script.tcl
+11:50:46 INFO  : XSCT server has started successfully.
+11:50:52 INFO  : Successfully done setting XSCT server connection channel  
+11:50:52 INFO  : Successfully done setting SDK workspace  
+11:50:53 INFO  : Registering command handlers for SDK TCF services
+11:50:54 INFO  : Processing command line option -hwspec /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper.hdf.
+11:50:55 INFO  : Checking for hwspec changes in the project LMAC_ETH_1G_wrapper_hw_platform_1.
+11:53:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:53:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051" && level==0} -index 0' command is executed.
+11:53:49 INFO  : FPGA configured successfully with bitstream "/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/LMAC_ETH_1G_wrapper.bit"
+11:53:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:53:58 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+11:53:58 INFO  : 'jtag frequency' command is executed.
+11:53:58 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+11:53:58 INFO  : Context for 'APU' is selected.
+11:53:58 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+11:53:58 INFO  : 'configparams force-mem-access 1' command is executed.
+11:53:58 INFO  : Context for 'APU' is selected.
+11:53:58 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+11:53:58 INFO  : 'psu_init' command is executed.
+11:53:59 INFO  : 'after 1000' command is executed.
+11:53:59 ERROR : Timeout Reached. Mask poll failed at ADDRESS: 0XFFD80110 MASK: 0x00800000
+11:53:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+----------------End of Script----------------
+
+11:54:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:54:06 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+11:54:06 INFO  : 'jtag frequency' command is executed.
+11:54:06 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+11:54:06 INFO  : Context for 'APU' is selected.
+11:54:06 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+11:54:06 INFO  : 'configparams force-mem-access 1' command is executed.
+11:54:06 INFO  : Context for 'APU' is selected.
+11:54:06 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+11:54:07 INFO  : 'psu_init' command is executed.
+11:54:08 INFO  : 'after 1000' command is executed.
+11:54:08 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+11:54:09 INFO  : 'after 1000' command is executed.
+11:54:09 INFO  : 'psu_ps_pl_reset_config' command is executed.
+11:54:09 INFO  : 'catch {psu_protection}' command is executed.
+11:54:09 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:54:09 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+11:54:10 INFO  : The application '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+11:54:10 INFO  : 'configparams force-mem-access 0' command is executed.
+11:54:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:54:10 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+11:54:10 INFO  : 'con' command is executed.
+11:54:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+11:54:10 INFO  : Launch script is exported to file '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+11:57:12 ERROR : (XSDB Server)Cannot halt processor core: power down
+
+11:57:18 ERROR : (XSDB Server)Already stopped
+
+11:57:45 INFO  : Disconnected from the channel tcfchan#1.
+12:00:27 INFO  : Launching XSCT server: xsct -n -interactive /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/temp_xsdb_launch_script.tcl
+12:00:28 INFO  : XSCT server has started successfully.
+12:00:34 INFO  : Successfully done setting XSCT server connection channel  
+12:00:34 INFO  : Successfully done setting SDK workspace  
+12:00:35 INFO  : Registering command handlers for SDK TCF services
+12:00:36 INFO  : Processing command line option -hwspec /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper.hdf.
+12:00:37 INFO  : Checking for hwspec changes in the project LMAC_ETH_1G_wrapper_hw_platform_1.
+12:02:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:02:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051" && level==0} -index 0' command is executed.
+12:02:44 INFO  : FPGA configured successfully with bitstream "/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/LMAC_ETH_1G_wrapper.bit"
+12:02:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:02:51 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+12:02:51 INFO  : 'jtag frequency' command is executed.
+12:02:51 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+12:02:51 INFO  : Context for 'APU' is selected.
+12:02:51 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+12:02:51 INFO  : 'configparams force-mem-access 1' command is executed.
+12:02:51 INFO  : Context for 'APU' is selected.
+12:02:51 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+12:02:52 INFO  : 'psu_init' command is executed.
+12:02:53 INFO  : 'after 1000' command is executed.
+12:02:53 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+12:02:54 INFO  : 'after 1000' command is executed.
+12:02:54 INFO  : 'psu_ps_pl_reset_config' command is executed.
+12:02:54 INFO  : 'catch {psu_protection}' command is executed.
+12:02:54 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:02:54 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+12:02:55 INFO  : The application '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+12:02:55 INFO  : 'configparams force-mem-access 0' command is executed.
+12:02:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:02:55 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:02:55 INFO  : 'con' command is executed.
+12:02:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+12:02:55 INFO  : Launch script is exported to file '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+12:07:18 INFO  : Disconnected from the channel tcfchan#1.
+12:08:45 INFO  : Launching XSCT server: xsct -n -interactive /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/temp_xsdb_launch_script.tcl
+12:08:46 INFO  : XSCT server has started successfully.
+12:08:46 INFO  : Successfully done setting XSCT server connection channel  
+12:08:51 INFO  : Successfully done setting SDK workspace  
+12:08:52 INFO  : Registering command handlers for SDK TCF services
+12:08:53 INFO  : Processing command line option -hwspec /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper.hdf.
+12:08:54 INFO  : Checking for hwspec changes in the project LMAC_ETH_1G_wrapper_hw_platform_1.
+12:10:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:10:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051" && level==0} -index 0' command is executed.
+12:10:57 INFO  : FPGA configured successfully with bitstream "/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/LMAC_ETH_1G_wrapper.bit"
+12:11:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:11:05 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A1D051' is selected.
+12:11:05 INFO  : 'jtag frequency' command is executed.
+12:11:05 INFO  : Sourcing of '/opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl' is done.
+12:11:05 INFO  : Context for 'APU' is selected.
+12:11:06 INFO  : Hardware design information is loaded from '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf'.
+12:11:06 INFO  : 'configparams force-mem-access 1' command is executed.
+12:11:06 INFO  : Context for 'APU' is selected.
+12:11:06 INFO  : Sourcing of '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl' is done.
+12:11:06 INFO  : 'psu_init' command is executed.
+12:11:07 INFO  : 'after 1000' command is executed.
+12:11:07 INFO  : 'psu_ps_pl_isolation_removal' command is executed.
+12:11:08 INFO  : 'after 1000' command is executed.
+12:11:08 INFO  : 'psu_ps_pl_reset_config' command is executed.
+12:11:08 INFO  : 'catch {psu_protection}' command is executed.
+12:11:08 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:11:08 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+12:11:09 INFO  : The application '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf' is downloaded to processor 'psu_cortexa53_0'.
+12:11:09 INFO  : 'configparams force-mem-access 0' command is executed.
+12:11:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /opt/Xilinx/SDK/2018.2/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+loadhw -hw /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+source /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/LMAC_ETH_1G_wrapper_hw_platform_0/psu_init.tcl
+psu_init
+after 1000
+psu_ps_pl_isolation_removal
+after 1000
+psu_ps_pl_reset_config
+catch {psu_protection}
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+rst -processor
+dow /home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/hello_world/Debug/hello_world.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:11:09 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+12:11:09 INFO  : 'con' command is executed.
+12:11:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A1D051"} -index 1
+con
+----------------End of Script----------------
+
+12:11:09 INFO  : Launch script is exported to file '/home/lewiz2/lewiz2-sambashare/KIRATEY/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.sdk/.sdk/launch_scripts/xilinx_c-c++_application_(system_debugger)/system_debugger_using_debug_hello_world.elf_on_local.tcl'
+12:25:38 INFO  : Disconnected from the channel tcfchan#1.

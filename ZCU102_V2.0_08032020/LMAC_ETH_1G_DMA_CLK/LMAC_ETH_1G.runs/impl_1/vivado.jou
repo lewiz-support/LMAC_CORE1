@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Apr  8 15:15:48 2019
+# Process ID: 8042
+# Current directory: /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.runs/impl_1
+# Command line: vivado -log LMAC_ETH_1G_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source LMAC_ETH_1G_wrapper.tcl -notrace
+# Log file: /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.runs/impl_1/LMAC_ETH_1G_wrapper.vdi
+# Journal file: /home/lewiz/sambashare/KIRATEY/RELEASE/LMAC_ETH_1G_DMA_CLK/LMAC_ETH_1G.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source LMAC_ETH_1G_wrapper.tcl -notrace
