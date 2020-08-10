@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="txwregif_fifo4x16_ip_synth_1" LaunchPart="xczu15eg-ffvb1156-2-e" LaunchTime="1554663447">
+  <File Type="RDS-UTIL" Name="txwregif_fifo4x16_ip_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="txwregif_fifo4x16_ip_utilization_synth.pb"/>
+  <File Type="RDS-RDS" Name="txwregif_fifo4x16_ip.vds"/>
+  <File Type="RDS-DCP" Name="txwregif_fifo4x16_ip.dcp"/>
+  <File Type="PA-TCL" Name="txwregif_fifo4x16_ip.tcl"/>
+  <File Type="REPORTS-TCL" Name="txwregif_fifo4x16_ip_reports.tcl"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/txwregif_fifo4x16_ip">
+    <File Path="$PSRCDIR/sources_1/ip/txwregif_fifo4x16_ip/txwregif_fifo4x16_ip.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="txwregif_fifo4x16_ip"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/txwregif_fifo4x16_ip">
+    <File Path="$PSRCDIR/sources_1/ip/txwregif_fifo4x16_ip/txwregif_fifo4x16_ip.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="txwregif_fifo4x16_ip"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

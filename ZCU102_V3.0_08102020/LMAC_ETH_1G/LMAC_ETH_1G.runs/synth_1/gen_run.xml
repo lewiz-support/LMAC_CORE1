@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xczu15eg-ffvb1156-2-e" LaunchTime="1554759599">
+  <File Type="VDS-TIMING-PB" Name="LMAC_ETH_1G_wrapper_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="LMAC_ETH_1G_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="LMAC_ETH_1G_wrapper.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="LMAC_ETH_1G_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="LMAC_ETH_1G_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="LMAC_ETH_1G_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="LMAC_ETH_1G_wrapper.vds"/>
+  <File Type="REPORTS-TCL" Name="LMAC_ETH_1G_wrapper_reports.tcl"/>
+  <File Type="PA-TCL" Name="LMAC_ETH_1G_wrapper.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/LMAC_ETH_1G/LMAC_ETH_1G.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/LMAC_ETH_1G/hdl/LMAC_ETH_1G_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="LMAC_ETH_1G_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/CONSTRAINTS/LMAC_ETH_1G.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_AXIS_LMAC_IP_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_rst_ps8_0_49M_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_ila_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_ila_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_xlconstant_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_xlconstant_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_xlconstant_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_xlconstant_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_xlconstant_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_xlconcat_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_xlslice_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_xlslice_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_xlslice_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_c_counter_binary_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_axi_dma_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_util_ds_buf_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_util_ds_buf_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_xlslice_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_c_counter_binary_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_xlconstant_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_axi_smc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="LMAC_ETH_1G_zynq_ultra_ps_e_0_0"/>
+</GenRun>
