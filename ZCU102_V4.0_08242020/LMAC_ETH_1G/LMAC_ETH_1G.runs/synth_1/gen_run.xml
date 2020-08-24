@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xczu15eg-ffvb1156-2-e" LaunchTime="1555356474">
+<GenRun Id="synth_1" LaunchPart="xczu15eg-ffvb1156-2-e" LaunchTime="1555780691">
   <File Type="VDS-TIMING-PB" Name="LMAC_ETH_1G_wrapper_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="LMAC_ETH_1G_wrapper_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="LMAC_ETH_1G_wrapper.dcp"/>

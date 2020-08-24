@@ -1,7 +1,7 @@
 //Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-//Date        : Sun Apr 14 11:30:17 2019
+//Date        : Sat Apr 20 10:15:02 2019
 //Host        : ubeluga running 64-bit Ubuntu 18.04.4 LTS
 //Command     : generate_target LMAC_ETH_1G.bd
 //Design      : LMAC_ETH_1G
@@ -43,13 +43,14 @@ module LMAC_ETH_1G
   output xcvr_rst_done_led;
 
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire [3:0]AXIS_LMAC_IP_0_axis2fib_ar_state;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire [3:0]AXIS_LMAC_IP_0_axis2fib_txctrl_st;
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_bcnt_more_than_1500;
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_cs_fifo_empty_reg;
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire [31:0]AXIS_LMAC_IP_0_dataout_rcf;
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire [63:0]AXIS_LMAC_IP_0_dataout_rf;
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire [31:0]AXIS_LMAC_IP_0_dataout_wcf;
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire [63:0]AXIS_LMAC_IP_0_dataout_wf;
-  (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_error_flag;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire [3:0]AXIS_LMAC_IP_0_fib2fmac_txctrl_st;
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire [3:0]AXIS_LMAC_IP_0_fmac2fib_ar_state;
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_gmii_tx_en;
   wire AXIS_LMAC_IP_0_gmii_tx_er;
@@ -68,7 +69,18 @@ module LMAC_ETH_1G
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_rden_wf;
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_rx_mac_empty_reg;
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_s_axis_tready;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire [63:0]AXIS_LMAC_IP_0_tx_mac_data_reg;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire [12:0]AXIS_LMAC_IP_0_tx_mac_usedw_reg;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_tx_mac_wr_reg;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_txdata_wrempty;
   (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_txdata_wrfull;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_txdata_wrreq;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire [8:0]AXIS_LMAC_IP_0_txdata_wrusedw;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_txwbcnt_wrempty;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire AXIS_LMAC_IP_0_txwbcnt_wrreq;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire [2:0]AXIS_LMAC_IP_0_txwbcnt_wrusedw;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire [63:0]AXIS_LMAC_IP_0_wr2_txdata_fifo;
+  (* DEBUG = "true" *) (* MARK_DEBUG *) wire [31:0]AXIS_LMAC_IP_0_wr2_txwbcnt_fifo;
   wire [63:0]axi_dma_0_M_AXI_MM2S_ARADDR;
   wire [1:0]axi_dma_0_M_AXI_MM2S_ARBURST;
   wire [3:0]axi_dma_0_M_AXI_MM2S_ARCACHE;
@@ -273,6 +285,7 @@ module LMAC_ETH_1G
   assign xcvr_rst_done_led = gig_ethernet_pcs_pma_0_resetdone;
   LMAC_ETH_1G_AXIS_LMAC_IP_0_0 AXIS_LMAC_IP_0
        (.axis2fib_ar_state(AXIS_LMAC_IP_0_axis2fib_ar_state),
+        .axis2fib_txctrl_st(AXIS_LMAC_IP_0_axis2fib_txctrl_st),
         .bcnt_more_than_1500(AXIS_LMAC_IP_0_bcnt_more_than_1500),
         .cs_fifo_empty_reg(AXIS_LMAC_IP_0_cs_fifo_empty_reg),
         .dataout_rcf(AXIS_LMAC_IP_0_dataout_rcf),
@@ -280,7 +293,7 @@ module LMAC_ETH_1G
         .dataout_wcf(AXIS_LMAC_IP_0_dataout_wcf),
         .dataout_wf(AXIS_LMAC_IP_0_dataout_wf),
         .dclk(zynq_ultra_ps_e_0_pl_clk0),
-        .error_flag(AXIS_LMAC_IP_0_error_flag),
+        .fib2fmac_txctrl_st(AXIS_LMAC_IP_0_fib2fmac_txctrl_st),
         .fmac2fib_ar_state(AXIS_LMAC_IP_0_fmac2fib_ar_state),
         .fmac_speed(xlconstant_0_dout),
         .gmii_rx_dv(gig_ethernet_pcs_pma_0_gmii_rx_dv),
@@ -310,7 +323,18 @@ module LMAC_ETH_1G
         .s_axis_tlast(axi_dma_0_m_axis_mm2s_tlast),
         .s_axis_tready(AXIS_LMAC_IP_0_s_axis_tready),
         .s_axis_tvalid(axi_dma_0_m_axis_mm2s_tvalid),
-        .txdata_wrfull(AXIS_LMAC_IP_0_txdata_wrfull));
+        .tx_mac_data_reg(AXIS_LMAC_IP_0_tx_mac_data_reg),
+        .tx_mac_usedw_reg(AXIS_LMAC_IP_0_tx_mac_usedw_reg),
+        .tx_mac_wr_reg(AXIS_LMAC_IP_0_tx_mac_wr_reg),
+        .txdata_wrempty(AXIS_LMAC_IP_0_txdata_wrempty),
+        .txdata_wrfull(AXIS_LMAC_IP_0_txdata_wrfull),
+        .txdata_wrreq(AXIS_LMAC_IP_0_txdata_wrreq),
+        .txdata_wrusedw(AXIS_LMAC_IP_0_txdata_wrusedw),
+        .txwbcnt_wrempty(AXIS_LMAC_IP_0_txwbcnt_wrempty),
+        .txwbcnt_wrreq(AXIS_LMAC_IP_0_txwbcnt_wrreq),
+        .txwbcnt_wrusedw(AXIS_LMAC_IP_0_txwbcnt_wrusedw),
+        .wr2_txdata_fifo(AXIS_LMAC_IP_0_wr2_txdata_fifo),
+        .wr2_txwbcnt_fifo(AXIS_LMAC_IP_0_wr2_txwbcnt_fifo));
   LMAC_ETH_1G_axi_dma_0_1 axi_dma_0
        (.axi_resetn(rst_ps8_0_49M_peripheral_aresetn),
         .m_axi_mm2s_aclk(zynq_ultra_ps_e_0_pl_clk0),
@@ -544,18 +568,31 @@ module LMAC_ETH_1G
        (.clk(gig_ethernet_pcs_pma_0_userclk2_out),
         .probe0(AXIS_LMAC_IP_0_rdempty_wf),
         .probe1(AXIS_LMAC_IP_0_rdempty_wcf),
+        .probe10(AXIS_LMAC_IP_0_tx_mac_data_reg),
+        .probe11(AXIS_LMAC_IP_0_tx_mac_usedw_reg),
+        .probe12(AXIS_LMAC_IP_0_fib2fmac_txctrl_st),
         .probe2(AXIS_LMAC_IP_0_dataout_wf),
         .probe3(AXIS_LMAC_IP_0_dataout_wcf),
         .probe4(AXIS_LMAC_IP_0_rden_wf),
         .probe5(AXIS_LMAC_IP_0_rden_wcf),
         .probe6(AXIS_LMAC_IP_0_rx_mac_empty_reg),
         .probe7(AXIS_LMAC_IP_0_cs_fifo_empty_reg),
-        .probe8(AXIS_LMAC_IP_0_fmac2fib_ar_state));
+        .probe8(AXIS_LMAC_IP_0_fmac2fib_ar_state),
+        .probe9(AXIS_LMAC_IP_0_tx_mac_wr_reg));
   LMAC_ETH_1G_ila_2_0 ila_2
        (.clk(zynq_ultra_ps_e_0_pl_clk0),
         .probe0(axi_dma_0_m_axis_mm2s_tdata),
         .probe1(axi_dma_0_m_axis_mm2s_tkeep),
         .probe10(AXIS_LMAC_IP_0_bcnt_more_than_1500),
+        .probe11(AXIS_LMAC_IP_0_wr2_txwbcnt_fifo),
+        .probe12(AXIS_LMAC_IP_0_txwbcnt_wrreq),
+        .probe13(AXIS_LMAC_IP_0_txwbcnt_wrempty),
+        .probe14(AXIS_LMAC_IP_0_txwbcnt_wrusedw),
+        .probe15(AXIS_LMAC_IP_0_wr2_txdata_fifo),
+        .probe16(AXIS_LMAC_IP_0_txdata_wrempty),
+        .probe17(AXIS_LMAC_IP_0_txdata_wrreq),
+        .probe18(AXIS_LMAC_IP_0_txdata_wrusedw),
+        .probe19(AXIS_LMAC_IP_0_axis2fib_txctrl_st),
         .probe2(axi_dma_0_m_axis_mm2s_tlast),
         .probe3(AXIS_LMAC_IP_0_s_axis_tready),
         .probe4(axi_dma_0_m_axis_mm2s_tvalid),
@@ -573,8 +610,7 @@ module LMAC_ETH_1G
         .probe4(AXIS_LMAC_IP_0_rden_rf),
         .probe5(AXIS_LMAC_IP_0_rden_rcf),
         .probe6(AXIS_LMAC_IP_0_txdata_wrfull),
-        .probe7(AXIS_LMAC_IP_0_axis2fib_ar_state),
-        .probe8(AXIS_LMAC_IP_0_error_flag));
+        .probe7(AXIS_LMAC_IP_0_axis2fib_ar_state));
   LMAC_ETH_1G_ps8_0_axi_periph_1 ps8_0_axi_periph
        (.ACLK(zynq_ultra_ps_e_0_pl_clk0),
         .ARESETN(rst_ps8_0_49M_interconnect_aresetn),

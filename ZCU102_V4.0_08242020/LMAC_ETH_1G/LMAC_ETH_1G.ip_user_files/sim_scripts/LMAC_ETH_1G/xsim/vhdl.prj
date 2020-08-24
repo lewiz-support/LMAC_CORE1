@@ -1,0 +1,11 @@
+vhdl xil_defaultlib  \
+"../../../../LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_axi_dma_0_1/sim/LMAC_ETH_1G_axi_dma_0_1.vhd" \
+"../../../../LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_axi_smc_1/bd_0/ip/ip_1/sim/bd_b2d9_psr_aclk_0.vhd" \
+"../../../../LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_rst_ps8_0_49M_1/sim/LMAC_ETH_1G_rst_ps8_0_49M_1.vhd" \
+"../../../../LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_c_counter_binary_0_0/sim/LMAC_ETH_1G_c_counter_binary_0_0.vhd" \
+"../../../../LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_util_ds_buf_0_0/util_ds_buf.vhd" \
+"../../../../LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_util_ds_buf_0_0/sim/LMAC_ETH_1G_util_ds_buf_0_0.vhd" \
+"../../../../LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_util_ds_buf_1_0/sim/LMAC_ETH_1G_util_ds_buf_1_0.vhd" \
+"../../../../LMAC_ETH_1G.srcs/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_c_counter_binary_1_0/sim/LMAC_ETH_1G_c_counter_binary_1_0.vhd" \
+
+nosort

@@ -48,7 +48,7 @@
 
 
 // IP VLNV: lewiz:user:AXIS_LMAC_IP:1.0
-// IP Revision: 29
+// IP Revision: 30
 
 (* X_CORE_INFO = "AXIS_LMAC_TOP,Vivado 2018.2" *)
 (* CHECK_LICENSE_TYPE = "LMAC_ETH_1G_AXIS_LMAC_IP_0_0,AXIS_LMAC_TOP,{}" *)

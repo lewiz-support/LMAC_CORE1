@@ -1,6 +1,27 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sat Apr 20 10:14:45 2019
+| Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xczu15eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'LMAC_ETH_1G_AXIS_LMAC_IP_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of LMAC_ETH_1G_AXIS_LMAC_IP_0_0 (lewiz:user:AXIS_LMAC_IP:1.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
 | Date         : Mon Apr 15 12:12:18 2019
 | Host         : ubeluga running 64-bit Ubuntu 18.04.4 LTS
 | Command      : upgrade_ip
