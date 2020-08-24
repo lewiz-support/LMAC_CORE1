@@ -1,0 +1,219 @@
+# source /home/lewiz/sambashare/KIRATEY/LMAC1_INTEGRATED/LMAC_ETH_1G/AXIS_LMAC_IP/TEST/Script_1G_performance.txt
+
+
+relaunch_sim
+#launch_simulation -mode post-synthesis -type functional
+
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 1us
+
+#****pkt_1
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 5.37us
+
+#****pkt_2
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 5.46us
+
+#****pkt_3
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 5.42us
+
+#****pkt_4
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 5.4us
+
+#****pkt_5
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 5.26us
+
+#****pkt_6
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 5.42us
+
+#****pkt_7
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 5.46us
+
+#****pkt_8
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 5.54us
+
+#****pkt_9
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 10.2us
+
+#****pkt_10
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.14us
+
+#****pkt_11
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.18us
+
+#****pkt_12
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 11.92us
+
+#****pkt_13
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.3us
+
+#****pkt_14
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.44us
+
+#****pkt_15
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 11.94us
+
+#****pkt_16
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.3us
+
+#****pkt_17
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.38us
+
+#****pkt_18
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 11.92us
+
+#****pkt_19
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 11.92us
+
+#****pkt_20
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 10.24us
+
+#****pkt_21
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.1us
+
+#****pkt_22
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.26us
+
+#****pkt_23
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.2us
+
+#****pkt_24
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.14us
+
+#****pkt_25
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.28us
+
+#****pkt_26
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.3us
+
+#****pkt_27
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.44us
+
+#****pkt_28
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 11.94us
+
+#****pkt_29
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 12.28us
+
+#****pkt_30
+add_force {/LMAC_TB/gen_en_wr} -radix bin {1 0ns}
+run 8ns
+add_force {/LMAC_TB/gen_en_wr} -radix bin {0 0ns}
+
+run 20us

@@ -1,0 +1,132 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 TLS
+#  -string -flagsOSRD
+preplace port xcvr_rst_done_led -pg 1 -y 1690 -defaultsOSRD
+preplace port sfp -pg 1 -y 1670 -defaultsOSRD
+preplace port clk_125 -pg 1 -y 1480 -defaultsOSRD
+preplace port gtrefclk_in -pg 1 -y 1800 -defaultsOSRD
+preplace portBus dir_125_clk_led -pg 1 -y 1480 -defaultsOSRD
+preplace portBus pcs_clk_led -pg 1 -y 2020 -defaultsOSRD
+preplace portBus link_status_led -pg 1 -y 2140 -defaultsOSRD
+preplace portBus pl_reset_led -pg 1 -y 1590 -defaultsOSRD
+preplace portBus sfp_tx_dis -pg 1 -y 2340 -defaultsOSRD
+preplace portBus link_sync_led -pg 1 -y 2240 -defaultsOSRD
+preplace inst util_ds_buf_1 -pg 1 -lvl 6 -y 1480 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 4 -y 760 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 8 -y 2020 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 5 -y 790 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 6 -y 190 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 8 -y 1480 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 5 -y 990 -defaultsOSRD
+preplace inst AXIS_LMAC_IP_0 -pg 1 -lvl 7 -y 900 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 8 -y 2140 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 6 -y 1870 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 3 -y 530 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 8 -y 2240 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 6 -y 1970 -defaultsOSRD
+preplace inst xlconstant_3 -pg 1 -lvl 6 -y 2070 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -y 870 -defaultsOSRD
+preplace inst xlconstant_4 -pg 1 -lvl 6 -y 2170 -defaultsOSRD
+preplace inst rst_ps8_0_49M -pg 1 -lvl 1 -y 780 -defaultsOSRD
+preplace inst c_counter_binary_0 -pg 1 -lvl 7 -y 2020 -defaultsOSRD
+preplace inst xlconstant_5 -pg 1 -lvl 8 -y 2340 -defaultsOSRD
+preplace inst c_counter_binary_1 -pg 1 -lvl 7 -y 1480 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 7 -y 1670 -defaultsOSRD
+preplace inst ila_1 -pg 1 -lvl 8 -y 930 -defaultsOSRD
+preplace inst ila_2 -pg 1 -lvl 8 -y 500 -defaultsOSRD
+preplace inst gig_ethernet_pcs_pma_0 -pg 1 -lvl 8 -y 1790 -defaultsOSRD
+preplace inst ila_3 -pg 1 -lvl 8 -y 1240 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 5 -y 1480 -defaultsOSRD
+preplace netloc xlconstant_4_dout 1 6 2 2500J 1960 3340J
+preplace netloc xlslice_2_Dout 1 8 1 NJ
+preplace netloc AXIS_LMAC_IP_0_dataout_rcf 1 7 1 3070
+preplace netloc axi_dma_0_mm2s_introut 1 1 6 410 660 NJ 660 950J 650 NJ 650 NJ 650 2490
+preplace netloc AXIS_LMAC_IP_0_axis2fib_ar_state 1 7 1 2980
+preplace netloc axi_smc_M00_AXI 1 3 1 970
+preplace netloc AXIS_LMAC_IP_0_axis2fib_txctrl_st 1 7 1 3080
+preplace netloc AXIS_LMAC_IP_0_rdempty_rcf 1 7 1 3110
+preplace netloc AXIS_LMAC_IP_0_m_axis 1 5 3 1970 370 NJ 370 2980
+preplace netloc xlconstant_3_dout 1 6 2 2490J 1950 3330J
+preplace netloc AXIS_LMAC_IP_0_wr2_txdata_fifo 1 7 1 3250
+preplace netloc rst_ps8_0_49M_peripheral_aresetn 1 1 5 400J 790 630 650 940J 640 1630 640 1940
+preplace netloc gig_ethernet_pcs_pma_0_gmii_rxd 1 6 2 2570 1780 3020
+preplace netloc gig_ethernet_pcs_pma_0_resetdone 1 6 3 2570 1420 NJ 1420 3740
+preplace netloc xlconcat_0_dout 1 2 2 NJ 870 960
+preplace netloc AXIS_LMAC_IP_0_s_axis_tready 1 6 2 2540 350 3320
+preplace netloc c_counter_binary_1_Q 1 7 1 NJ
+preplace netloc xlslice_3_Dout 1 8 1 NJ
+preplace netloc axi_dma_0_M_AXI_SG 1 2 5 620 420 NJ 420 NJ 420 NJ 420 2520
+preplace netloc AXIS_LMAC_IP_0_gmii_txd 1 6 2 2540 1540 3150
+preplace netloc AXIS_LMAC_IP_0_fib2fmac_txctrl_st 1 7 1 3300
+preplace netloc util_ds_buf_0_IBUF_OUT 1 5 1 NJ
+preplace netloc AXIS_LMAC_IP_0_dataout_rf 1 7 1 3090
+preplace netloc c_counter_binary_0_Q 1 7 1 NJ
+preplace netloc AXIS_LMAC_IP_0_fmac2fib_ar_state 1 7 1 3290
+preplace netloc AXIS_LMAC_IP_0_tx_mac_data_reg 1 7 1 3230
+preplace netloc AXIS_LMAC_IP_0_tx_mac_wr_reg 1 7 1 3200
+preplace netloc AXIS_LMAC_IP_0_bcnt_more_than_1500 1 7 1 3050
+preplace netloc AXIS_LMAC_IP_0_rx_mac_empty_reg 1 7 1 3220
+preplace netloc AXIS_LMAC_IP_0_wr2_txwbcnt_fifo 1 7 1 3100
+preplace netloc gtrefclk_in_1 1 0 8 NJ 1800 NJ 1800 NJ 1800 NJ 1800 NJ 1800 NJ 1800 NJ 1800 NJ
+preplace netloc ps8_0_axi_periph_M00_AXI 1 5 1 1930
+preplace netloc AXIS_LMAC_IP_0_m_axis_tvalid 1 5 3 2000 400 NJ 400 3000
+preplace netloc xlconstant_5_dout 1 8 1 NJ
+preplace netloc gig_ethernet_pcs_pma_0_sfp 1 8 1 NJ
+preplace netloc rst_ps8_0_49M_peripheral_reset 1 1 8 390J 1390 NJ 1390 NJ 1390 NJ 1390 NJ 1390 NJ 1390 2990 1590 NJ
+preplace netloc axi_dma_0_m_axis_mm2s_tlast 1 6 2 2550 340 3330
+preplace netloc axi_dma_0_m_axis_mm2s_tkeep 1 6 2 2560 330 3340
+preplace netloc xlconstant_1_dout 1 6 2 NJ 1870 3130J
+preplace netloc AXIS_LMAC_IP_0_rden_wf 1 7 1 3220
+preplace netloc axi_dma_0_m_axis_mm2s_tdata 1 6 2 2570 320 N
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 6 1 2580
+preplace netloc gig_ethernet_pcs_pma_0_gmii_rx_dv 1 6 2 2560 1560 3120
+preplace netloc AXIS_LMAC_IP_0_rden_rf 1 7 1 3040
+preplace netloc AXIS_LMAC_IP_0_tx_mac_usedw_reg 1 7 1 3270
+preplace netloc AXIS_LMAC_IP_0_rden_rcf 1 7 1 3030
+preplace netloc xlslice_1_Dout 1 8 1 NJ
+preplace netloc AXIS_LMAC_IP_0_txdata_wrusedw 1 7 1 3060
+preplace netloc axi_dma_0_M_AXI_MM2S 1 2 5 640 430 NJ 430 NJ 430 NJ 430 2510
+preplace netloc AXIS_LMAC_IP_0_txdata_wrreq 1 7 1 3310
+preplace netloc xlslice_0_Dout 1 8 1 NJ
+preplace netloc AXIS_LMAC_IP_0_dataout_wf 1 7 1 3290
+preplace netloc AXIS_LMAC_IP_0_rden_wcf 1 7 1 3200
+preplace netloc axi_dma_0_M_AXI_S2MM 1 2 5 640 630 NJ 630 NJ 630 NJ 630 2500
+preplace netloc AXIS_LMAC_IP_0_m_axis_tdata 1 5 3 1940 10 NJ 10 3100
+preplace netloc xlconstant_2_dout 1 6 2 2480J 1940 3290J
+preplace netloc AXIS_LMAC_IP_0_txwbcnt_wrusedw 1 7 1 3210
+preplace netloc AXIS_LMAC_IP_0_dataout_wcf 1 7 1 3260
+preplace netloc AXIS_LMAC_IP_0_gmii_tx_en 1 6 2 2550 1550 3170
+preplace netloc AXIS_LMAC_IP_0_txwbcnt_wrreq 1 7 1 3140
+preplace netloc AXIS_LMAC_IP_0_txwbcnt_wrempty 1 7 1 3180
+preplace netloc axi_dma_0_m_axis_mm2s_tvalid 1 6 2 2530 360 3310
+preplace netloc gig_ethernet_pcs_pma_0_gmii_rx_er 1 6 2 2580 1790 3000
+preplace netloc AXIS_LMAC_IP_0_gmii_tx_er 1 7 1 3130
+preplace netloc util_ds_buf_1_BUFG_O 1 6 1 NJ
+preplace netloc AXIS_LMAC_IP_0_m_axis_tlast 1 5 3 1990 390 NJ 390 3020
+preplace netloc AXIS_LMAC_IP_0_cs_fifo_empty_reg 1 7 1 3260
+preplace netloc clk_125_1 1 0 5 NJ 1480 NJ 1480 NJ 1480 NJ 1480 NJ
+preplace netloc AXIS_LMAC_IP_0_gmii 1 7 1 3240
+preplace netloc AXIS_LMAC_IP_0_rdempty_rf 1 7 1 3160
+preplace netloc AXIS_LMAC_IP_0_rdempty_wf 1 7 1 3330
+preplace netloc AXIS_LMAC_IP_0_txdata_wrempty 1 7 1 3280
+preplace netloc AXIS_LMAC_IP_0_rdempty_wcf 1 7 1 3320
+preplace netloc xlconstant_0_dout 1 5 2 NJ 990 NJ
+preplace netloc AXIS_LMAC_IP_0_txdata_wrfull 1 7 1 3010
+preplace netloc rst_ps8_0_49M_interconnect_aresetn 1 1 4 NJ 800 NJ 800 920J 850 1620
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 8 20 640 NJ 640 620 640 930 860 1610 910 1950 930 2490 1400 3190
+preplace netloc gig_ethernet_pcs_pma_0_userclk2_out 1 6 3 2520 1410 3340 1580 3730
+preplace netloc axi_dma_0_s_axis_s2mm_tready 1 5 3 1960 410 NJ 410 2990
+preplace netloc axi_dma_0_s2mm_introut 1 1 6 420 670 NJ 670 960J 660 NJ 660 NJ 660 2480
+preplace netloc zynq_ultra_ps_e_0_pl_clk1 1 4 4 1600 1810 NJ 1810 NJ 1810 2980J
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 4 1 N
+preplace netloc gig_ethernet_pcs_pma_0_status_vector 1 7 2 3160 2080 3730
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 5 30 680 NJ 680 NJ 680 980J 670 1600
+preplace netloc AXIS_LMAC_IP_0_m_axis_tkeep 1 5 3 1980 380 NJ 380 3050
+levelinfo -pg 1 0 210 520 780 1290 1780 2240 2780 3540 3760 -top 0 -bot 2400
+",
+}
+{
+   da_axi4_cnt: "8",
+   da_zynq_ultra_ps_e_cnt: "1",
+}
