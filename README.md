@@ -1,6 +1,10 @@
 # LMAC_CORE1
 
-Copyright (C) 2018-2019 LeWiz Communications, Inc.
+Copyright (C) 2018-2020 LeWiz Communications, Inc.
+
+-------- Aug 26, 2020
+To find the latest releases with FPGA implementation on Xilinx ZCU102 board
+please refer to the lmac1-dev branch on this site
 
 -------- July 09, 2020
 
