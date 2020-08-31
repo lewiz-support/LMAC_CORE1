@@ -1,0 +1,48 @@
+/include/ "system-conf.dtsi"
+/ {
+	amba_pl: amba_pl@0 {
+		#address-cells = <2>;
+		#size-cells = <2>;
+		compatible = "simple-bus";
+		ranges ;
+
+	        /delete-node/ dma@80000000;
+
+		lmac1@80000000 {
+			compatible = "lewiz,lmac1";
+			reg = <0x0 0x80000000 0x0 0x1000>;
+			mac-address = [00 12 32 ff ff ff];
+			interrupt-names = "tx", "rx";
+			interrupts = <0x0 89 0x4 0x0 90 0x4>;
+			interrupt-parent = <&gic>;
+
+			clocks = <&clk 71 &clk 72 &si570_1 &si570_2>;
+			clock-names = "pl-clk0", "pl-clk1", "si570-user-clk", "sfp-clk";
+
+			phy-names = "sfp-phy";
+			phys = <&lane0 6 0 0 125000000>;
+
+			/* PL-RESETN0 at EMIO 95. 74 MIOs + 96 EMIOS = 174, indexed from 0. */
+			/* ACTIVE_HIGH = 0.  */
+			/* ACTIVE_LOW = 1.  */
+			/* Bit 2 selects source = 0 or drain = 4.  */
+			reset-gpios = <&gpio 173 0>;
+		};
+	};
+};
+
+&si570_1 {
+	clock-frequency = <300000000>;
+};
+
+&si570_2 {
+	clock-frequency = <125000000>;
+};
+
+&zynqmp_dpsub {
+	status = "disabled";
+};
+
+&serdes {
+//	status = "disabled";
+};
