@@ -25,6 +25,7 @@
 //    Language: Verilog
 //
 
+
 ***BUILDING PETALINUX 2018.2 IMAGE FOR ZCU102 FPGA BOARD USING LMAC1 DRIVER
 
 - Download the zip file Ubuntu_Desktop_Release_2018_3_1.zip and copy it to your desired directory:
