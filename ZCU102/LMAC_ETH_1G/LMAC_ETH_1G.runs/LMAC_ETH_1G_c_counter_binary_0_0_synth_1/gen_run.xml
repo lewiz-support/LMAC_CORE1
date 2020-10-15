@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="LMAC_ETH_1G_c_counter_binary_0_0_synth_1" LaunchPart="xczu15eg-ffvb1156-2-e" LaunchTime="1554651013">
+  <File Type="PA-TCL" Name="LMAC_ETH_1G_c_counter_binary_0_0.tcl"/>
+  <File Type="RDS-DCP" Name="LMAC_ETH_1G_c_counter_binary_0_0.dcp"/>
+  <File Type="REPORTS-TCL" Name="LMAC_ETH_1G_c_counter_binary_0_0_reports.tcl"/>
+  <File Type="RDS-RDS" Name="LMAC_ETH_1G_c_counter_binary_0_0.vds"/>
+  <File Type="RDS-UTIL-PB" Name="LMAC_ETH_1G_c_counter_binary_0_0_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="LMAC_ETH_1G_c_counter_binary_0_0_utilization_synth.rpt"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/LMAC_ETH_1G_c_counter_binary_0_0">
+    <File Path="$PSRCDIR/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_c_counter_binary_0_0/LMAC_ETH_1G_c_counter_binary_0_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="LMAC_ETH_1G_c_counter_binary_0_0"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/LMAC_ETH_1G_c_counter_binary_0_0">
+    <File Path="$PSRCDIR/sources_1/bd/LMAC_ETH_1G/ip/LMAC_ETH_1G_c_counter_binary_0_0/LMAC_ETH_1G_c_counter_binary_0_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="LMAC_ETH_1G_c_counter_binary_0_0"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

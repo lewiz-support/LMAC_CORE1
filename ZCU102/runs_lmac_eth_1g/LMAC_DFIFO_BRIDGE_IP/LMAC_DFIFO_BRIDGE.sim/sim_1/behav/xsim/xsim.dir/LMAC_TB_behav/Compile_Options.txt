@@ -1,1 +1,0 @@
--wto "d5c452ae4a5b4b0dbd21236fefe0cfea" --incr --debug "typical" --relax --mt "8" -L "fifo_generator_v13_2_2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "LMAC_TB_behav" "xil_defaultlib.LMAC_TB" "xil_defaultlib.glbl" -log "elaborate.log" 

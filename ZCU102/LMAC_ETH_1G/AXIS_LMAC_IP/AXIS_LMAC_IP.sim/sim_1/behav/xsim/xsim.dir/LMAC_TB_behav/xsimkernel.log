@@ -1,0 +1,4 @@
+Running: xsim.dir/LMAC_TB_behav/xsimk -simmode gui -wdb LMAC_TB_behav.wdb -simrunnum 0 -socket 38707
+Design successfully loaded
+Design Loading Memory Usage: 52612 KB (Peak: 52612 KB)
+Design Loading CPU Usage: 40 ms
