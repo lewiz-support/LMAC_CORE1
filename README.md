@@ -23,7 +23,7 @@ Base Software
   (included configuration code for ZCU102 board's external clock)
 
 (All of the above hardware project code, constraints, source code, etc. are available at this Github site.)
-(released as ZCU102_V4.0_08242020)
+(released as LMAC_CORE1/ZCU102/)
 
 Applications (used to test the traffic and connections through LMAC1)
 - LeWiz's integrated wireless proxy/gateway - 1 side is wireless port, the other side is LMAC1 connecting to the network and Internet
@@ -85,5 +85,3 @@ This release is not intended for synthesis as it does not contain any FPGA or ot
 (memory/FIFO IP, etc.) To synthesize, those parts need to be replaced with specific semiconductor technology equivalent.
 
 Simulation is intended for ModelSim tool.
-
-
