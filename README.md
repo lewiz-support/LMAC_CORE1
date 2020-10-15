@@ -1,6 +1,6 @@
 # LMAC_CORE1
 
-Copyright (C) 2018-2019 LeWiz Communications, Inc.
+Copyright (C) 2018-2020 LeWiz Communications, Inc.
 
 Thank you Edgar Iglesias@Xilinx for contributing to the device driver and independent testing.
 
