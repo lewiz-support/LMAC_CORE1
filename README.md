@@ -5,7 +5,7 @@ All rights reserved
 
 ---------------- Oct 15, 2020
 
-Updated code release in ZCU102 folder - Xilinx ZCU102 board implementation
+Updated code/software release in ZCU102 folder - Xilinx ZCU102 board implementation
 
 README file for this release is also available in the ZCU102 folder
 
