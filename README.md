@@ -1,7 +1,14 @@
 # LMAC_CORE1
 
 Copyright (C) 2018-2020 LeWiz Communications, Inc.
+All rights reserved
 
+---------------- Oct 15, 2020
+Updated code release in ZCU102 folder - Xilinx ZCU102 board implementation
+README file for this release is also available in the ZCU102 folder
+Video of the testing and demo is also available in ZCU102 folder
+
+------------------------
 Thank you Edgar Iglesias@Xilinx for contributing to the device driver and independent testing.
 
 ----------- Aug 26, 2020
