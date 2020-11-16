@@ -4,6 +4,7 @@ Copyright (C) 2018-2020 LeWiz Communications, Inc.
 All rights reserved
 
 ---------------- Nov 16, 2020
+
 Added spec for LMAC1 Linux device driver as implemented for the ZCU102 board FPGA design example.
 The pdf doc is under the ZCU102 folder
 https://github.com/lewiz-support/LMAC_CORE1/tree/master/ZCU102/
