@@ -25,7 +25,8 @@
 //    Language: Verilog
 //
 
-
+------------- Nov 16, 2020
+Added the spec for the LMAC1 Linux device driver as implemented for the ZCU102 FPGA design example.
 
 -------------- Aug 24, 2020
 
