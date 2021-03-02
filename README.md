@@ -1,6 +1,6 @@
 # LMAC_CORE1
 
-Copyright (C) 2018-2020 LeWiz Communications, Inc.
+Copyright (C) 2018-2021 LeWiz Communications, Inc.
 All rights reserved
 
 ---------------- Nov 16, 2020
