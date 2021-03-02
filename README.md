@@ -3,6 +3,10 @@
 Copyright (C) 2018-2021 LeWiz Communications, Inc.
 All rights reserved
 
+----------- Feb 2, 2021
+Open source simulation tool such as Verilator has been used by other users
+Simulation tool in FPGA tool such as Vivado has also been used by users with this core
+
 ---------------- Nov 16, 2020
 
 Added spec for LMAC1 Linux device driver as implemented for the ZCU102 board FPGA design example.
