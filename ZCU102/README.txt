@@ -25,6 +25,9 @@
 //    Language: Verilog
 //
 
+------------- Feb 2, 2021  
+VIDEO_DEMOS folder has multiple videos to demo LMAC exercising different Linux functions and networking.  
+
 ------------- Nov 16, 2020
 Added the spec for the LMAC1 Linux device driver as implemented for the ZCU102 FPGA design example.
 
