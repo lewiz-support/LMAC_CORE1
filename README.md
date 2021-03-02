@@ -5,8 +5,7 @@ All rights reserved
 
 ----------- Feb 2, 2021
 
-Open source simulation tool such as Verilator has been used by other users
-
+Open source simulation tool such as Verilator has been used by other users  
 Simulation tool in FPGA tool such as Vivado has also been used by users with this core
 
 ---------------- Nov 16, 2020
