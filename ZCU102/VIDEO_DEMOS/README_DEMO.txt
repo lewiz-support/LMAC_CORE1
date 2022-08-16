@@ -34,7 +34,8 @@ Links to video demos on Youtube:
 -- Part 1:
 https://youtu.be/pwiQhrN6UcA
 
-Part 1: Demo using LeWiz LMAC1 (from GitHub) with Petalinux to ping, telnet, and wget functions. The demo has a complete system with LeWiz LMAC1 Ethernet controller, Zynq Arm processor subsystem, Linux OS running on Xilinx ZCU102 board.
+Part 1: Demo using LeWiz LMAC1 (from GitHub) with Petalinux to ping, telnet, and wget functions. The demo has a complete system with 
+LeWiz LMAC1 Ethernet controller, Zynq Arm processor subsystem, Linux OS running on Xilinx ZCU102 board.
 
 -- Part 2
 https://youtu.be/JZy0kAAv0gE
@@ -45,7 +46,8 @@ Part 2: More in depth demo of LeWiz LMAC1 Ethernet controller + Processor subsys
 https://youtu.be/hSer9O6Q64o
 
 Part 3 of 3 part series.
-More robust demo using LeWiz LMAC1 (from GitHub) with Ubuntu Linux. The demo has a complete system with LeWiz LMAC1 Ethernet controller, Zynq Arm processor subsystem, Linux OS running on Xilinx ZCU102 board.
+More robust demo using LeWiz LMAC1 (from GitHub) with Ubuntu Linux. The demo has a complete system with LeWiz LMAC1 Ethernet controller, 
+Zynq Arm processor subsystem, Linux OS running on Xilinx ZCU102 board.
 
 
 ----------- Aug 26, 2020
