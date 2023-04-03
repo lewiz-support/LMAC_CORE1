@@ -1,7 +1,14 @@
 # LMAC_CORE1
 
-Copyright (C) 2018-2022 LeWiz Communications, Inc.
+Copyright (C) 2018-2023 LeWiz Communications, Inc.
 All rights reserved
+
+---------- April 2, 2023
+
+All materials for LMAC_CORE1 are now released under Apache 2.0 license
+
+http://www.apache.org/licenses/LICENSE-2.0
+
 
 ----------- Aug 16, 2022
 
